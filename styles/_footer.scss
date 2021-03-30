@@ -1,0 +1,46 @@
+@import "./variables";
+
+
+.main-footer {
+  background: $white;
+  padding: 2rem;
+  background-color: $white;
+  display: flex;
+}
+
+.logo-avion {
+  margin-top: 5rem;
+  text-align: center;
+  height: 50px;
+  width: 145px;
+}
+
+
+.main-footer__link a {
+  color: $darkBlue;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: $lightBlue;
+}
+
+.container_aviso {
+  display: flex;
+  flex-direction: row;
+  color: $darkBlue;
+  align-items: center;
+}
+
+
+.avioneta_2020 {
+  align-self: center;
+}
+
+.aviso_privacidad {
+  color: $lightBlue;
+  font-size: 0.75rem;
+  margin-left:  10vh;
+}
+

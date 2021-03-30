@@ -1,0 +1,94 @@
+@import "./variables";
+
+.hero-image {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../assets/Avio_WEB_Asset-02.png) no-repeat center;
+  background-size: cover;
+  z-index: 1;
+  justify-content: left;
+}
+
+.hero-logo {
+  background: url(../assets/Avio_WEB_Asset-02.png) no-repeat;
+  display: block;
+  margin-top: 3rem;
+  height: 100px;
+  width: 410px;
+  z-index: 3;
+}
+
+.hero-logo-mobile {
+  display: none;
+}
+
+.container-hero-image  {
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  margin-left: 10vh;
+  z-index: 2;
+}
+
+.hero-heading {
+  font-size: 1.0rem;
+  color: white;
+}
+
+.emprende-vuelo {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem ;
+}
+
+.vuelo {
+  display: inline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: $darkBlue;
+  font-weight: bold;
+}
+
+.hero-subheading {
+  font-size: 1.0rem;
+}
+
+.btn-contact {
+  background-color: $darkBlue;
+  font-family: Raleway;
+  font-weight: bold;
+  border-radius: 1rem;
+  color: white;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  display: block;
+  margin-top: 1rem;
+    &:hover {
+      background-color: #141f48;
+    }
+}
+
+@media screen and (max-width: 650px) {
+  .hero-image {
+    height: 500px;
+    background: url(../assets/Avio_WEB_Asset-02.png) no-repeat center;
+    background-size: cover;
+  }
+  .container-hero-image  {
+    display: none;
+  }
+
+  .hero-logo-mobile {
+  background: url(../assets/Avio_WEB_Asset-02.png) no-repeat;
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  height: 100px;
+  width: 410px;
+  z-index: 3;
+  }
+}

@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+h3 {
+  color: #5e93dB;
+}
+
+h3 {
+  color: #5e93dB;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5e93dB;
+  color: #141f48;
+  padding: 5px;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-left: 1rem;
+}
+
+.navbar-image {
+  width: 20%;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar-links li a:hover {
+  color: #141f48;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #141f48;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .toggle-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-links ul li {
+    text-align: center;
+  }
+  .navbar-links ul li a {
+    padding: .5rem 1rem;
+  }
+  .navbar-links.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+h3 {
+  color: #5e93dB;
+}
+
+.hero-image {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../assets/Avio_WEB_Asset-02.png) no-repeat center;
+  background-size: cover;
+  z-index: 1;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.hero-logo {
+  background: url(../assets/Avio_WEB_Asset-02.png) no-repeat;
+  display: block;
+  margin-top: 3rem;
+  height: 100px;
+  width: 410px;
+  z-index: 3;
+}
+
+.hero-logo-mobile {
+  display: none;
+}
+
+.container-hero-image {
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  margin-left: 10vh;
+  z-index: 2;
+}
+
+.hero-heading {
+  font-size: 1.0rem;
+  color: white;
+}
+
+.emprende-vuelo {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.vuelo {
+  display: inline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: #141f48;
+  font-weight: bold;
+}
+
+.hero-subheading {
+  font-size: 1.0rem;
+}
+
+.btn-contact {
+  background-color: #141f48;
+  font-family: Raleway;
+  font-weight: bold;
+  border-radius: 1rem;
+  color: white;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+.btn-contact:hover {
+  background-color: #141f48;
+}
+
+@media screen and (max-width: 650px) {
+  .hero-image {
+    height: 500px;
+    background: url(../assets/Avio_WEB_Asset-02.png) no-repeat center;
+    background-size: cover;
+  }
+  .container-hero-image {
+    display: none;
+  }
+  .hero-logo-mobile {
+    background: url(../assets/Avio_WEB_Asset-02.png) no-repeat;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    height: 100px;
+    width: 410px;
+    z-index: 3;
+  }
+}
+
+h3 {
+  color: #5e93dB;
+}
+
+.seccion1_main_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5vh 10vh 5vh 10vh;
+}
+
+.img_couple {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: url(../assets/Avio_WEB_Asset-08.png) no-repeat center;
+  background-size: 100%;
+  margin-right: 5vh;
+}
+
+.section1_text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.subheading_section1 {
+  color: #5e93dB;
+  font-size: 2rem;
+}
+
+.circle_container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 3px;
+}
+
+.circle {
+  width: 15vh;
+  height: 15vh;
+}
+
+.circle1 {
+  background: url(../assets/Avio_WEB_Asset-09.png) no-repeat center;
+  background-size: 100%;
+}
+
+.circle2 {
+  background: url(../assets/Avio_WEB_Asset-10.png) no-repeat center;
+  background-size: 100%;
+}
+
+.circle3 {
+  background: url(../assets/Avio_WEB_Asset-11.png) no-repeat center;
+  background-size: 100%;
+}
+
+.circle4 {
+  background: url(../assets/Avio_WEB_Asset-12.png) no-repeat center;
+  background-size: 100%;
+}
+
+.circle5 {
+  background: url(../assets/Avio_WEB_Asset-13.png) no-repeat center;
+  background-size: 100%;
+}
+
+h3 {
+  color: #5e93dB;
+}
+
+.big_container {
+  background-color: #9dc2f2d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2_heading {
+  margin-top: 5vh;
+  margin-bottom: 0;
+}
+
+.seccion2_main_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0vh 10vh 5vh 10vh;
+}
+
+.servicio_container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.servicio {
+  width: 15vh;
+  height: 15vh;
+}
+
+.servicio1 {
+  background: url(../assets/Avio_WEB_Asset-14.png) no-repeat center;
+  background-size: 70%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicio2 {
+  background: url(../assets/Avio_WEB_Asset-15.png) no-repeat center;
+  background-size: 70%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicio3 {
+  background: url(../assets/Avio_WEB_Asset-16.png) no-repeat center;
+  background-size: 70%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicio4 {
+  background: url(../assets/Avio_WEB_Asset-17.png) no-repeat center;
+  background-size: 45%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h3 {
+  color: #5e93dB;
+}
+
+.section_4_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.heading_hagamos_equipo {
+  color: #5e93dB;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+input {
+  background-color: #9dc2f2d2;
+  color: #5e93dB;
+}
+
+.form_section {
+  margin: 10px 5vh 10px 5vh;
+}
+
+h3 {
+  color: #5e93dB;
+}
+
+.main-footer {
+  background: white;
+  padding: 2rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-avion {
+  margin-top: 5rem;
+  text-align: center;
+  height: 50px;
+  width: 145px;
+}
+
+.main-footer__link a {
+  color: #141f48;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #5e93dB;
+}
+
+.container_aviso {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #141f48;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.avioneta_2020 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.aviso_privacidad {
+  color: #5e93dB;
+  font-size: 0.75rem;
+  margin-left: 10vh;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Raleway;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */

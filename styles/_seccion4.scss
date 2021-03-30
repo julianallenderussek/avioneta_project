@@ -1,0 +1,25 @@
+@import "./variables";
+
+.section_4_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading_hagamos_equipo {
+  color: $lightBlue;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+input {
+  background-color: $superlightblue;
+  color: $lightBlue;
+  
+}
+
+.form_section {
+  margin: 10px 5vh 10px 5vh;
+}
+
