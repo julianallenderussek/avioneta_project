@@ -8,13 +8,9 @@
   display: flex;
 }
 
-.logo-avion {
-  margin-top: 5rem;
-  text-align: center;
-  height: 50px;
-  width: 145px;
+footer nav {
+  width: 100%;
 }
-
 
 .main-footer__link a {
   color: $darkBlue;
@@ -31,16 +27,18 @@
   flex-direction: row;
   color: $darkBlue;
   align-items: center;
-}
-
-
-.avioneta_2020 {
-  align-self: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .aviso_privacidad {
   color: $lightBlue;
   font-size: 0.75rem;
-  margin-left:  10vh;
+  justify-self: flex-start;
+}
+
+.avioneta_2020 {
+  margin-right: 100px;
+  
 }
 

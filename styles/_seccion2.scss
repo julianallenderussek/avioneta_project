@@ -9,7 +9,10 @@
 
 .section2_heading {
   margin-top: 5vh;
-  margin-bottom: 0;
+  margin-bottom: 3vh;
+  font-family: $Raleway;
+  font-weight: 900;
+  font-size: 3rem;
 }
 
 .seccion2_main_container {
@@ -19,13 +22,26 @@
 }
 
 .servicio_container {
+  display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicio_container input {
+  align-self: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .servicio {
   width: 15vh;
   height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .servicio1 {
@@ -55,4 +71,27 @@
   background-size: 45%;
   align-self: center;
   justify-content: center
+}
+
+.btn-image {
+  height: 50px;
+  width: 155px;
+  background: none;
+}
+
+.title-paquete {
+  margin-left: $columnmargin;
+}
+
+.list-paquete {
+  margin-left: $columnmargin;
+  width: 70%;
+}
+
+.list-paquete li {
+  margin-top: 1rem;
+}
+
+.display_container {
+  display:none
 }

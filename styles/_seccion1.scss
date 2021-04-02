@@ -3,6 +3,7 @@
 .seccion1_main_container {
   display: flex;
   margin: 5vh 10vh 5vh 10vh ;
+  background: white;
 }
 
 .img_couple {
@@ -18,18 +19,22 @@
 
 .subheading_section1 {
   color: $lightBlue;
-  font-size: 2rem;
+  font-size: 48px;
+  font-family: $Raleway;
+  font-weight: $black;
 }
 
 .circle_container {
+  display: flex;
+  align-items: center;
   flex-direction: column;
   flex: 1;
   margin: 3px;
 }
 
 .circle {
-  width: 15vh;
-  height: 15vh;
+  width: 25vh;
+  height: 25vh;
 }
 
 .circle1 {
@@ -57,4 +62,19 @@
 .circle5 {
   background: url(../assets/Avio_WEB_Asset-13.png) no-repeat center;
   background-size: 100%;
+}
+
+p {
+  font-family: $Raleway;
+  font-size: 21px;
+}
+
+.content_servicio {
+  font-family: $Raleway;
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+  display: inli;
 }

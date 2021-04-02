@@ -11,7 +11,6 @@
 }
 
 .hero-logo {
-  background: url(../assets/Avio_WEB_Asset-02.png) no-repeat;
   display: block;
   margin-top: 3rem;
   height: 100px;
@@ -29,11 +28,16 @@
   overflow: hidden;
   margin-left: 10vh;
   z-index: 2;
+  margin-top: 4rem;
 }
 
 .hero-heading {
   font-size: 1.0rem;
   color: white;
+  font-family: $Raleway;
+  font-weight: 200;
+  font-size: 30px;
+
 }
 
 .emprende-vuelo {
@@ -42,7 +46,9 @@
   padding: 0;
   color: white;
   font-weight: bold;
-  font-size: 3rem ;
+  font-size: 5rem ;
+  font-family: $Raleway;
+  font-weight: 900;
 }
 
 .vuelo {
@@ -51,7 +57,9 @@
   margin: 0;
   padding: 0;
   color: $darkBlue;
-  font-weight: bold;
+  font-weight: 900;
+  font-family: $Raleway;
+  font-size: 5rem;
 }
 
 .hero-subheading {
@@ -60,15 +68,16 @@
 
 .btn-contact {
   background-color: $darkBlue;
-  font-family: Raleway;
-  font-weight: bold;
-  border-radius: 1rem;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
   color: white;
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  padding: 1rem 1.75rem 1rem 1.75rem;
   display: block;
   margin-top: 1rem;
     &:hover {
-      background-color: #141f48;
+      background-color: $lightBlue;
     }
 }
 

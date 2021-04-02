@@ -9,17 +9,83 @@
 
 .heading_hagamos_equipo {
   color: $lightBlue;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 3rem;
+  margin-bottom: 10px;
+  font-family: $Raleway;
+  font-weight: 900;
+}
+
+.section4_subheading2 {
+  font-size: 25px;
+  font-family: $Raleway;
+  font-weight: 600;
+  color: $lightBlue;
 }
 
 input {
   background-color: $superlightblue;
-  color: $lightBlue;
-  
+  width: 47.5%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  color: $darkBlue;
+}
+
+input::placeholder {
+  color: $lightBlue
+}
+
+select {
+  background-color: $superlightblue;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  color: $darkBlue;
+
 }
 
 .form_section {
-  margin: 10px 5vh 10px 5vh;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
 }
 
+.contact_form {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue {
+  color: $darkBlue;
+}
+
+.btn-contact {
+  background-color: $darkBlue;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem 1.75rem 1rem 1.75rem;
+  display: block;
+  margin-top: 1rem;
+    &:hover {
+      background-color: $lightBlue;
+    }
+}
+
+.logo-avion {
+  background: url(/assets/emblema_azul.png) no-repeat center;
+  background-size: 200px;
+  width: 300;
+  height: 100;
+}

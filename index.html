@@ -4,7 +4,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Avioneta: Prevención y manejo de problemas por consumo de alcohol</title>
 </head>
 <body>
@@ -21,11 +22,16 @@
     </a>
     <div class="navbar-links">
       <ul>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Nuestra Historia</a></li>
-        <li><a href="#">Equipo</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#">SERVICIOS</a></li>
+        <li><a href="#">NUESTRA HISTORIA</a></li>
+        <li><a href="#">EQUIPO</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACTO</a></li>
+        <div class='icons'>
+          <a href=""><img src="/assets/Avio_WEB_Asset-03.png" alt=""></a>
+          <a href=""><img src="/assets/Avio_WEB_Asset-04.png" alt=""></a>
+          <a href=""><img src="/assets/Avio_WEB_Asset-05.png" alt=""></a>
+        </div>
       </ul>
 
     </div>
@@ -35,10 +41,9 @@
   <div class="hero-logo-mobile"></div>
   <div class="hero-image">
     <div class="container-hero-image">
-      <div class="hero-logo"></div>
       <h1 class="emprende-vuelo"> Emprende <p class="vuelo">vuelo </p> <br/> con nosotros.</h1>
       <h1><span class="hero-heading">Prevención y manejo de problemas <br/> consumo de alcohol</span></h1>
-      <button class="btn-contact">Contáctanos</button>
+      <button class="btn-contact">CONTACTANOS</button>
     </div>
   </div>
 
@@ -65,36 +70,36 @@
     
     <div class="circle_container">
       <div class="circle circle1"></div>
-      <p>5 millones de mexicanos 
-        dependen o abusan del 
-        alcohol, según herramientas 
+      <p class="content_servicio">5 millones de mexicanos 
+        <span class="bold">dependen o abusan del 
+          alcohol</span>, según herramientas 
         de diagnóstico</p>
     </div>
 
     <div class="circle_container">
       <div class="circle circle2"></div>
-      <p>370 mil son
-        menores de edad</p>
+      <p class="content_servicio">370 mil son
+        <span class="bold">menores de edad</span> </p>
     </div>
 
     <div class="circle_container">
       <div class="circle circle3"></div>
-      <p>Solo el 7% buscan algún tipo 
+      <p class="content_servicio">Solo el 7% buscan algún tipo 
         de ayuda y más del 50% de 
-        la ayuda no es profesiona</p>
+        <span class="bold"> la ayuda no es profesional</span></p>
     </div>
 
     <div class="circle_container">
       <div class="circle circle4"></div>
-      <p>10 millones más en riesgo 
-        por consumo diario o 
+      <p class="content_servicio">10 millones más en <span class="bold">riesgo 
+        por consumo diario</span> o 
         excesivo una vez por semana</p>
     </div>
 
     <div class="circle_container">
       <div class="circle circle5"></div>
-      <p>20 millones de seres 
-        queridos también afectados 
+      <p class="content_servicio">20 millones de 
+        <span class="bold">seres queridos también afectados</span>
         por problemas de consumo 
         ajenos</p>
     </div>
@@ -112,7 +117,8 @@
           <p>Ayuda a un ser querido que 
             sufre síndrome de 
             abstinencia al dejar de tomar</p>
-          <button>Mas Info</button>
+            <input class="btn-image btn1" onclick="dropdown1()" type="image" id="btn-mas-info" alt="Más Información"
+            src="/assets/155x50.png">
         </div>
   
         <div class="servicio_container">
@@ -121,7 +127,8 @@
           <p>Servicio de concierge 
             para eventos 
             NO/LOW Alcohol</p>
-            <button>Mas Info</button>
+            <input class="btn-image btn2" onclick="dropdown2()" type="image" id="btn-mas-info" alt="Más Información"
+            src="/assets/output-onlinepngtools.png">
         </div>
   
         <div class="servicio_container">
@@ -130,7 +137,8 @@
           <p>La salud mental y física de 
             tus empleados afecta a toda 
             tu organización.</p>
-            <button>Mas Info</button>
+            <input class="btn-image btn3" type="image" onclick="dropdown3()" id="btn-mas-info" alt="Más Información"
+            src="/assets/output-onlinepngtools.png">
         </div>
   
         <div class="servicio_container">
@@ -138,21 +146,29 @@
           <h3>AA Padrino Virtual</h3>
           <p>App local que facilita elegir un 
             grupo de AA al cual atende</p>
-            <button>Mas Info</button>
+            <input class="btn-image btn4" onclick="dropdown4()" type="image" id="btn-mas-info" alt="Más Información"
+            src="/assets/output-onlinepngtools.png">
         </div>
       </div>
-      
-      <div class="display_container">
+  </div>
 
-      </div>
+
+  <!-- Display container -->
+  <div class="display_container">
+    <h3 class="title-paquete">Paquete Empresarial</h3>
+    <ul class="list-paquete">
+      <li>Educamos y concientizamos a tu fuerza labora</li>
+      <li>Compartimos con RH herramientas para identificar estos problemas, y la confianza a tus empleados contactarnos anónimamente</li>
+      <li>Trabajamos con tus empleados confidencialmente para ayudarlos a resolver estos problemas una vez identificados</li>
+    </ul>
   </div>
 
 
     <!-- Seccion 4 Contactanos -->
     <div class="section_4_main">
-        <h1 class="heading_hagamos_equipo">¡Hagamos Equipo!</h1>
+        <h1 class="heading_hagamos_equipo">¡Hagamos <span class="blue">equipo!</span></h1>
         <!-- <h3 class="section4_subheading1">Ponte en contacto con nosotros</h3> -->
-         <h3 class="section4_subheading2">Estamos para ayudarte, contáctanos si crees que tu consumo <br/> de alcohol o el de un ser querido pudiera ser problemático. <br>
+         <h3 class="section4_subheading2">Estamos para ayudarte, <span class="blue">contáctanos</span> si crees que tu consumo <br/> de alcohol o el de un ser querido pudiera ser problemático. <br>
           </h3>
           <!-- Error Message -->
           <div class="error_message" id='error_message'></div>
@@ -173,12 +189,16 @@
                <option value="otra">Otra</option>
               </select>
              
-             <button type="submit" class="">Enviar</button>
+             <button type="submit" class="btn-contact">ENVIAR</button>
            </form>
-   </div>
-
+           
+           <div class="logo-avion"></div>
+        
+          </div>
+   
+   
    <!-- Footer -->
-   <div class="logo-avion"></div>
+   
    <footer class="main-footer">
     <nav>
       <div class="container_aviso">

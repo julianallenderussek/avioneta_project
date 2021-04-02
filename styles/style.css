@@ -1,23 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 h3 {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 h3 {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 .navbar {
@@ -31,25 +24,37 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #5e93dB;
+  background-color: #5e8ed6;
   color: #141f48;
   padding: 5px;
-  margin-left: 15vh;
-  margin-right: 15vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  height: 10vh;
 }
 
 .brand-title {
-  font-size: 1.5rem;
-  padding: 5px;
-  margin-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .navbar-image {
-  width: 20%;
+  width: 50%;
 }
 
 .navbar-links {
   height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navbar-links ul {
@@ -58,6 +63,9 @@ h3 {
   display: flex;
   margin: 0;
   padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar-links li {
@@ -69,10 +77,14 @@ h3 {
   text-decoration: none;
   color: white;
   padding: 1rem;
+  white-space: nowrap;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
 }
 
 .navbar-links li a:hover {
-  color: #141f48;
+  color: #071d49;
 }
 
 .toggle-button {
@@ -96,6 +108,29 @@ h3 {
   width: 100%;
   background-color: #141f48;
   border-radius: 10px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 1%;
+}
+
+.icons a img {
+  width: 25px;
+  margin: 5px;
 }
 
 @media (max-width: 800px) {
@@ -138,7 +173,7 @@ h3 {
 }
 
 h3 {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 .hero-image {
@@ -154,7 +189,6 @@ h3 {
 }
 
 .hero-logo {
-  background: url(../assets/Avio_WEB_Asset-02.png) no-repeat;
   display: block;
   margin-top: 3rem;
   height: 100px;
@@ -172,11 +206,15 @@ h3 {
   overflow: hidden;
   margin-left: 10vh;
   z-index: 2;
+  margin-top: 4rem;
 }
 
 .hero-heading {
   font-size: 1.0rem;
   color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .emprende-vuelo {
@@ -185,7 +223,9 @@ h3 {
   padding: 0;
   color: white;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
 }
 
 .vuelo {
@@ -193,8 +233,10 @@ h3 {
   display: inline;
   margin: 0;
   padding: 0;
-  color: #141f48;
-  font-weight: bold;
+  color: #071d49;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
 }
 
 .hero-subheading {
@@ -202,18 +244,19 @@ h3 {
 }
 
 .btn-contact {
-  background-color: #141f48;
-  font-family: Raleway;
-  font-weight: bold;
-  border-radius: 1rem;
+  background-color: #071d49;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
   color: white;
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  padding: 1rem 1.75rem 1rem 1.75rem;
   display: block;
   margin-top: 1rem;
 }
 
 .btn-contact:hover {
-  background-color: #141f48;
+  background-color: #5e8ed6;
 }
 
 @media screen and (max-width: 650px) {
@@ -237,7 +280,7 @@ h3 {
 }
 
 h3 {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 .seccion1_main_container {
@@ -245,6 +288,7 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   margin: 5vh 10vh 5vh 10vh;
+  background: white;
 }
 
 .img_couple {
@@ -263,11 +307,19 @@ h3 {
 }
 
 .subheading_section1 {
-  color: #5e93dB;
-  font-size: 2rem;
+  color: #5e8ed6;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
 }
 
 .circle_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -279,8 +331,8 @@ h3 {
 }
 
 .circle {
-  width: 15vh;
-  height: 15vh;
+  width: 25vh;
+  height: 25vh;
 }
 
 .circle1 {
@@ -308,8 +360,23 @@ h3 {
   background-size: 100%;
 }
 
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+}
+
+.content_servicio {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+  display: inli;
+}
+
 h3 {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 .big_container {
@@ -328,7 +395,10 @@ h3 {
 
 .section2_heading {
   margin-top: 5vh;
-  margin-bottom: 0;
+  margin-bottom: 3vh;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
 }
 
 .seccion2_main_container {
@@ -339,6 +409,9 @@ h3 {
 }
 
 .servicio_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -346,11 +419,37 @@ h3 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicio_container input {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .servicio {
   width: 15vh;
   height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .servicio1 {
@@ -397,8 +496,31 @@ h3 {
           justify-content: center;
 }
 
+.btn-image {
+  height: 50px;
+  width: 155px;
+  background: none;
+}
+
+.title-paquete {
+  margin-left: 15vh;
+}
+
+.list-paquete {
+  margin-left: 15vh;
+  width: 70%;
+}
+
+.list-paquete li {
+  margin-top: 1rem;
+}
+
+.display_container {
+  display: none;
+}
+
 h3 {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 .section_4_main {
@@ -418,22 +540,115 @@ h3 {
 }
 
 .heading_hagamos_equipo {
-  color: #5e93dB;
-  font-size: 3rem;
+  color: #5e8ed6;
+  font-size: 4rem;
   margin-top: 3rem;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+
+.section4_subheading2 {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #5e8ed6;
 }
 
 input {
   background-color: #9dc2f2d2;
-  color: #5e93dB;
+  width: 47.5%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  color: #071d49;
+}
+
+input::-webkit-input-placeholder {
+  color: #5e8ed6;
+}
+
+input:-ms-input-placeholder {
+  color: #5e8ed6;
+}
+
+input::-ms-input-placeholder {
+  color: #5e8ed6;
+}
+
+input::placeholder {
+  color: #5e8ed6;
+}
+
+select {
+  background-color: #9dc2f2d2;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  color: #071d49;
 }
 
 .form_section {
-  margin: 10px 5vh 10px 5vh;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact_form {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blue {
+  color: #071d49;
+}
+
+.btn-contact {
+  background-color: #071d49;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem 1.75rem 1rem 1.75rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+.btn-contact:hover {
+  background-color: #5e8ed6;
+}
+
+.logo-avion {
+  background: url(/assets/emblema_azul.png) no-repeat center;
+  background-size: 200px;
+  width: 300;
+  height: 100;
 }
 
 h3 {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 .main-footer {
@@ -445,21 +660,18 @@ h3 {
   display: flex;
 }
 
-.logo-avion {
-  margin-top: 5rem;
-  text-align: center;
-  height: 50px;
-  width: 145px;
+footer nav {
+  width: 100%;
 }
 
 .main-footer__link a {
-  color: #141f48;
+  color: #071d49;
   text-decoration: none;
 }
 
 .main-footer__link a:hover,
 .main-footer__link a:active {
-  color: #5e93dB;
+  color: #5e8ed6;
 }
 
 .container_aviso {
@@ -470,22 +682,24 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  color: #141f48;
+  color: #071d49;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.avioneta_2020 {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .aviso_privacidad {
-  color: #5e93dB;
+  color: #5e8ed6;
   font-size: 0.75rem;
-  margin-left: 10vh;
+  justify-self: flex-start;
+}
+
+.avioneta_2020 {
+  margin-right: 100px;
 }
 
 * {
