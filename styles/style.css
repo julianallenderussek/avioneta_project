@@ -214,7 +214,7 @@ h3 {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .emprende-vuelo {
@@ -223,7 +223,7 @@ h3 {
   padding: 0;
   color: white;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 70px;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
 }
@@ -236,7 +236,7 @@ h3 {
   color: #071d49;
   font-weight: 900;
   font-family: "Raleway", sans-serif;
-  font-size: 5rem;
+  font-size: 70px;
 }
 
 .hero-subheading {
@@ -245,7 +245,7 @@ h3 {
 
 .btn-contact {
   background-color: #071d49;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 400;
   border: none;
   border-radius: 2rem;
@@ -308,7 +308,7 @@ h3 {
 
 .subheading_section1 {
   color: #5e8ed6;
-  font-size: 48px;
+  font-size: 30px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
 }
@@ -362,17 +362,16 @@ h3 {
 
 p {
   font-family: "Raleway", sans-serif;
-  font-size: 21px;
+  font-size: 15px;
 }
 
 .content_servicio {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .bold {
   font-weight: bold;
-  display: inli;
 }
 
 h3 {
