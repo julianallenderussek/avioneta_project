@@ -588,9 +588,24 @@ select {
   height: 2rem;
   padding-left: 1rem;
   border: none;
-  color: #071d49;
   width: 90%;
   height: 70px;
+}
+
+select::-webkit-input-placeholder {
+  color: #5e8ed6;
+}
+
+select:-ms-input-placeholder {
+  color: #5e8ed6;
+}
+
+select::-ms-input-placeholder {
+  color: #5e8ed6;
+}
+
+select::placeholder {
+  color: #5e8ed6;
 }
 
 .form_section {

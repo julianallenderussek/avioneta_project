@@ -45,9 +45,12 @@ select {
   height: 2rem;
   padding-left: 1rem;
   border: none;
-  color: $darkBlue;
   width: 90%;
   height: 70px;
+}
+
+select::placeholder {
+  color: $lightBlue;
 }
 
 .form_section {
