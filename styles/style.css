@@ -421,9 +421,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 0px 5px 0px 5px;
 }
 
 .servicio_container input {
@@ -457,9 +455,10 @@ h3 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  justify-self: flex-start;
 }
 
 .servicio2 {
@@ -468,9 +467,10 @@ h3 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  justify-self: flex-start;
 }
 
 .servicio3 {
@@ -479,9 +479,9 @@ h3 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .servicio4 {
@@ -490,9 +490,9 @@ h3 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .btn-image {
@@ -516,6 +516,28 @@ h3 {
 
 .display_container {
   display: none;
+}
+
+.btn-product-page {
+  background-color: #5e8ed6;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  display: block;
+  margin-top: 1rem;
+}
+
+.btn-product-page:hover {
+  background-color: #071d49;
+}
+
+.a-btn {
+  justify-self: flex-end;
+  text-decoration: none;
 }
 
 h3 {
@@ -712,10 +734,16 @@ footer nav {
   color: #5e8ed6;
   font-size: 0.75rem;
   justify-self: flex-start;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .avioneta_2020 {
   margin-right: 100px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 
 * {

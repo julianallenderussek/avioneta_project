@@ -22,7 +22,7 @@
     </a>
     <div class="navbar-links">
       <ul>
-        <li><a href="#">SERVICIOS</a></li>
+        <li><a href="#sec_link">SERVICIOS</a></li>
         <li><a href="#">NUESTRA HISTORIA</a></li>
         <li><a href="#">EQUIPO</a></li>
         <li><a href="#">BLOG</a></li>
@@ -107,15 +107,15 @@
 
   <!-- Section 2 Servicios y Productos -->
   <div class="big_container">
-    <h1 class="section2_heading">Servicios y Productos</h1>
+    <h1 class="section2_heading" id='sec_link'>Servicios y Productos</h1>
     
       <div class="seccion2_main_container">
         <div class="servicio_container">
           <div class="servicio servicio1"></div>
           <h3>Detox@Home</h3>
           <p>El mejor primer paso como nunca antes visto en un proceso de recuperación a largo plazo" en vez de "Ayuda a un ser querido que sufre síndrome de abstinencia al dejar de tomar"</p>
-            <input class="btn-image btn1" onclick="dropdown1()" type="image" id="btn-mas-info" alt="Más Información"
-            src="/assets/155x50.png">
+            <!-- <input class="btn-image btn1" onclick="dropdown1()" type="image" id="btn-mas-info" alt="Más Información" src="/assets/155x50.png"> -->
+            <a href="/pages/product1.html" class='a-btn'><button class="btn-product-page">Más Info.</button></a>
         </div>
   
         <div class="servicio_container">
@@ -124,8 +124,9 @@
           <p>Servicio de concierge 
             para eventos 
             NO/LOW Alcohol</p>
-            <input class="btn-image btn2" onclick="dropdown2()" type="image" id="btn-mas-info" alt="Más Información"
-            src="/assets/output-onlinepngtools.png">
+            <!-- <input class="btn-image btn2" onclick="dropdown2()" type="image" id="btn-mas-info" alt="Más Información"
+            src="/assets/output-onlinepngtools.png"> -->
+            <a href="/pages/product2.html" class='a-btn'><button class="btn-product-page">Más Info.</button></a>
         </div>
   
         <div class="servicio_container">
@@ -134,8 +135,9 @@
           <p>La salud mental y física de 
             tus empleados afecta a toda 
             tu organización.</p>
-            <input class="btn-image btn3" type="image" onclick="dropdown3()" id="btn-mas-info" alt="Más Información"
-            src="/assets/output-onlinepngtools.png">
+            <!-- <input class="btn-image btn3" type="image" onclick="dropdown3()" id="btn-mas-info" alt="Más Información"
+            src="/assets/output-onlinepngtools.png"> -->
+            <a href="/pages/product3.html"><button class="btn-product-page">Más Info.</button></a>
         </div>
   
         <div class="servicio_container">
@@ -143,8 +145,9 @@
           <h3>AA Padrino Virtual</h3>
           <p>App local que facilita elegir un 
             grupo de AA al cual asistir</p>
-            <input class="btn-image btn4" onclick="dropdown4()" type="image" id="btn-mas-info" alt="Más Información"
-            src="/assets/output-onlinepngtools.png">
+            <!-- <input class="btn-image btn4" onclick="dropdown4()" type="image" id="btn-mas-info" alt="Más Información"
+            src="/assets/output-onlinepngtools.png"> -->
+            <a href="/pages/product4.html"><button class="btn-product-page">Más Info.</button></a>
         </div>
       </div>
   </div>
@@ -171,8 +174,8 @@
           <div class="error_message" id='error_message'></div>
            <form action="" class="contact_form" onsubmit="validation()">
             <div class="form_section">
-              <input type="text" placeholder="Nombre*" id="name">
-              <input type="text" placeholder="Apellidos*" id="last_name">
+              <input type="text" placeholder="Nombre" id="name">
+              <input type="text" placeholder="Apellidos" id="last_name">
             </div> 
             <div class="form_section">
               <input type="text" placeholder="Correo electrónico*" id="user_email">

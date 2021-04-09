@@ -26,7 +26,6 @@
   flex-direction: column;
   flex: 1;
   align-items: center;
-  justify-content: center;
   margin: 0px 5px 0px 5px;
 }
 
@@ -49,14 +48,16 @@
   background: url(../assets/Avio_WEB_Asset-14.png) no-repeat center;
   background-size: 70%;
   align-self: center;
-  justify-content: center;
+  justify-content: flex-start;
+  justify-self: flex-start;
 }
 
 .servicio2 {
   background: url(../assets/Avio_WEB_Asset-15.png) no-repeat center;
   background-size: 70%;
   align-self: center;
-  justify-content: center
+  justify-content: flex-start;
+  justify-self: flex-start;
   
 }
 
@@ -64,14 +65,14 @@
   background: url(../assets/Avio_WEB_Asset-16.png) no-repeat center;
   background-size: 70%;
   align-self: center;
-  justify-content: center
+  justify-content: flex-start
 }
 
 .servicio4 {
   background: url(../assets/Avio_WEB_Asset-17.png) no-repeat center;
   background-size: 45%;
   align-self: center;
-  justify-content: center
+  justify-content: flex-start
 }
 
 .btn-image {
@@ -95,4 +96,25 @@
 
 .display_container {
   display:none
+}
+
+.btn-product-page {
+  background-color: $lightBlue;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  display: block;
+  margin-top: 1rem;
+    &:hover {
+      background-color: $darkBlue;
+    }
+}
+
+.a-btn {
+  justify-self: flex-end;
+  text-decoration: none;
 }
