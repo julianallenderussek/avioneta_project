@@ -26,7 +26,7 @@
   flex-direction: column;
   flex: 1;
   align-items: center;
-  margin: 0px 5px 0px 5px;
+  margin: 0px 10px 0px 10px;
 }
 
 .servicio_container input {
@@ -43,6 +43,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 .servicio1 {
   background: url(../assets/Avio_WEB_Asset-14.png) no-repeat center;
@@ -106,6 +107,7 @@
   font-weight: 400;
   border: none;
   border-radius: 2rem;
+  text-decoration: none;
   color: white;
   display: block;
   margin-top: 1rem;
@@ -117,4 +119,8 @@
 .a-btn {
   justify-self: flex-end;
   text-decoration: none;
+}
+
+.para_servicio {
+  height: 100px;
 }
