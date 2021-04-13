@@ -133,7 +133,7 @@ h3 {
   margin: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   .navbar {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -265,17 +265,65 @@ h3 {
     background: url(../assets/Avio_WEB_Asset-02.png) no-repeat center;
     background-size: cover;
   }
+  .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .toogle-button {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .brand-title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero-logo-mobile {
+    height: 0;
+  }
   .container-hero-image {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .emprende-vuelo {
+    font-size: 40px;
+  }
+  .vuelo {
+    font-size: 40x;
   }
   .hero-logo-mobile {
     background: url(../assets/Avio_WEB_Asset-02.png) no-repeat;
+    position: absolute;
     display: block;
     margin: auto;
     margin-top: 3rem;
     height: 100px;
     width: 410px;
     z-index: 3;
+  }
+  .container-hero-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 5vh;
+    z-index: 2;
+    margin-top: 5rem;
+  }
+  .btn-contact {
+    width: 160px;
+  }
+  .background_text_mobile {
+    background-color: #5e8ed6;
   }
 }
 
@@ -372,6 +420,30 @@ p {
 
 .bold {
   font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  .img_couple {
+    -webkit-box-flex: 1;
+    /* flex: 1; */
+    background: url(../assets/Avio_WEB_Asset-08.png) no-repeat center;
+    background-size: 100%;
+    margin-right: 0;
+    height: 200px;
+  }
+  .seccion1_main_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .vuelo {
+    font-size: 3rem;
+    background-color: #5e8ed6;
+  }
+  .content_servicio {
+    font-size: 15px;
+  }
 }
 
 h3 {
@@ -545,6 +617,31 @@ h3 {
   height: 100px;
 }
 
+@media (max-width: 650px) {
+  .big_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .seccion2_main_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .heading_hagamos_equipo {
+    font-size: 2rem;
+  }
+  .para_servicio {
+    width: 250px;
+    height: 100px;
+  }
+  .servicio_container {
+    margin-top: 20px;
+  }
+}
+
 h3 {
   color: #5e8ed6;
 }
@@ -688,6 +785,51 @@ select::placeholder {
   background-size: 200px;
   width: 300;
   height: 100;
+}
+
+.option_text {
+  color: #5e8ed6;
+}
+
+@media (max-width: 650px) {
+  .heading_hagamos_equipo {
+    font-size: 3rem;
+  }
+  .heading_hagamos_equipo .section4_subheading2 {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #5e8ed6;
+  }
+  .contact_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  input {
+    width: 100%;
+  }
+  .select {
+    height: 40px;
+  }
+  .section4_subheading2 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 h3 {

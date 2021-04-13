@@ -124,3 +124,29 @@
 .para_servicio {
   height: 100px;
 }
+
+@media (max-width: 650px) {
+  .big_container {
+    flex-direction: column;
+  }
+
+  .seccion2_main_container {
+    flex-direction: column;
+  }
+
+  .heading_hagamos_equipo{
+    font-size: 2rem;
+  }
+
+  .para_servicio {
+    width: 250px;
+    height: 100px;
+  }
+
+  .servicio_container{
+    margin-top: 20px;
+  }
+
+  
+  
+}
