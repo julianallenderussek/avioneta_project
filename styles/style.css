@@ -640,6 +640,10 @@ h3 {
   .servicio_container {
     margin-top: 20px;
   }
+  .section2_heading {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+  }
 }
 
 h3 {
