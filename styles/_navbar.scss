@@ -2,7 +2,7 @@
 
 .navbar {
   display: flex;
-  position: relative;
+  //position: relative;
   justify-content: space-between;
   align-items: center;
   background-color: $lightBlue;
@@ -28,6 +28,7 @@ width: 50%;
 }
 
 .navbar-links {
+  width: 100%;
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -53,14 +54,11 @@ width: 50%;
   font-family: $Raleway;
   font-size: 16px;
   font-weight: 200;
-  &:hover {
-    color: $darkBlue;
-  }
 }
 
 .toggle-button {
   position: absolute;
-  top: .75rem;
+  top: 1.5rem;
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -94,6 +92,7 @@ width: 50%;
   .navbar {
       flex-direction: column;
       align-items: flex-start;
+      width: 100%;
   }
 
   .toggle-button {
@@ -116,10 +115,37 @@ width: 50%;
 
   .navbar-links ul li a {
       padding: .5rem 1rem;
+      :hover{
+        color: $lightBlue;
+      }
   }
 
   .navbar-links.active {
-      display: flex;
+      padding-top: 10px ;
+      height: 250px;
+      display: block;
+      position: absolute;
+      top: 80px;
+      z-index: 10;
+      ::hover {
+        color: &lightblue;
+      }
   }
 
+  .container-hero-image {
+    position: unsert;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
+  }
+
+  .hover_link::hover {
+    color: $lightBlue;
+  }
 }
