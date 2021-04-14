@@ -54,6 +54,9 @@ width: 50%;
   font-family: $Raleway;
   font-size: 16px;
   font-weight: 200;
+  &:hover {
+    color: $darkBlue;
+  }
 }
 
 .toggle-button {
@@ -115,25 +118,16 @@ width: 50%;
 
   .navbar-links ul li a {
       padding: .5rem 1rem;
-      :hover{
-        color: $lightBlue;
-      }
   }
 
   .navbar-links.active {
-      padding-top: 10px ;
+      padding-top: 10px;
       height: 250px;
       display: block;
       position: absolute;
       top: 80px;
       z-index: 10;
-      ::hover {
-        color: &lightblue;
-      }
-  }
-
-  .container-hero-image {
-    position: unsert;
+      background: $darkBlue;
   }
 
   .icons {
@@ -143,9 +137,13 @@ width: 50%;
     align-items: center;
     justify-content: space-between;
     margin-left: 1%;
+    margin-top: 8px;
   }
 
-  .hover_link::hover {
-    color: $lightBlue;
+  .navbar-links li a {
+    &:hover {
+      color: $lightBlue;
+    }
   }
+
 }
