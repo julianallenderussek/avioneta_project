@@ -3,7 +3,7 @@
 
 .main-footer {
   background: $white;
-  padding: 2rem;
+  padding: 20px 5px 0px 5px;
   background-color: $white;
   display: flex;
 }
@@ -36,10 +36,28 @@ footer nav {
   color: $lightBlue;
   font-size: 12px;
   margin: auto
-}4
+}
+
 .avioneta_2020 {
   margin-right: 100px;
   flex: 2;
   text-align: center;
+}
+
+.franja {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 50px;
+  background-color: $darkBlue;
+  margin: 0;
+  padding: 0;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.franja p {
+  margin: 5px;
 }
 
