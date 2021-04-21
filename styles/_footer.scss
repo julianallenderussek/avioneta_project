@@ -24,22 +24,22 @@ footer nav {
 
 .container_aviso {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: $darkBlue;
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin: auto;
 }
 
 .aviso_privacidad {
   color: $lightBlue;
-  font-size: 0.75rem;
-  justify-self: flex-start;
-  flex: 1;
-}
-
+  font-size: 12px;
+  margin: auto
+}4
 .avioneta_2020 {
   margin-right: 100px;
   flex: 2;
+  text-align: center;
 }
 
