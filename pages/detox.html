@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detox</title>
+  <link rel="stylesheet" href="../styles/detox/style.css">
+</head>
+<body>
+    <nav class="nav-mobile">
+      <div class="nav-logo-avioneta">Avioneta</div>
+        <div class="container-hamburger" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </nav>
+      <div class="detox-home-container">
+        <h1 class="heading-detox-home">Detox@Home</h1>
+        <p class="detox-paragraph-pilar">Servicio de dos días en la comodidad de tu casa</p>
+        <p class="detox-paragraph-pilar">Pilar Médico:</p>
+        <p class="detox-paragraph-indent1">48 horas</p>
+        <p class="detox-paragraph-pilar">Pilar Psicoterapéutico:</p>
+        <p class="detox-paragraph-indent1">2 sesiones para el Piloto</p>
+        <p class="detox-paragraph-indent1">2 sesiones para la Tripulación</p>
+        <p class="detox-paragraph-pilar">Piloto Pilar Educativo: 8:30am – 5pm</p>
+        <p class="detox-paragraph-indent2">con breaks, 2 días</p>
+      </div>
+      <div class="image-family"></div>
+      <div class="container-paragraph-family">
+        <p>Si tú familia deciden <span class="bold-paragraph">emprender vuelo</span> con nosotros como primer paso, queremos dejar su Avioneta como neuva, y darle al Piloto y la Tripulación las herramientas necesarias para sobrellevar dias soleados y nublados por igual</p>
+        <p class="second-paragraph">Cuando se trata de problemas por consumo de alcohol.<span class="bold-paragraph"> Detox@Home</span> es justo este mantenimiento de la aeronave y capacitación de la Tripulación. Consiste en tres pilares:<span class="bold-paragraph">Médico, Psicoterapéutico y Educativo</span></p>
+      </div>
+      <div class="blue-line"></div>
+      <div class="imagen-abstinencia">
+        <p class="paragraph-partones-consumo">Dependiendo de sus patrones de consumo, tu Pioto sufre sindrome de abstinencia con distintos grados de severidad los dias después de dejar de tomar. Este sindrome se caracteriza por ansiedad. insomnio, irritabilidad y temblor. En casos severos, lleva a complicaciones médicas que ponen en riesgo su vida.</p>
+      </div>
+      <div class="pilar-medico-container">
+        <h3 class="heading-3-pilar-medico">Aqui entra nuestro</h3>
+        <h2 class="heading-2-pilar-medico">Pilar Médico</h2>
+        <div class="circle"></div>
+        <p class="paragraph-pilar-medico">Pronosticamos la serveridad del sindrome de abstinencia y defininimos un plan de apoyo médico</p>
+        <div class="circle"></div>
+        <p class="paragraph-pilar-medico">Recetamos medicamento contra la abstinencia, si es necesario, restauramos sistema gastrointestinal y neuroquimico; monitoreamos la evolución; lidiamos con emergencias médicas</p>
+      </div>
+      <div class="image-runner">
+        <p class="paragraph-pilar-medico">Asi como los atletas de alto rendimiento y los ejecutivos más exitosos cuentan con le apoyo psicológico y emocional, prepararemos las mentes y los corazones de tu Piloto y tu Tripulación para esta aventura</p>
+      </div>
+      <div class="pilar-psicotrapeutico-container">
+        <h3 class="heading-3-pilar-psicotrapeutico">Aqui entra nuestro</h3>
+        <h2 class="heading-2-pilar-psicotrapeutico">Pilar Psicoterapéutico</h2>
+        <div class="circle"></div>
+        <p class="paragraph-pilar-medico">Utilizamos un par de técnicas, las más efectivas para tratar problemas de consumo según estudios clinicos</p>
+        <p class="paragraph-pilar-medico">Los problemos de consumo de alcohol son tan complejos como pilotear una avioneta pero una vez que los dominas, y cualquier piloto haya volado hacia el atardecer le puede confirmar, es inmensamente liberador y trascendental.</p>
+        <p class="paragraph-pilar-medico">Todo piloto y su tripulación suman miles de horas de estudio antes de su primer vuelo. Similarmente, equiparemos a tu Tripulación con toda la inforamción nescesaria para llegar sanos y salvos y felices a su destino</p>
+        <h3 class="heading-3-pilar-psicotrapeutico">Aqui entra nuestro</h3>
+        <h2 class="heading-2-pilar-psicotrapeutico">Pilar Educativo</h2>
+        <div class="circle"></div>
+        <p class="paragraph-pilar-medico">Información basada en ciencias y medicina, proporcionada con frescura, dignidad y respeto</p>
+      </div>
+      <div class="pilar-educativo-paragraph-container">
+        <p class="paragraph-pilar-medico">¿Sabias que el sindorome de abstinencia al alcohol es de los tres más dificiles de sbrellevar y riesgosos para la salud, de drogas legales, ilegales y medicamentos por igual?</p>
+      </div>
+      
+      <div class="section_4_main">
+        <h1 class="heading_hagamos_equipo" id="contact_form">¡Hagamos <span class="blue">equipo!</span></h1>
+        <!-- <h3 class="section4_subheading1">Ponte en contacto con nosotros</h3> -->
+         <h3 class="section4_subheading2">Estamos para ayudarte, <span class="blue">contáctanos</span> si crees que tu consumo de alcohol o el de un ser querido pudiera ser problemático. <br>
+          </h3>
+          <!-- Error Message -->
+          <div class="error_message" id='error_message'></div>
+           <form action="" class="contact_form" onsubmit="validation()">
+            <div class="form_section">
+              <input type="text" placeholder="Nombre" id="name">
+              <input type="text" placeholder="Apellidos" id="last_name">
+            </div> 
+            <div class="form_section">
+              <input type="text" placeholder="Correo electrónico*" id="user_email">
+              <input type="text" placeholder="Número de celular*" id="phone">
+            </div>
+             
+             <select class="select" name="" id="razon_visita">
+               <option class='option_text'value="no_selection">Selecciona la razón de tu visita:</option>
+               <option class='option_text'value="consumo_propio">Es posible que mi consumo de alchol es problemático</option>
+               <option class='option_text' value="ser_querido">Un ser querido tiene problemas con el alchol</option>
+               <option class='option_text' value="otra">Otra</option>
+              </select>
+             
+             <button type="submit" class="btn-contact">ENVIAR</button>
+           </form>
+           
+           <div class="logo-avion"></div>
+        
+          </div>
+   
+   
+   <!-- Footer -->
+   
+   <footer class="main-footer">
+    <nav>
+      <div class="container_aviso">
+        <a href="" class="aviso_privacidad">Aviso de privacidad</a>
+        <p class="avioneta_2020"> @2020, Avioneta Prevención y Tratamiento, S.A. de C.V.</p>
+      </div>
+    </nav>
+  </footer>
+<div class="franja">
+  <p>contacto@avioneta.org</p>
+  <p>+1-415-326-4326</p>
+</div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="../script.js" defer></script>
+</body>
+</html>
+      
+</body>
+</html>
+
+
+    

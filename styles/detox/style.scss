@@ -1,0 +1,458 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+}
+
+a {
+  color: #000;
+}
+
+// Navbar Container
+.nav-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F5;
+
+}
+
+// Navbar Logo Avioneta
+.nav-logo-avioneta {
+  display: inline;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+// Hamburger Menu Icon
+.container-hamburger {
+  display: inline;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+// heading-detox-home
+.heading-detox-home {
+  padding-top: 42px;
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.detox-home-container {
+  background-color: #F5F5F5;
+}
+
+//detox-paragraph-pilar
+.detox-paragraph-pilar {
+  margin-top: 16px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+//detox-paragraph-indent1
+.detox-paragraph-indent1 {
+  margin-left: 85px;
+  font-size: 20px;
+}
+
+.detox-paragraph-indent2 {
+  margin-left: 145px;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+// imagen familia
+.image-family{
+  width: 100%;
+  height: 400px;
+  background-color: green;
+}
+
+// Paragraph Family 
+.container-paragraph-family{
+  padding: 15px 10px 15px 10px;
+}
+
+.bold-paragraph {
+  font-weight: bold;
+}
+
+.second-paragraph {
+  margin-top: 30px;
+}
+
+.blue-line {
+  width: 100%;
+  height: 5px;
+  background-color: #5E93DB;
+}
+
+.imagen-abstinencia {
+  width: 100%;
+  height: 400px;
+  background-color: green;
+}
+
+
+.paragraph-partones-consumo {
+  color: white;
+  font-size: 22px;
+  padding: 15px 10px 15px 10px;
+}
+
+//Pilar Medico
+.pilar-medico-container {
+  width: 100%;
+  height: 700px;
+  background-color: #5E93DB;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-3-pilar-medico {
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+  
+}
+
+.heading-2-pilar-medico {
+  color: #081E48;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.circle { 
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 30px 0px 30px 0px;
+  align-self: center;
+}
+
+.paragraph-pilar-medico {
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 30px 10px 30px 10px;
+}
+
+.image-runner {
+  width: 100%;
+  height: 500px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.pilar-psicotrapeutico-container {
+  background-color:#5E93DB;
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-3-pilar-psicotrapeutico {
+  color: white;
+  font-size: 20px;
+  padding-top: 40px;
+  margin-left: 10px;
+  
+}
+
+.heading-2-pilar-psicotrapeutico {
+  color: #081E48;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.pilar-educativo-paragraph-container {
+  width: 100%;
+  height: 200px;
+  background-color: orange;
+  color: white;
+}
+
+// form
+@import "../variables";
+
+.section_4_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading_hagamos_equipo {
+  color: $lightBlue;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 10px;
+  font-family: $Raleway;
+  font-weight: 900;
+}
+
+.section4_subheading2 {
+  font-size: 25px;
+  font-family: $Raleway;
+  font-weight: 600;
+  color: $lightBlue;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: $superlightblue;
+  width: 47.5%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  color: $darkBlue;
+}
+
+input::placeholder {
+  color: $lightBlue;
+}
+
+select {
+  background-color: $superlightblue;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  width: 90%;
+  height: 70px;
+}
+
+select::placeholder {
+  color: $lightBlue;
+}
+
+.form_section {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.contact_form {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue {
+  color: $darkBlue;
+}
+
+.btn-contact {
+  background-color: $darkBlue;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem 1.75rem 1rem 1.75rem;
+  display: block;
+  margin-top: 1rem;
+    &:hover {
+      background-color: $lightBlue;
+    }
+}
+
+.logo-avion {
+  background: url(/assets/emblema_azul.png) no-repeat center;
+  background-size: 200px;
+  width: 300;
+  height: 100;
+}
+
+.option_text {
+  color: $lightBlue;
+}
+
+@media (max-width: 650px) {
+.heading_hagamos_equipo {
+  font-size: 2.2rem;
+  }
+
+.section4_subheading2 {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #5e8ed6;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+}
+
+  input {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .select {
+    height: 40px;
+    border-radius: 2rem;
+  }
+}
+
+// Footer
+@import "../variables";
+
+
+.main-footer {
+  background: $white;
+  padding: 20px 5px 0px 5px;
+  background-color: $white;
+  display: flex;
+}
+
+footer nav {
+  width: 100%;
+}
+
+.main-footer__link a {
+  color: $darkBlue;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: $lightBlue;
+}
+
+.container_aviso {
+  display: flex;
+  flex-direction: column;
+  color: $darkBlue;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.aviso_privacidad {
+  color: $lightBlue;
+  font-size: 12px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.avioneta_2020 {
+  margin-right: 100px;
+  flex: 2;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.franja {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 50px;
+  background-color: $darkBlue;
+  margin: 0;
+  padding: 0;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.franja p {
+  margin: 5px;
+}
+
