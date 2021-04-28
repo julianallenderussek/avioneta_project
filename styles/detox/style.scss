@@ -52,6 +52,9 @@ a {
   color: #000;
 }
 
+// Footer
+@import "../variables";
+
 // Navbar Container
 .nav-mobile {
   display: flex;
@@ -74,6 +77,7 @@ a {
   display: inline;
   cursor: pointer;
   margin-top: 32px;
+  margin-right: 15px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -106,10 +110,17 @@ a {
   padding-top: 42px;
   margin-left: 10px;
   font-size: 40px;
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: Regular;
+  color: #081E48;
+
 }
 
 .detox-home-container {
   background-color: #F5F5F5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #081E48;
 }
 
 //detox-paragraph-pilar
@@ -134,13 +145,17 @@ a {
 // imagen familia
 .image-family{
   width: 100%;
-  height: 400px;
-  background-color: green;
+  height: 540px;
+  background-image: url(./assets_detox/imagen_familia.png) ;
 }
 
 // Paragraph Family 
 .container-paragraph-family{
   padding: 15px 10px 15px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #081E48;
 }
 
 .bold-paragraph {
@@ -153,14 +168,16 @@ a {
 
 .blue-line {
   width: 100%;
-  height: 5px;
+  height: 2px;
   background-color: #5E93DB;
 }
 
 .imagen-abstinencia {
   width: 100%;
-  height: 400px;
+  height: 580px;
   background-color: green;
+  background-image: url(./assets_detox/Ansiedad-Mobil.png);
+  opacity: .98;
 }
 
 
@@ -168,12 +185,14 @@ a {
   color: white;
   font-size: 22px;
   padding: 15px 10px 15px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
 }
 
 //Pilar Medico
 .pilar-medico-container {
   width: 100%;
-  height: 700px;
+  height: 750px;
   background-color: #5E93DB;
   display: flex;
   flex-direction: column;
@@ -181,17 +200,21 @@ a {
 
 .heading-3-pilar-medico {
   color: white;
-  font-size: 20px;
   margin-top: 40px;
   margin-left: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
   
 }
 
 .heading-2-pilar-medico {
-  color: #081E48;
-  font-size: 40px;
-  font-weight: bold;
+  
   margin-left: 10px;
+  color: #081E48;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: 900;
 }
 
 .circle { 
@@ -199,7 +222,7 @@ a {
   height: 100px;
   width: 100px;
   background-color: white;
-  margin: 30px 0px 30px 0px;
+  margin: 20px 0px 20px 0px;
   align-self: center;
 }
 
@@ -207,22 +230,26 @@ a {
   margin-left: 10px;
   font-size: 20px;
   padding: 30px 10px 30px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
 }
 
 .image-runner {
   width: 100%;
-  height: 500px;
-  background-color: green;
+  height: 589px;
   display: flex;
   flex-direction: column;
+  background-image: url(./assets_detox/Runner_Mobile.png);
+  opacity: .7;
 }
 
 .pilar-psicotrapeutico-container {
   background-color:#5E93DB;
   width: 100%;
-  height: 1300px;
+  height: 1359px;
   display: flex;
   flex-direction: column;
+  background-image: url(./assets_detox/Montaña-Degradado-Mobil.png);
 }
 
 .heading-3-pilar-psicotrapeutico {
@@ -230,6 +257,9 @@ a {
   font-size: 20px;
   padding-top: 40px;
   margin-left: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
   
 }
 
@@ -238,12 +268,16 @@ a {
   font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
+  color: #081E48;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .pilar-educativo-paragraph-container {
   width: 100%;
   height: 200px;
-  background-color: orange;
+  background-color: #5E93DB;
   color: white;
 }
 
@@ -288,7 +322,7 @@ input {
 }
 
 input::placeholder {
-  color: $lightBlue;
+  color: $darkBlue;
 }
 
 select {
@@ -299,7 +333,6 @@ select {
   padding-left: 1rem;
   border: none;
   width: 90%;
-  height: 70px;
 }
 
 select::placeholder {
@@ -342,7 +375,7 @@ select::placeholder {
 
 .logo-avion {
   background: url(/assets/emblema_azul.png) no-repeat center;
-  background-size: 200px;
+  background-size: 140px;
   width: 300;
   height: 100;
 }
@@ -376,20 +409,18 @@ select::placeholder {
 }
 
   input {
+    background-color: #5E93DB;
     margin-top: 10px;
     width: 100%;
     border-radius: 2rem;
   }
 
   .select {
-    height: 40px;
+    background-color: #5E93DB;
     border-radius: 2rem;
-  }
+  } 
+
 }
-
-// Footer
-@import "../variables";
-
 
 .main-footer {
   background: $white;
@@ -424,9 +455,10 @@ footer nav {
 
 .aviso_privacidad {
   color: $lightBlue;
-  font-size: 12px;
+  font-size: 15px;
   margin: auto;
   text-decoration: none;
+  opacity: 1;
 }
 
 .avioneta_2020 {
@@ -437,6 +469,9 @@ footer nav {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 15px;
+  font-family: $Raleway;
+  font-weight: bold;
+
 }
 
 .franja {
@@ -445,7 +480,7 @@ footer nav {
   flex-direction: row;
   height: 50px;
   background-color: $darkBlue;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
   color: white;
   align-items: center;
@@ -454,5 +489,8 @@ footer nav {
 
 .franja p {
   margin: 5px;
+  color: white;
+  font-family: $Raleway;
+  font-size: 15px;
 }
 
