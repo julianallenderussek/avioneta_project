@@ -191,5 +191,21 @@ a {
   .header .menu-icon {
     display: none;
   }
+  .icons-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .my-column {
+    background-color: red;
+    color: green;
+  }
+  .image-runner {
+    display: none;
+  }
 }
 /*# sourceMappingURL=detox.css.map */

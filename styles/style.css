@@ -6,11 +6,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 h3 {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 h3 {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .navbar {
@@ -23,7 +23,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #5e8ed6;
+  background-color: #5E93DB;
   color: #141f48;
   padding: 5px;
   padding-left: 15vh;
@@ -194,12 +194,12 @@ h3 {
     margin-top: 8px;
   }
   .navbar-links li a:hover {
-    color: #5e8ed6;
+    color: #5E93DB;
   }
 }
 
 h3 {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .hero-image {
@@ -284,7 +284,7 @@ h3 {
 }
 
 .btn-contact:hover {
-  background-color: #5e8ed6;
+  background-color: #5E93DB;
 }
 
 @media (max-width: 650px) {
@@ -356,7 +356,7 @@ h3 {
 }
 
 h3 {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .seccion1_main_container {
@@ -383,7 +383,7 @@ h3 {
 }
 
 .subheading_section1 {
-  color: #5e8ed6;
+  color: #5E93DB;
   font-size: 30px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -467,7 +467,7 @@ p {
   }
   .vuelo {
     font-size: 3rem;
-    background-color: #5e8ed6;
+    background-color: #5E93DB;
   }
   .content_servicio {
     font-size: 15px;
@@ -475,7 +475,7 @@ p {
 }
 
 h3 {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .big_container {
@@ -619,7 +619,7 @@ h3 {
 }
 
 .btn-product-page {
-  background-color: #5e8ed6;
+  background-color: #5E93DB;
   height: 50px;
   width: 150px;
   font-size: 16px;
@@ -682,7 +682,7 @@ h3 {
 }
 
 h3 {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .section_4_main {
@@ -702,7 +702,7 @@ h3 {
 }
 
 .heading_hagamos_equipo {
-  color: #5e8ed6;
+  color: #5E93DB;
   font-size: 4rem;
   margin-top: 3rem;
   margin-bottom: 10px;
@@ -714,7 +714,7 @@ h3 {
   font-size: 25px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  color: #5e8ed6;
+  color: #5E93DB;
   margin-right: 50px;
   margin-left: 50px;
 }
@@ -731,19 +731,19 @@ input {
 }
 
 input::-webkit-input-placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 input:-ms-input-placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 input::-ms-input-placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 input::placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 select {
@@ -758,19 +758,19 @@ select {
 }
 
 select::-webkit-input-placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 select:-ms-input-placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 select::-ms-input-placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 select::placeholder {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .form_section {
@@ -818,7 +818,7 @@ select::placeholder {
 }
 
 .btn-contact:hover {
-  background-color: #5e8ed6;
+  background-color: #5E93DB;
 }
 
 .logo-avion {
@@ -829,7 +829,7 @@ select::placeholder {
 }
 
 .option_text {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 @media (max-width: 650px) {
@@ -871,7 +871,7 @@ select::placeholder {
 }
 
 h3 {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .main-footer {
@@ -894,7 +894,7 @@ footer nav {
 
 .main-footer__link a:hover,
 .main-footer__link a:active {
-  color: #5e8ed6;
+  color: #5E93DB;
 }
 
 .container_aviso {
@@ -917,7 +917,7 @@ footer nav {
 }
 
 .aviso_privacidad {
-  color: #5e8ed6;
+  color: #5E93DB;
   font-size: 12px;
   margin: auto;
 }
@@ -1150,6 +1150,22 @@ a {
     max-height: none;
   }
   .header .menu-icon {
+    display: none;
+  }
+  .icons-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .my-column {
+    background-color: red;
+    color: green;
+  }
+  .image-runner {
     display: none;
   }
 }

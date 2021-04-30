@@ -181,4 +181,18 @@ a {
   .header .menu-icon {
     display: none;
   }
+
+  .icons-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .my-column {
+    background-color: red;
+    color: green;
+  }
+  
+  .image-runner {
+    display: none;
+  }
 }

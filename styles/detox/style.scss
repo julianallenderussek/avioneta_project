@@ -99,10 +99,22 @@ a {
   opacity: 0;
 }
 
+.desktop-row {
+  // width: 60%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
 /* Rotate last bar */
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.sabias-que-el {
+  color: white;
 }
 
 // heading-detox-home
@@ -136,6 +148,14 @@ a {
   font-size: 20px;
 }
 
+.desktop-family-image-div {
+  display: none;
+}
+
+.detox-home-container-desktop{
+  display: none;
+}
+
 .detox-paragraph-indent2 {
   margin-left: 145px;
   font-size: 20px;
@@ -166,6 +186,9 @@ a {
   margin-top: 30px;
 }
 
+.container-deperesion-desktop{
+  display:none
+}
 .blue-line {
   width: 100%;
   height: 2px;
@@ -192,7 +215,7 @@ a {
 //Pilar Medico
 .pilar-medico-container {
   width: 100%;
-  height: 750px;
+  max-height: 1000px;
   background-color: #5E93DB;
   display: flex;
   flex-direction: column;
@@ -205,11 +228,9 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
   font-weight: 600;
-  
 }
 
 .heading-2-pilar-medico {
-  
   margin-left: 10px;
   color: #081E48;
   font-family: 'Raleway', sans-serif;
@@ -234,7 +255,7 @@ a {
   font-size: 22px;
 }
 
-.image-runner {
+.image-runner-mobile {
   width: 100%;
   height: 589px;
   display: flex;
@@ -494,4 +515,347 @@ footer nav {
   font-family: $Raleway;
   font-size: 15px;
 }
+
+.runner-desktop {
+  display:none
+}
+
+.nav-desktop {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .nav-mobile {
+    display: none;
+  
+  }
+
+  .desktop-container {
+    width: 100%;
+    height: 110px;
+    background-color: $backgroundColorLight;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-desktop {
+    width: 60%;
+    max-width: 1140px;
+    background-color: $backgroundColorLight;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 53px;
+  }
+
+  .nav-logo-avioneta {
+    margin: 0;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .desktop-family-image-div {
+    display:inline-block;
+  }
+  
+  .detox-home-container-desktop{
+    display: inline-block;
+  }
+
+  .icons-list {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+  }
+
+  .nav-hyperlink {
+    text-decoration: none;
+    color: $lightBlue;
+  }
+
+  .nav-hyperlink-highlithed {
+    color: $darkBlue;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .detox-paragrah-image-container {
+    display: flex;
+    width: 500px;
+    background-color: #F5F5F5;
+  }
+
+  .detox-home-container-desktop {
+    padding-top: 200px ;
+    padding-right: 100px;
+    width: 600px;
+  }
+  
+  .text-container {
+    width: 600px;
+  }
+
+  .desktop-family-image {
+    background-size: 30%;
+    background: url(/styles/detox/assets_detox/family-desktop.png);
+  }
+
+.detox-home-container {
+  display: none;
+}
+
+.image-family {
+  display: none;
+}
+
+.container-paragraph-family{
+  width: 60%;
+  max-width: 1140px;
+  margin: 30px auto;
+}
+
+.imagen-abstinencia {
+  display: none;
+}
+
+.pilar-educativo-paragraph-container {
+height: 150px;
+display: flex;
+align-items: center;
+}
+
+.paragraph-pilar-medico {
+  width: 60%;
+  max-width: 1140px;
+  margin: auto;
+  font-size: 25px;
+  font-family: $Raleway;
+  color: $darkBlue;
+}
+
+.section4_subheading2 {
+  width: 60%;
+}
+
+.desktop-info-60width {
+  width: 60%;
+  height: 2000px;
+  background-color: green;
+}
+
+.mobile-info-big-container {
+  display:none;
+}
+
+.container-60per {
+  width: 60%;
+}
+
+.container-julls{
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+}
+
+.detox-paragrah-image-container {
+  background-color: $backgroundColorLight;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+// Font Classes Desktop
+.tenor-medium-70px {
+  font-size: 70px;
+  font-family: $Tenor;
+}
+
+.raleway-medium-25px {
+  font-size: 25px;
+  font-family: $Raleway;
+}
+
+.raleway-regular-25px {
+  font-size: 15px;
+  font-family: $Raleway;
+  font-weight: 400;
+}
+
+.nav-links {
+  font-size: 15px;
+  font-family: $Raleway;
+  font-weight: 400;
+  &:hover {
+    font-weight: bold;
+    color: $darkBlue;
+  }
+}
+
+.nav-hyperlink-highlithed {
+  font-weight: bold;
+}
+
+.flex-end {
+  justify-self: flex-end;
+}
+
+.desktop-info-big-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pilares-desktop {
+    margin-left: 10px;
+    color: #081E48;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.aqui_entra_desktop{
+    color: white;
+    padding-top: 40px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container-julls-column {
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: center;
+
+}
+
+.container-deperesion-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 80px;
+  position: relative;
+  background-color: $lightBlue;
+}
+
+.depresion-texto-desktop {
+  font-size: 25px;
+  font-family: $Raleway;
+  font-weight: 400;
+  color: white; 
+}
+
+.desktop-circle-paragraph-container {
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  
+}
+
+.pilares-mobil-todo{
+  display: none;
+}
+
+.runner-desktop {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: $lightBlue;
+}
+
+.image-runner-mobile {
+  display: none;
+}
+
+.desktop-row {
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-heading-center-left {
+  max-width: 1140px;
+  width: 60%;
+}
+
+.container-deperesion-desktop{
+  position: relative;
+}
+
+.depresion-texto-desktop{
+  position: absolute;
+  top: 230px;
+  left: 790px;
+  max-width: 700px;
+}
+.paragraph-runner-foto{
+  font-size: 25px;
+  font-family: $Raleway;
+  font-weight: 400;
+  color: white; 
+  
+}
+
+.runner-desktop{
+  position: relative;
+}
+
+.width-div {
+  position: absolute;
+  max-width: 790px;
+  top: 100px;
+  left: 500px; 
+}
+
+#sabias-que-el {
+  color: white;
+}
+
+.desktop-pilares-heading-with-center{
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+#pilar-medico-heading-desktop{
+  position: relative;
+  top: -120;
+}
+
+#margin45top {
+  margin-top: 45px;
+}
+
+#pilar-psicoterapeutico-heading-desktop {
+  position: relative;
+  margin-bottom: 5px;
+  top: -150;
+}
+
+#pilar-educativo-heading-desktop {
+  color: red;
+}
+
+#nuestro-pilar-educativo{
+  margin-bottom: 5px;
+}
+
+}
+
 
