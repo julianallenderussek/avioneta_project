@@ -1,0 +1,1122 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h3 {
+  color: #5E93DB;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+}
+
+a {
+  color: #000;
+}
+
+.nav-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F5F5F5;
+}
+
+.nav-logo-avioneta {
+  display: inline;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+.pilotos-banner-heading {
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 900;
+}
+
+.span-banner-pilotos {
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  color: #071d49;
+  font-weight: 900;
+}
+
+.container-hamburger {
+  display: inline;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+.desktop-row {
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.sabias-que-el {
+  color: white;
+}
+
+.heading-detox-home {
+  padding-top: 42px;
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: Regular;
+  color: #081E48;
+}
+
+.detox-home-container {
+  background-color: #F5F5F5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #081E48;
+}
+
+.detox-paragraph-pilar {
+  margin-top: 16px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.detox-paragraph-indent1 {
+  margin-left: 85px;
+  font-size: 20px;
+}
+
+.desktop-family-image-div {
+  display: none;
+}
+
+.detox-home-container-desktop {
+  display: none;
+}
+
+.detox-paragraph-indent2 {
+  margin-left: 145px;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+.image-family {
+  width: 100%;
+  height: 540px;
+  background-image: url(./assets_detox/imagen_familia.png);
+}
+
+.container-paragraph-family {
+  padding: 15px 10px 15px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #081E48;
+}
+
+.bold-paragraph {
+  font-weight: bold;
+}
+
+.second-paragraph {
+  margin-top: 30px;
+}
+
+.container-deperesion-desktop {
+  display: none;
+}
+
+.blue-line {
+  width: 100%;
+  height: 2px;
+  background-color: #5E93DB;
+}
+
+.imagen-abstinencia {
+  width: 100%;
+  height: 580px;
+  background-color: green;
+  background-image: url(./assets_detox/Ansiedad-Mobil.png);
+  opacity: .98;
+}
+
+.paragraph-partones-consumo {
+  color: white;
+  font-size: 22px;
+  padding: 15px 10px 15px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+.pilar-medico-container {
+  width: 100%;
+  max-height: 1000px;
+  background-color: #5E93DB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heading-3-pilar-medico {
+  color: white;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.heading-2-pilar-medico {
+  margin-left: 10px;
+  color: #081E48;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 20px 0px 20px 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.paragraph-pilar-medico {
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 30px 10px 30px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+.image-runner-mobile {
+  width: 100%;
+  height: 589px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(./assets_detox/Runner_Mobile.png);
+  opacity: .7;
+}
+
+.pilar-psicotrapeutico-container {
+  background-image: url(../detox/assets_detox/mountain.png);
+  background-color: #5E93DB;
+  width: 100%;
+  height: 1359px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heading-3-pilar-psicotrapeutico {
+  color: white;
+  font-size: 20px;
+  padding-top: 40px;
+  margin-left: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.heading-2-pilar-psicotrapeutico {
+  color: #081E48;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #081E48;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.pilar-educativo-paragraph-container {
+  width: 100%;
+  height: 200px;
+  background-color: #5E93DB;
+  color: white;
+}
+
+h3 {
+  color: #5E93DB;
+}
+
+.section_4_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.heading_hagamos_equipo {
+  color: #5E93DB;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+
+.section4_subheading2 {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #5E93DB;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #9dc2f2d2;
+  width: 47.5%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  color: #071d49;
+}
+
+input::-webkit-input-placeholder {
+  color: #071d49;
+}
+
+input:-ms-input-placeholder {
+  color: #071d49;
+}
+
+input::-ms-input-placeholder {
+  color: #071d49;
+}
+
+input::placeholder {
+  color: #071d49;
+}
+
+select {
+  background-color: #9dc2f2d2;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  width: 90%;
+}
+
+select::-webkit-input-placeholder {
+  color: #5E93DB;
+}
+
+select:-ms-input-placeholder {
+  color: #5E93DB;
+}
+
+select::-ms-input-placeholder {
+  color: #5E93DB;
+}
+
+select::placeholder {
+  color: #5E93DB;
+}
+
+.form_section {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact_form {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blue {
+  color: #071d49;
+}
+
+.btn-contact {
+  background-color: #071d49;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem 1.75rem 1rem 1.75rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+.btn-contact:hover {
+  background-color: #5E93DB;
+}
+
+.logo-avion {
+  background: url(/assets/emblema_azul.png) no-repeat center;
+  background-size: 140px;
+  width: 300;
+  height: 100;
+}
+
+.option_text {
+  color: #5E93DB;
+}
+
+@media (max-width: 650px) {
+  .heading_hagamos_equipo {
+    font-size: 2.2rem;
+  }
+  .span-banner-pilotos {
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+  }
+  .section4_subheading2 {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #5e8ed6;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .contact_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  input {
+    background-color: #5E93DB;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 2rem;
+  }
+  .select {
+    background-color: #5E93DB;
+    border-radius: 2rem;
+  }
+}
+
+.main-footer {
+  background: white;
+  padding: 20px 5px 0px 5px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer nav {
+  width: 100%;
+}
+
+.main-footer__link a {
+  color: #071d49;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #5E93DB;
+}
+
+.container_aviso {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #071d49;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.aviso_privacidad {
+  color: #5E93DB;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.avioneta_2020 {
+  margin-right: 100px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.franja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50px;
+  background-color: #071d49;
+  margin-top: 10px;
+  padding: 0;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.franja p {
+  margin: 5px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.runner-desktop {
+  display: none;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .nav-mobile {
+    display: none;
+  }
+  .desktop-container {
+    width: 100%;
+    height: 110px;
+    background-color: #F5F5F5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-desktop {
+    width: 60%;
+    max-width: 1140px;
+    background-color: #F5F5F5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 53px;
+  }
+  .nav-logo-avioneta {
+    margin: 0;
+  }
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 80px;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .desktop-family-image-div {
+    display: inline-block;
+  }
+  .detox-home-container-desktop {
+    display: inline-block;
+  }
+  .icons-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: green;
+  }
+  .nav-hyperlink {
+    text-decoration: none;
+    color: #5E93DB;
+  }
+  .nav-hyperlink-highlithed {
+    color: #071d49;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .detox-paragrah-image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 500px;
+    background-color: #F5F5F5;
+  }
+  .detox-home-container-desktop {
+    padding-top: 200px;
+    padding-right: 100px;
+    width: 600px;
+  }
+  .text-container {
+    width: 600px;
+  }
+  .desktop-family-image {
+    background-size: 30%;
+    background: url(/styles/detox/assets_detox/family-desktop.png);
+  }
+  .detox-home-container {
+    display: none;
+  }
+  .image-family {
+    display: none;
+  }
+  .container-paragraph-family {
+    width: 60%;
+    max-width: 1140px;
+    margin: 30px auto;
+  }
+  .imagen-abstinencia {
+    display: none;
+  }
+  .pilar-educativo-paragraph-container {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .paragraph-pilar-medico {
+    width: 60%;
+    max-width: 1140px;
+    margin: auto;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+  }
+  .section4_subheading2 {
+    width: 60%;
+  }
+  .desktop-info-60width {
+    width: 60%;
+    height: 2000px;
+    background-color: green;
+  }
+  .mobile-info-big-container {
+    display: none;
+  }
+  .container-60per {
+    width: 60%;
+  }
+  .container-julls {
+    width: 60%;
+    max-width: 1140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .detox-paragrah-image-container {
+    background-color: #F5F5F5;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tenor-medium-70px {
+    font-size: 70px;
+    font-family: "Tenor Sans", sans-serif;
+  }
+  .raleway-medium-25px {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+  }
+  .raleway-regular-25px {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+  .nav-links {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+  .nav-links:hover {
+    font-weight: bold;
+    color: #071d49;
+  }
+  .nav-hyperlink-highlithed {
+    font-weight: bold;
+  }
+  .flex-end {
+    justify-self: flex-end;
+  }
+  .desktop-info-big-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pilares-desktop {
+    margin-left: 10px;
+    color: #081E48;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .aqui_entra_desktop {
+    color: white;
+    padding-top: 40px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .container-julls-column {
+    width: 60%;
+    max-width: 1140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .container-deperesion-desktop {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 80px;
+    position: relative;
+    background-color: #5E93DB;
+  }
+  .depresion-texto-desktop {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  .desktop-circle-paragraph-container {
+    width: 60%;
+    max-width: 1140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .pilares-mobil-todo {
+    display: none;
+  }
+  .runner-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    background-color: #5E93DB;
+  }
+  .image-runner-mobile {
+    display: none;
+  }
+  .desktop-row {
+    width: 60%;
+    max-width: 1140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container-heading-center-left {
+    max-width: 1140px;
+    width: 60%;
+  }
+  .container-deperesion-desktop {
+    position: relative;
+  }
+  .depresion-texto-desktop {
+    position: absolute;
+    top: 230px;
+    left: 790px;
+    max-width: 700px;
+  }
+  .paragraph-runner-foto {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  .runner-desktop {
+    position: relative;
+  }
+  .width-div {
+    position: absolute;
+    max-width: 790px;
+    top: 100px;
+    left: 500px;
+  }
+  #sabias-que-el {
+    color: white;
+  }
+  .desktop-pilares-heading-with-center {
+    width: 60%;
+    max-width: 1140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-bottom: 40px;
+  }
+  #pilar-medico-heading-desktop {
+    position: relative;
+    top: -120;
+  }
+  #margin45top {
+    margin-top: 45px;
+  }
+  #pilar-psicoterapeutico-heading-desktop {
+    position: relative;
+    margin-bottom: 5px;
+    top: -150;
+  }
+  #pilar-educativo-heading-desktop {
+    color: red;
+  }
+  #nuestro-pilar-educativo {
+    margin-bottom: 5px;
+  }
+  .banner-pilotos {
+    background-color: green;
+  }
+  .banner-pilotos {
+    width: 100%;
+    height: 311px;
+    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+  }
+  .container-banner-pilotos {
+    width: 60%;
+    max-width: 1040px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .banner-pilotos {
+    width: 100%;
+    height: 311px;
+    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-banner-pilotos {
+    width: 60%;
+    max-width: 1040px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container-banner-asesores {
+    width: 60%;
+    max-width: 1040px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .pilotos-banner-heading {
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 600;
+    padding-top: 60px;
+  }
+  .span-banner-pilotos {
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+    font-weight: 900;
+  }
+  .paragraph-pilotos {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+    padding-top: 25px;
+  }
+  .separating-line {
+    height: 3px;
+    background-color: #5E93DB;
+  }
+  .row-pilotos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .quote-paragraph-pilotos {
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+    font-weight: 900;
+    padding-top: 20px;
+  }
+  .asesores-banner-heading {
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 600;
+    padding-top: 60px;
+  }
+  .span-banner-asesores {
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+    font-weight: 900;
+  }
+  .paragraph-asesores {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+    padding-top: 25px;
+  }
+  .quote-paragraph-asesores {
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    color: #071d49;
+    font-weight: 900;
+    padding-top: 20px;
+  }
+  .row-asesores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=equipo.css.map */

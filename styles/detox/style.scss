@@ -195,22 +195,46 @@ a {
   background-color: #5E93DB;
 }
 
-.imagen-abstinencia {
-  width: 100%;
-  height: 580px;
-  background-color: green;
-  background-image: url(./assets_detox/Ansiedad-Mobil.png);
-  opacity: .98;
+.imagen-chava {
+  position: relative;
+  z-index: 5;
 }
 
+.container-principal{
+  position: relative;
+  z-index: 5;
+  }
+
+  .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+  display: block;
+  z-index: 3;
+  }
 
 .paragraph-partones-consumo {
+  position: absolute;
   color: white;
   font-size: 22px;
   padding: 15px 10px 15px 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
 }
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+  display: block;
+  z-index: 3;
+  }
 
 //Pilar Medico
 .pilar-medico-container {
@@ -219,6 +243,7 @@ a {
   background-color: #5E93DB;
   display: flex;
   flex-direction: column;
+  padding-bottom: 100px
 }
 
 .heading-3-pilar-medico {
@@ -406,7 +431,18 @@ select::placeholder {
 }
 
 @media (max-width: 650px) {
-.heading_hagamos_equipo {
+
+  // Codigo pagina
+  .banner-pilotos {
+    width: 100%;
+    background-color: green;
+    background-image: url(/styles/equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    height: 311px;
+  }
+
+
+
+  .heading_hagamos_equipo {
   font-size: 2.2rem;
   }
 
@@ -414,9 +450,14 @@ select::placeholder {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  color: #5e8ed6;
+  color: $darkBlue;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.datos-contacto-bold {
+  font-weight: 900;
+  font-family: $Raleway;
 }
 
 .contact_form {
@@ -538,6 +579,10 @@ footer nav {
     flex-direction: column;
     align-items: center;
   }
+
+  .container-principal{
+    display: none;
+    } 
 
   .nav-desktop {
     width: 60%;
@@ -854,6 +899,30 @@ align-items: center;
 
 #nuestro-pilar-educativo{
   margin-bottom: 5px;
+}
+
+.background-montaña {
+  background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
+}
+
+.pilar-psicotrapeutico-container {
+  background-image: none;
+  background-color: none;
+
+}
+
+.datos-contacto-bold {
+  font-weight: 900;
+  font-family: $Raleway;
+  color: $darkBlue;
+}
+
+.section4_subheading2 {
+  color: $darkBlue;
+}
+
+.mobile-pagina {
+  display: none;
 }
 
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -108,7 +109,6 @@ a {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
   -webkit-user-select: none;
@@ -206,6 +206,9 @@ a {
   }
   .image-runner {
     display: none;
+  }
+  .pilar-psicotrapeutico-container {
+    background-image: url(../styles/detox/assets_detox/Montaña-Degradado-Web.png);
   }
 }
 /*# sourceMappingURL=detox.css.map */
