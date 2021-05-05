@@ -72,12 +72,24 @@ a {
   margin-top: 28px;
 }
 
+.dark-blue {
+  background-color: $darkBlue;
+}
+
 // Hamburger Menu Icon
 .container-hamburger {
   display: inline;
   cursor: pointer;
   margin-top: 32px;
   margin-right: 15px;
+}
+
+.closebutton {
+  background-color: $darkBlue;
+}
+
+#ansiedad-mobil {
+  width: 100%;
 }
 
 .bar1, .bar2, .bar3 {
@@ -150,6 +162,60 @@ a {
 
 .desktop-family-image-div {
   display: none;
+}
+
+.links-mobile-dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-tacha {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tacha {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: white;
+  width: 32px;
+}
+
+.menu-mobile-dropdown {
+  display: none;
+  flex-direction: column;
+  background-color: $darkBlue;
+  color: $lightBlue;
+  font-size: 45px;
+  font-family: $Raleway;
+  height: 764;
+  justify-content: space-between;
+}
+
+.active {
+  display:flex
+}
+
+.menu-mobile-dropdown a {
+  color: $lightBlue;
+  padding-left: 10px;
+  padding: 8px 0px 8px 0px;
+  margin-left: 5px;
+}
+
+#highlighted-mobile-dropdown {
+  color: $white;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+}
+
+.icon-list-dropdown-mobile{
+  padding-right: 10px;
+  justify-self: flex-end;
+}
+
+.icon-list-dropdown-mobile {
+  align-self: flex-end;
 }
 
 .detox-home-container-desktop{

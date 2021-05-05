@@ -81,17 +81,238 @@ a {
   background-color: #F5F5F5;
 }
 
+.banner-pilotos {
+  width: 100%;
+  height: 350px;
+  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+}
+
+.banner-asesores {
+  width: 100%;
+  height: 443px;
+  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+  margin-top: 30px;
+}
+
+.asesores-banner-heading {
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  padding-top: 37px;
+  padding-left: 10px;
+}
+
+.asesor-placeholder {
+  padding-top: 30px;
+}
+
+.asesores-banner-heading span {
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  color: #071d49;
+  display: block;
+}
+
+.paragraph-asesores {
+  padding-left: 10px;
+}
+
+.container-pasajeros-aliados {
+  background-image: url(/styles/equipo/equipo_web/Croped_BACK2x.png);
+  height: 2000px;
+  margin-top: -900px;
+  z-index: -5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.paragraph-asesores {
+  font-size: 25px;
+  color: #071d49;
+  font-weight: 400;
+}
+
+.container-banner-asesores {
+  position: relative;
+}
+
+.nombre-heading {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  color: #071d49;
+}
+
+.posicion-heading {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  color: #5E93DB;
+}
+
+.descripcion-heading {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #071d49;
+}
+
+#tower-mobile-image {
+  position: absolute;
+  top: 153;
+  left: 120;
+  height: 290;
+}
+
+#tower-desktop-image {
+  display: none;
+}
+
+.row-pilotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row-asesores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.piloto-placeholder {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 30px;
+}
+
+.container-seccion-pilotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-banner-asesore {
+  margin-top: 30px;
+}
+
 .nav-logo-avioneta {
   display: inline;
   margin-left: 20px;
   margin-top: 28px;
 }
 
+.aliados-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zona-logo {
+  height: 177px;
+  width: 236px;
+}
+
+.dynamic-care {
+  width: 155px;
+}
+
+.logo-c {
+  width: 155px;
+}
+
+.health-logo {
+  width: 238px;
+}
+
+.unresonable-logo {
+  width: 315px;
+}
+
+.heading_hagamos_equipo {
+  width: 300px;
+}
+
+.section4_subheading2 {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400px;
+}
+
+#section4_subheading2 {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400px;
+  color: #071d49;
+  text-align: center;
+}
+
 .pilotos-banner-heading {
+  padding-top: 12px;
+  padding-left: 15px;
   font-size: 45px;
   font-family: "Raleway", sans-serif;
   color: white;
+  font-weight: 400;
+}
+
+.aliados-banner-heading {
+  padding-top: 1050px;
+  padding-left: 15px;
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.paragraph-pilotos {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.quote-paragraph-pilotos {
+  padding-top: 32px;
+  padding-left: 15px;
+  font-family: "Raleway", sans-serif;
   font-weight: 900;
+}
+
+.quote-paragraph-pilotos span {
+  font-weight: 400;
+  font-style: italic;
 }
 
 .span-banner-pilotos {
@@ -167,6 +388,10 @@ a {
   color: #081E48;
 }
 
+.image-avioneta-container {
+  display: none;
+}
+
 .detox-paragraph-pilar {
   margin-top: 16px;
   margin-left: 15px;
@@ -180,6 +405,21 @@ a {
 
 .desktop-family-image-div {
   display: none;
+}
+
+.image-avioneta-container-mobile img {
+  height: 155px;
+}
+
+.image-avioneta-container-mobile {
+  height: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .detox-home-container-desktop {
@@ -384,6 +624,10 @@ h3 {
   margin-bottom: 20px;
 }
 
+.section4_subheading2 {
+  margin: 0;
+}
+
 input {
   background-color: #9dc2f2d2;
   width: 47.5%;
@@ -499,6 +743,7 @@ select::placeholder {
 @media (max-width: 650px) {
   .heading_hagamos_equipo {
     font-size: 2.2rem;
+    text-align: center;
   }
   .span-banner-pilotos {
     font-family: "Raleway", sans-serif;
@@ -801,6 +1046,28 @@ footer nav {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #tower-mobile-image {
+    display: none;
+  }
+  #tower-desktop-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .banner-asesores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tower-mobile-image {
+    display: none;
+  }
+  .banner-asesores {
+    margin: 0px;
+  }
   .tenor-medium-70px {
     font-size: 70px;
     font-family: "Tenor Sans", sans-serif;
@@ -997,10 +1264,20 @@ footer nav {
   #nuestro-pilar-educativo {
     margin-bottom: 5px;
   }
+  #tower-desktop-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .banner-pilotos {
     background-color: green;
   }
   .banner-pilotos {
+    width: 100%;
+    height: 311px;
+    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+  }
+  .banner-asesores {
     width: 100%;
     height: 311px;
     background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
@@ -1015,6 +1292,40 @@ footer nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    position: relative;
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+  }
+  .image-avioneta-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .container-banner-aliados {
+    width: 60%;
+    max-width: 1040px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 255px;
+  }
+  .banner-aliados {
+    width: 100%;
+    height: 311px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .banner-pilotos {
     width: 100%;
@@ -1048,9 +1359,12 @@ footer nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .asesor-placeholder {
+    padding: 0px 25px 0px 25px;
   }
   .pilotos-banner-heading {
     font-size: 45px;
@@ -1079,6 +1393,10 @@ footer nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .quote-paragraph-pilotos {
     font-size: 22px;
@@ -1114,6 +1432,150 @@ footer nav {
     padding-top: 20px;
   }
   .row-asesores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .heading_hagamos_equipo {
+    width: 600px;
+    text-align: center;
+  }
+  .container-seccion-pilotos {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-seccion-asesores {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 80px;
+  }
+  .row-asesores {
+    margin-top: 50px;
+  }
+  .row-pilotos {
+    margin-top: 50px;
+  }
+  .container-seccion-pilotos {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .container-pasajeros-aliados {
+    background-image: url(/styles/equipo/equipo_web/Equipo-Sunset-Web.png);
+    height: 2000px;
+    margin-top: -700px;
+    z-index: -5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .aliados-banner-heading {
+    padding-top: 0px;
+  }
+  .aliados-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .piloto-placeholder {
+    padding: 0px 25px 0px 25px;
+  }
+  .banner-aliados {
+    padding-top: 900px;
+  }
+  .dynamic-care {
+    width: 255px;
+  }
+  .zona-logo {
+    width: 236px;
+  }
+  #zona-logo {
+    width: 236px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .logo-c {
+    width: 155px;
+    height: 155px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .health-logo {
+    width: 250px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .unresonable-logo {
+    width: 315px;
+    height: 69px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .nombre-heading {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    color: #071d49;
+  }
+  .logo-linkedin {
+    width: 5px;
+    height: 5px;
+  }
+  .linkedin-container {
+    width: 10px;
+    height: 10px;
+  }
+  .posicion-heading {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    color: #5E93DB;
+  }
+  .descripcion-heading {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #071d49;
+  }
+  .image-avioneta-container-mobile {
+    display: none;
+  }
+  .image-avioneta-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

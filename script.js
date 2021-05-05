@@ -1,10 +1,10 @@
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')
-  console.log('click')
-})
+// toggleButton.addEventListener('click', () => {
+//   navbarLinks.classList.toggle('active')
+//   console.log('click')
+// })
 
 //Send Email function
 function sendEmail(name, last_name, phone, user_email, razon_visita) {

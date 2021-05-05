@@ -62,7 +62,128 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: #F5F5F5;
+}
 
+.banner-pilotos {
+  width: 100%;
+  height: 350px;
+  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+}
+
+.banner-asesores {
+  width: 100%;
+  height: 443px;
+  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+  margin-top: 30px;
+}
+
+.asesores-banner-heading {
+  font-size: 45px;
+  font-family: $Raleway;
+  color: white;
+  padding-top: 37px;
+  padding-left: 10px;
+}
+
+.asesor-placeholder {
+  padding-top: 30px;
+}
+
+.asesores-banner-heading span {
+  font-size: 45px;
+  font-family: $Raleway;
+  font-weight: 900;
+  color: $darkBlue;
+  display: block; 
+}
+
+.paragraph-asesores {
+  padding-left: 10px;
+}
+
+.container-pasajeros-aliados {
+  background-image: url(/styles/equipo/equipo_web/Croped_BACK2x.png);
+  height: 2000px;
+  margin-top: -900px;
+  z-index: -5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.paragraph-asesores {
+  font-size: 25px;
+  color: $darkBlue;
+  font-weight: 400;
+}
+
+.container-banner-asesores {
+  position: relative;
+
+}
+
+.nombre-heading {
+  font-size: 20px;
+  font-family: $Raleway;
+  font-weight: 900;
+  color: $darkBlue;
+}
+
+.posicion-heading {
+  font-size: 20px;
+  font-family: $Raleway;
+  font-weight: 900;
+  color: $lightBlue;
+}
+
+.descripcion-heading {
+  font-size: 20px;
+  font-family: $Raleway;
+  font-weight: 400;
+  color: $darkBlue;
+}
+
+#tower-mobile-image {
+  position: absolute;
+  top: 153;
+  left: 120;
+  height: 290;
+}
+
+#tower-desktop-image {
+  display: none;
+}
+
+.row-pilotos {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-asesores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.piloto-placeholder {
+  align-self: center;
+  padding-top: 30px;
+}
+
+.container-seccion-pilotos {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-banner-asesore {
+  margin-top: 30px;
 }
 
 // Navbar Logo Avioneta
@@ -72,11 +193,85 @@ a {
   margin-top: 28px;
 }
 
+.aliados-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zona-logo {
+  height: 177px;
+  width: 236px;
+}
+
+.dynamic-care {
+  width: 155px;
+}
+
+.logo-c {
+  width: 155px;
+}
+
+.health-logo {
+  width: 238px;
+}
+
+.unresonable-logo {
+  width: 315px;
+}
+
+.heading_hagamos_equipo {
+  width: 300px; 
+}
+
+.section4_subheading2 {
+  font-size: 20px;
+  font-family: $Raleway;
+  font-weight: 400px;
+}
+
+#section4_subheading2 {
+  font-size: 20px;
+  font-family: $Raleway;
+  font-weight: 400px;
+  color: $darkBlue;
+  text-align: center;
+}
+
 .pilotos-banner-heading {
+  padding-top: 12px;
+  padding-left: 15px;
   font-size: 45px;
   font-family: "Raleway", sans-serif;
   color: white;
+  font-weight: 400;
+}
+
+.aliados-banner-heading {
+  padding-top: 1050px;
+  padding-left: 15px;
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.paragraph-pilotos {
+  font-family: $Raleway;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.quote-paragraph-pilotos {
+  padding-top: 32px;
+  padding-left: 15px;
+  font-family: $Raleway;
   font-weight: 900;
+}
+
+.quote-paragraph-pilotos span {
+  font-weight: 400;
+  font-style: italic;
 }
 
 .span-banner-pilotos{
@@ -149,6 +344,10 @@ a {
   color: #081E48;
 }
 
+.image-avioneta-container {
+  display: none;
+}
+
 //detox-paragraph-pilar
 .detox-paragraph-pilar {
   margin-top: 16px;
@@ -164,6 +363,16 @@ a {
 
 .desktop-family-image-div {
   display: none;
+}
+
+.image-avioneta-container-mobile img {
+  height: 155px;
+}
+
+.image-avioneta-container-mobile {
+  height: 155px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .detox-home-container-desktop{
@@ -345,6 +554,10 @@ a {
   margin-bottom: 20px;
 }
 
+.section4_subheading2 {
+  margin: 0;
+}
+
 input {
   background-color: $superlightblue;
   width: 47.5%;
@@ -422,13 +635,13 @@ select::placeholder {
 @media (max-width: 650px) {
 .heading_hagamos_equipo {
   font-size: 2.2rem;
+  text-align: center;
   }
   
   .span-banner-pilotos{
     font-family: $Raleway;
     color: $darkBlue;
   }
-
 
 .section4_subheading2 {
   font-size: 20px;
@@ -691,6 +904,27 @@ align-items: center;
   justify-content: center;
 }
 
+#tower-mobile-image {
+  display: none;
+}
+
+#tower-desktop-image {
+  display: flex;
+}
+
+.banner-asesores {
+  display: flex;
+  justify-content: center;
+}
+
+.tower-mobile-image {
+  display: none;
+}
+
+.banner-asesores {
+  margin: 0px;
+}
+
 // Font Classes Desktop
 .tenor-medium-70px {
   font-size: 70px;
@@ -876,6 +1110,10 @@ align-items: center;
   margin-bottom: 5px;
 }
 
+#tower-desktop-image {
+  display: flex;
+}
+
 .banner-pilotos {
   background-color: green;
 }
@@ -886,12 +1124,41 @@ align-items: center;
   background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
 }
 
+.banner-asesores {
+  width: 100%;
+  height: 311px;
+  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+}
+
   .container-banner-pilotos {
     width: 60%;
     max-width: 1040px;
     display: flex;
     flex-direction: row;
+    position: relative;
+    flex: 5;
   }
+
+  .image-avioneta-container {
+    flex: 1;
+    align-self: center;
+  }
+
+  .container-banner-aliados {
+    width: 60%;
+    max-width: 1040px;
+    display: flex;
+    flex-direction: row;
+    height: 255px;
+  }
+
+  .banner-aliados {
+    width: 100%;
+    height: 311px;
+    display: flex;
+    justify-content: center;
+  }
+  
   
   .banner-pilotos {
     width: 100%;
@@ -914,8 +1181,12 @@ align-items: center;
     max-width: 1040px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     
+  }
+
+  .asesor-placeholder {
+    padding: 0px 25px 0px 25px;
   }
 
   .pilotos-banner-heading {
@@ -947,6 +1218,7 @@ align-items: center;
 
   .row-pilotos {
     display: flex;
+    flex-direction: row;
   }
 
   .quote-paragraph-pilotos {
@@ -989,8 +1261,138 @@ align-items: center;
 
   .row-asesores {
     display: flex;
+    display: flex;
+    flex-direction: row;
   }
 
+  .heading_hagamos_equipo {
+    width: 600px;
+    text-align: center;
+  }
+
+  .container-seccion-pilotos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-seccion-asesores {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .row-asesores {
+    margin-top: 50px;
+  }
+
+  .row-pilotos {
+    margin-top: 50px;
+  }
+
+  .container-seccion-pilotos {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .container-pasajeros-aliados {
+    background-image: url(/styles/equipo/equipo_web/Equipo-Sunset-Web.png);
+    height: 2000px;
+    margin-top: -700px;
+    z-index: -5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aliados-banner-heading {
+    padding-top: 0px;
+  }
+
+  .aliados-row {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .piloto-placeholder {
+    padding: 0px 25px 0px 25px;
+  }
+
+  .banner-aliados {
+    padding-top: 900px;
+  }
+
+  .dynamic-care {
+    width: 255px;
+  }
+
+  .zona-logo {
+    width: 236px;
+    
+  }
+
+  #zona-logo {
+    width: 236px;
+    align-self: center;
+  }
+
+  .logo-c {
+    width: 155px;
+    height: 155px;
+    align-self: center;
+  }
+
+  .health-logo {
+    width: 250px;
+    align-self: center;
+  }
+
+  .unresonable-logo {
+    width: 315px;
+    height: 69px;
+    align-self: center;
+  }
+
+  .nombre-heading {
+    font-size: 20px;
+    font-family: $Raleway;
+    font-weight: 900;
+    color: $darkBlue;
+  }
+
+  .logo-linkedin {
+    width: 5px;
+    height: 5px;
+  }
+
+  .linkedin-container {
+    width: 10px;
+    height: 10px;
+  }
+
+  .posicion-heading {
+    font-size: 20px;
+    font-family: $Raleway;
+    font-weight: 900;
+    color: $lightBlue;
+  }
+
+  .descripcion-heading {
+    font-size: 20px;
+    font-family: $Raleway;
+    font-weight: 400;
+    color: $darkBlue;
+  }
+
+  .image-avioneta-container-mobile {
+    display: none;
+  }
+
+  .image-avioneta-container {
+    display: flex;
+  }
 }
 
 
