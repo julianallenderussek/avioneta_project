@@ -338,6 +338,10 @@ a {
   align-self: center;
 }
 
+.runner-desktop {
+  background-color: none;
+}
+
 .paragraph-pilar-medico {
   margin-left: 10px;
   font-size: 20px;
@@ -357,7 +361,6 @@ a {
 
 .pilar-psicotrapeutico-container {
   background-image: url(../detox/assets_detox/mountain.png);
-  background-color:#5E93DB;
   width: 100%;
   height: 1359px;
   display: flex;
@@ -521,6 +524,10 @@ select::placeholder {
   margin-right: 50px;
 }
 
+#imagen-ansiedad {
+  height: 400px;
+}
+
 .datos-contacto-bold {
   font-weight: 900;
   font-family: $Raleway;
@@ -631,7 +638,7 @@ footer nav {
   display: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1500px) {
   .nav-mobile {
     display: none;
   
@@ -743,7 +750,7 @@ align-items: center;
 }
 
 .paragraph-pilar-medico {
-  width: 60%;
+  width: 600px;
   max-width: 1140px;
   margin: auto;
   font-size: 25px;
@@ -882,7 +889,7 @@ align-items: center;
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: $lightBlue;
+  
 }
 
 .image-runner-mobile {
@@ -890,10 +897,11 @@ align-items: center;
 }
 
 .desktop-row {
-  width: 60%;
+  width: 1000px;
   max-width: 1140px;
   display: flex;
   flex-direction: row;
+  padding-left: 200px;
 }
 
 .container-heading-center-left {
@@ -906,10 +914,10 @@ align-items: center;
 }
 
 .depresion-texto-desktop{
-  position: absolute;
-  top: 230px;
-  left: 790px;
-  max-width: 700px;
+    position: absolute;
+    top: 190px;
+    left: 900px;
+    max-width: 800px;
 }
 .paragraph-runner-foto{
   font-size: 25px;
@@ -925,9 +933,9 @@ align-items: center;
 
 .width-div {
   position: absolute;
-  max-width: 790px;
+  max-width: 470px;
   top: 100px;
-  left: 500px; 
+  left: 50px;
 }
 
 #sabias-que-el {
@@ -957,6 +965,7 @@ align-items: center;
   position: relative;
   margin-bottom: 5px;
   top: -150;
+  
 }
 
 #pilar-educativo-heading-desktop {
@@ -993,4 +1002,533 @@ align-items: center;
 
 }
 
+
+
+
+
+
+//Desktop GRANDE
+@media (max-width: 1500px) {
+
+  // Codigo pagina
+  .banner-pilotos {
+    width: 100%;
+    background-color: green;
+    background-image: url(/styles/equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    height: 311px;
+  }
+
+
+
+  .heading_hagamos_equipo {
+  font-size: 2.2rem;
+  }
+
+.section4_subheading2 {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: $darkBlue;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.datos-contacto-bold {
+  font-weight: 900;
+  font-family: $Raleway;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+}
+
+  input {
+    background-color: #5E93DB;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .select {
+    background-color: #5E93DB;
+    border-radius: 2rem;
+    
+  } 
+
+}
+
+.main-footer {
+  background: $white;
+  padding: 20px 5px 0px 5px;
+  background-color: $white;
+  display: flex;
+}
+
+footer nav {
+  width: 100%;
+}
+
+.main-footer__link a {
+  color: $darkBlue;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: $lightBlue;
+}
+
+.container_aviso {
+  display: flex;
+  flex-direction: column;
+  color: $darkBlue;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.aviso_privacidad {
+  color: $lightBlue;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.avioneta_2020 {
+  margin-right: 100px;
+  flex: 2;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: $Raleway;
+  font-weight: bold;
+
+}
+
+.franja {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 50px;
+  background-color: $darkBlue;
+  margin-top: 10px;
+  padding: 0;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.franja p {
+  margin: 5px;
+  color: white;
+  font-family: $Raleway;
+  font-size: 15px;
+}
+
+.runner-desktop {
+  display:none
+}
+
+.nav-desktop {
+  display: none;
+  
+}
+
+
+//Laptop Mediana
+@media (min-width: 600px) {
+  .nav-mobile {
+    display: none;
+  
+  }
+
+  .desktop-container {
+    width: 100%;
+    height: 110px;
+    background-color: $backgroundColorLight;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-principal{
+    display: none;
+    } 
+
+  .nav-desktop {
+    width: 1000px;
+    max-width: 1140px;
+    background-color: $backgroundColorLight;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 53px;
+  }
+
+  #runner-image {
+    height: 450px;
+  }
+
+  .desktop-family-image-div {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .desktop-andsiedad-image-div img {
+    height: 350px;
+  }
+  
+  .desktop-family-image-div img {
+    height: 450px;
+  }
+
+  .nav-logo-avioneta {
+    margin: 0;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .desktop-family-image-div {
+    display:inline-block;
+  }
+  
+  .detox-home-container-desktop{
+    display: inline-block;
+    
+  }
+
+  .icons-list {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+  }
+
+  .nav-hyperlink {
+    text-decoration: none;
+    color: $lightBlue;
+  }
+
+  .nav-hyperlink-highlithed {
+    color: $darkBlue;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .detox-paragrah-image-container {
+    display: flex;
+    width: 500px;
+    background-color: #F5F5F5;
+  }
+
+  .detox-home-container-desktop {
+    padding-top: 50px ;
+    width: 600px;
+  }
+  
+  .text-container {
+    width: 600px;
+  }
+
+  .desktop-family-image {
+    background-size: 30%;
+    background: url(/styles/detox/assets_detox/family-desktop.png);
+  }
+
+.detox-home-container {
+  display: none;
+}
+
+.image-family {
+  display: none;
+}
+
+.container-paragraph-family{
+  width: 1000px;
+  max-width: 1140px;
+  margin: 30px auto;
+}
+
+.imagen-abstinencia {
+  display: none;
+}
+
+.pilar-educativo-paragraph-container {
+height: 150px;
+display: flex;
+align-items: center;
+}
+
+.paragraph-pilar-medico {
+  width: 700px;
+  max-width: 1140px;
+  margin: auto;
+  font-size: 25px;
+  font-family: $Raleway;
+  color: $darkBlue;
+}
+
+.section4_subheading2 {
+  width: 60%;
+}
+
+.desktop-info-60width {
+  width: 60%;
+  height: 2000px;
+  background-color: green;
+}
+
+.mobile-info-big-container {
+  display:none;
+}
+
+.container-60per {
+  width: 60%;
+}
+
+.container-julls{
+  width: 1000px;
+  max-width: 1140px;
+  display: flex;
+}
+
+.detox-paragrah-image-container {
+  background-color: $backgroundColorLight;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+// Font Classes Desktop
+.tenor-medium-70px {
+  font-size: 70px;
+  font-family: $Tenor;
+}
+
+.raleway-medium-25px {
+  font-size: 25px;
+  font-family: $Raleway;
+}
+
+.raleway-regular-25px {
+  font-size: 15px;
+  font-family: $Raleway;
+  font-weight: 400;
+}
+
+.nav-links {
+  font-size: 15px;
+  font-family: $Raleway;
+  font-weight: 400;
+  &:hover {
+    font-weight: bold;
+    color: $darkBlue;
+  }
+}
+
+.nav-hyperlink-highlithed {
+  font-weight: bold;
+}
+
+.flex-end {
+  justify-self: flex-end;
+}
+
+.desktop-info-big-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pilares-desktop {
+    margin-left: 10px;
+    color: #081E48;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.aqui_entra_desktop{
+    color: white;
+    padding-top: 40px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container-julls-column {
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: center;
+
+}
+
+.container-deperesion-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 80px;
+  position: relative;
+  background-color: $lightBlue;
+}
+
+.depresion-texto-desktop {
+  font-size: 25px;
+  font-family: $Raleway;
+  font-weight: 400;
+  color: white; 
+}
+
+.desktop-circle-paragraph-container {
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  
+}
+
+.pilares-mobil-todo{
+  display: none;
+}
+
+.runner-desktop {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+.image-runner-mobile {
+  display: none;
+}
+
+.desktop-row {
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-heading-center-left {
+  max-width: 1140px;
+  width: 60%;
+}
+
+.container-deperesion-desktop{
+  position: relative;
+}
+
+.depresion-texto-desktop{
+  position: absolute;
+  top: 110px;
+  left: 700px;
+  max-width: 800px;
+}
+.paragraph-runner-foto{
+  font-size: 25px;
+  font-family: $Raleway;
+  font-weight: 400;
+  color: white; 
+  
+}
+
+.runner-desktop{
+  position: relative;
+}
+
+.width-div {
+  position: absolute;
+  max-width: 550px;
+  top: 100px;
+  left: 100px; 
+}
+
+#sabias-que-el {
+  color: white;
+  width: 1000px;
+}
+
+#runner-azul {
+  color: $darkBlue;
+}
+
+.desktop-pilares-heading-with-center{
+  width: 60%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+#pilar-medico-heading-desktop{
+  position: relative;
+  top: -120;
+}
+
+#margin45top {
+  margin-top: 45px;
+}
+
+#pilar-psicoterapeutico-heading-desktop {
+  position: relative;
+  margin-bottom: 5px;
+  top: -150;
+  left: -110;
+}
+
+#pilar-educativo-heading-desktop {
+  color: red;
+}
+
+#nuestro-pilar-educativo{
+  margin-bottom: 5px;
+}
+
+.background-montaña {
+  background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
+  background-size: cover;
+}
+
+.pilar-psicotrapeutico-container {
+  background-image: none;
+  background-color: none;
+
+}
+
+.datos-contacto-bold {
+  font-weight: 900;
+  font-family: $Raleway;
+  color: $darkBlue;
+}
+
+.section4_subheading2 {
+  color: $darkBlue;
+}
+
+.mobile-pagina {
+  display: none;
+}
+
+}
 
