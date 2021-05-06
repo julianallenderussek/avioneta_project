@@ -65,6 +65,10 @@ a {
 
 }
 
+#estela_desktop {
+  width: 0px;
+}
+
 // Navbar Logo Avioneta
 .nav-logo-avioneta {
   display: inline;
@@ -119,10 +123,18 @@ a {
   align-self: center;
 }
 
+.desktop-row img {
+  align-self: center;
+}
+
 /* Rotate last bar */
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+#montaña-imagen {
+  display: none;
 }
 
 .sabias-que-el {
@@ -145,6 +157,7 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   color: #081E48;
+  padding-bottom: 20px;
 }
 
 //detox-paragraph-pilar
@@ -152,6 +165,8 @@ a {
   margin-top: 16px;
   margin-left: 15px;
   font-size: 20px;
+  font-weight: 600;
+  font-family: $Raleway;
 }
 
 //detox-paragraph-indent1
@@ -172,6 +187,26 @@ a {
 .logo-tacha {
   display: flex;
   justify-content: space-between;
+}
+
+.font-200 {
+  font-weight: 200;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.bold-600 {
+  font-weight: 600;
+}
+
+.bold-700 {
+  font-weight: 600;
 }
 
 .tacha {
@@ -240,7 +275,7 @@ a {
   padding: 15px 10px 15px 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   color: #081E48;
 }
 
@@ -309,7 +344,7 @@ a {
   background-color: #5E93DB;
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px
+  padding-bottom: 20px
 }
 
 .heading-3-pilar-medico {
@@ -318,7 +353,7 @@ a {
   margin-left: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 350;
 }
 
 .heading-2-pilar-medico {
@@ -326,7 +361,7 @@ a {
   color: #081E48;
   font-family: 'Raleway', sans-serif;
   font-size: 45px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .circle { 
@@ -374,7 +409,7 @@ a {
   margin-left: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 350;
   
 }
 
@@ -386,7 +421,7 @@ a {
   color: #081E48;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .pilar-educativo-paragraph-container {
@@ -412,13 +447,13 @@ a {
   margin-top: 3rem;
   margin-bottom: 10px;
   font-family: $Raleway;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .section4_subheading2 {
   font-size: 25px;
   font-family: $Raleway;
-  font-weight: 600;
+  font-weight: 400;
   color: $lightBlue;
   margin-right: 50px;
   margin-left: 50px;
@@ -426,13 +461,14 @@ a {
 }
 
 input {
-  background-color: $superlightblue;
+  background-color: #5E93DB;
   width: 47.5%;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   height: 2rem;
   padding-left: 1rem;
   border: none;
+  border-radius: 2rem;
   color: $darkBlue;
 }
 
@@ -471,6 +507,7 @@ select::placeholder {
 
 .blue {
   color: $darkBlue;
+  font-weight: 600;
 }
 
 .btn-contact {
@@ -513,6 +550,7 @@ select::placeholder {
 
   .heading_hagamos_equipo {
   font-size: 2.2rem;
+  font-weight: 600;
   }
 
 .section4_subheading2 {
@@ -545,9 +583,14 @@ select::placeholder {
 
   input {
     background-color: #5E93DB;
-    margin-top: 10px;
-    width: 100%;
+    width: 47.5%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    border: none;
     border-radius: 2rem;
+    color: #071d49;
   }
 
   .select {
@@ -595,6 +638,7 @@ footer nav {
   margin: auto;
   text-decoration: none;
   opacity: 1;
+  font-weight: 100;
 }
 
 .avioneta_2020 {
@@ -606,7 +650,7 @@ footer nav {
   margin-bottom: 10px;
   font-size: 15px;
   font-family: $Raleway;
-  font-weight: bold;
+  font-weight: 500;
 
 }
 
@@ -641,7 +685,6 @@ footer nav {
 @media (min-width: 1500px) {
   .nav-mobile {
     display: none;
-  
   }
 
   .desktop-container {
@@ -690,7 +733,6 @@ footer nav {
   .icons-list {
     display: flex;
     flex-direction: row;
-    background-color: green;
   }
 
   .nav-hyperlink {
@@ -756,6 +798,14 @@ align-items: center;
   font-size: 25px;
   font-family: $Raleway;
   color: $darkBlue;
+}
+
+.paragraph-pilar-medico {
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 30px 10px 30px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
 }
 
 .section4_subheading2 {
@@ -870,7 +920,7 @@ align-items: center;
 .depresion-texto-desktop {
   font-size: 25px;
   font-family: $Raleway;
-  font-weight: 400;
+  font-weight: 250;
   color: white; 
 }
 
@@ -940,6 +990,7 @@ align-items: center;
 
 #sabias-que-el {
   color: white;
+  font-weight: 200;
 }
 
 .desktop-pilares-heading-with-center{
@@ -978,6 +1029,7 @@ align-items: center;
 
 .background-montaña {
   background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
+
 }
 
 .pilar-psicotrapeutico-container {
@@ -1018,10 +1070,15 @@ align-items: center;
     height: 311px;
   }
 
+  #runner-image {
+    max-height: 800px;
+  }
+
 
 
   .heading_hagamos_equipo {
   font-size: 2.2rem;
+  font-weight: 600;
   }
 
 .section4_subheading2 {
@@ -1111,7 +1168,7 @@ footer nav {
   margin-bottom: 10px;
   font-size: 15px;
   font-family: $Raleway;
-  font-weight: bold;
+  font-weight: 500;
 
 }
 
@@ -1149,7 +1206,15 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
-  
+  }
+
+  .bold-500 {
+    font-weight: 600;
+  }
+
+  #montaña-imagen {
+    display: block;
+    width: 100%;
   }
 
   .desktop-container {
@@ -1176,7 +1241,26 @@ footer nav {
   }
 
   #runner-image {
-    height: 450px;
+    max-height: 400px;
+  }
+
+
+  #facebook_position {
+    position: relative;
+  }
+
+  #facebook-image {
+    position: absolute;
+    top: -2px;
+    left: 7px;
+  }
+
+  .icons-list li {
+    width: 10px;
+  }
+
+  .icons-list li a {
+    max-width: 100%;
   }
 
   .desktop-family-image-div {
@@ -1202,6 +1286,7 @@ footer nav {
     margin-left: 80px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
   }
 
   .desktop-family-image-div {
@@ -1210,14 +1295,19 @@ footer nav {
   
   .detox-home-container-desktop{
     display: inline-block;
+    padding-right: 50px;
+    padding-bottom: 50px;
     
   }
 
   .icons-list {
     display: flex;
     flex-direction: row;
-    background-color: green;
+    width: 110px;
+    justify-content: space-between;
   }
+
+  
 
   .nav-hyperlink {
     text-decoration: none;
@@ -1395,7 +1485,7 @@ align-items: center;
 .depresion-texto-desktop {
   font-size: 25px;
   font-family: $Raleway;
-  font-weight: 400;
+  font-weight: 250;
   color: white; 
 }
 
@@ -1457,9 +1547,10 @@ align-items: center;
 
 .width-div {
   position: absolute;
-  max-width: 550px;
-  top: 100px;
-  left: 100px; 
+    max-width: 600px;
+    top: 20px;
+    left: 100px;
+    width: 50%;
 }
 
 #sabias-que-el {
@@ -1505,9 +1596,23 @@ align-items: center;
   margin-bottom: 5px;
 }
 
+#estela_desktop {
+  width: 90%;
+  position: absolute;
+  left: 10%;
+}
+
 .background-montaña {
   background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
   background-size: cover;
+  background: rgb(237, 153, 86);
+  background: linear-gradient(
+    0deg,
+    rgba(237, 153, 86, 1) 0%,
+    rgba(169, 164, 178, 1) 50%,
+    rgba(94, 147, 219, 1) 100%
+  );
+  position: relative;
 }
 
 .pilar-psicotrapeutico-container {
