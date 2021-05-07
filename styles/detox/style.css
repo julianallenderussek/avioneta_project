@@ -387,7 +387,7 @@ h3 {
 }
 
 #montana_destkop {
-  width: 0px;
+  display: none;
 }
 
 .heading-3-pilar-medico {
@@ -1351,6 +1351,9 @@ footer nav {
   .bold-500 {
     font-weight: 600;
   }
+  #montana_destkop {
+    display: block;
+  }
   .desktop-container {
     width: 100%;
     height: 110px;
@@ -1761,6 +1764,7 @@ footer nav {
   }
   .pilar-psicotrapeutico-container {
     background-color: none;
+    background-image: none;
   }
   .datos-contacto-bold {
     font-weight: 900;

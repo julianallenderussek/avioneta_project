@@ -348,7 +348,7 @@ a {
 }
 
 #montana_destkop {
-  width: 0px;
+  display: none;
 }
 
 .heading-3-pilar-medico {
@@ -1218,7 +1218,9 @@ footer nav {
     font-weight: 600;
   }
 
-  
+  #montana_destkop {
+    display: block;
+  }  
 
   .desktop-container {
     width: 100%;
@@ -1620,6 +1622,7 @@ align-items: center;
 
 .pilar-psicotrapeutico-container {
   background-color: none;
+  background-image: none;
 
 }
 
