@@ -134,7 +134,8 @@ a {
 }
 
 #montaña-imagen {
-  display: none;
+  display: block;
+  width: 100%;
 }
 
 .sabias-que-el {
@@ -538,6 +539,9 @@ select::placeholder {
 
 @media (max-width: 650px) {
 
+  #montaña-imagen {
+    display: none;
+  }
   // Codigo pagina
   .banner-pilotos {
     width: 100%;
@@ -1212,10 +1216,7 @@ footer nav {
     font-weight: 600;
   }
 
-  #montaña-imagen {
-    display: block;
-    width: 100%;
-  }
+  
 
   .desktop-container {
     width: 100%;
