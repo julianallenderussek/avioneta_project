@@ -36,11 +36,42 @@ function sendEmail(name, last_name, phone, user_email, razon_visita) {
     message => alert('Gracias por contactarnos, un correo fue enviado a tu mail')
   );
   console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
+
+  Email.send({
+    Host: "smtp.gmail.com",
+    Username: "ffuentesdelaparra@gmail.com",
+    Password: "mschbavemdoqhfng",
+    // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
+    To: `contacto@avioneta.org`,
+    From: "contacto@avioneta.org",
+    Subject: `Avioneta Contacto: ${name} gracias por ponerte en contacto`,
+    Body: `Estimado: ${name}:<br/>
+     Muchas gracias por contactarnos. <br/>
+     Uno de nuestros agentes se pondra en contacto contigo enseguida. <br/>Gracias por dejarnos tus datos, por favor verifica si son correctos.<br/> 
+     Sino nos puedes escribir al siguiente numéro. 8124486070 <br/>
+     <br/>
+    
+    Nombre: ${name}
+    <br/>
+    Apellido: ${last_name}
+    <br/>
+    Email: ${user_email}
+    <br/>
+    Razón Vista: ${razon_visita}
+    <br/>
+    Télefono: ${phone}
+    <br/>`,
+  }).then(
+    message => alert('Gracias por contactarnos, un correo fue enviado a tu mail')
+  );
+  console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
 }
 
 
+
 //Form Validation
-function validation() {
+function validation(event) {
+  event.preventDefault()
   var name = document.getElementById('name').value
   var last_name = document.getElementById('last_name').value
   var user_email = document.getElementById('user_email').value
