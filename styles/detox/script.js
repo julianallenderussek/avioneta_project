@@ -4,6 +4,7 @@ const hamburgerButton = document.getElementById('container-hamburger')
 const navbar = document.getElementsByClassName('nav-mobile')[0]
 const dropDownMenu = document.getElementsByClassName('menu-mobile-dropdown')[0]
 const formButton = document.getElementById('buton-enviar')
+const logoAvioneta = document.getElementById('logo-azul')
 
 //Event Lisenteners
 formButton.addEventListener('click', (event) => {
@@ -18,7 +19,15 @@ const toggleMenu = () => {
   navbar.classList.toggle('dark-blue')
   dropDownMenu.classList.toggle('active')
   hamburgerButton.classList.toggle('closebutton')
+  
+  // if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png') {
+  //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png'
+  // } else if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png') {
+  //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png'
+  // }
 }
+
+
 
 //Send Email function
 function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna') {

@@ -124,6 +124,10 @@ h3 {
   transition: 0.4s;
 }
 
+.logo-avioneta-mobile {
+  width: 112;
+}
+
 /* Rotate first bar */
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
