@@ -58,10 +58,15 @@ body {
   margin: 0;
   font-family: Helvetica, sans-serif;
   background-color: white;
+  overflow-x: hidden;
 }
 
 a {
   color: #000;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .nav-mobile {
@@ -106,6 +111,11 @@ a {
 
 .asesor-placeholder {
   padding-top: 30px;
+  width: 230px;
+}
+
+.svg-linkedin {
+  fill: #071d49;
 }
 
 .asesores-banner-heading span {
@@ -568,21 +578,19 @@ a {
 }
 
 .heading-3-pilar-psicotrapeutico {
-  color: white;
   font-size: 20px;
   padding-top: 40px;
   margin-left: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
   font-weight: 600;
+  color: #071d49;
 }
 
 .heading-2-pilar-psicotrapeutico {
-  color: #081E48;
   font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
-  color: #081E48;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 900;
@@ -901,6 +909,9 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
+  }
+  .heading-3-pilar-psicotrapeutico {
+    color: white;
   }
   .desktop-container {
     width: 100%;
@@ -1470,6 +1481,7 @@ footer nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    z-index: 1;
   }
   .heading_hagamos_equipo {
     width: 600px;
