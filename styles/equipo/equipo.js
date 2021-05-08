@@ -7,7 +7,28 @@ const placeholderDessGaltan = document.getElementById('danybecerra-div')
 const placeholderDanyBecerra = document.getElementById('danybecerra-div')
 const placeholderTreehouse = document.getElementById('treehouse-div')
 
+// Get Elements
+const hamburgerButton = document.getElementById('container-hamburger')
+const navbar = document.getElementsByClassName('nav-mobile')[0]
+const dropDownMenu = document.getElementsByClassName('menu-mobile-dropdown')[0]
+const formButton = document.getElementById('buton-enviar')
+const logoAvioneta = document.getElementById('logo-azul')
+
+//Functions
+const toggleMenu = () => {
+  console.log('toggling')
+  navbar.classList.toggle('dark-blue')
+  dropDownMenu.classList.toggle('active')
+  hamburgerButton.classList.toggle('closebutton')
   
+  // if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png') {
+  //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png'
+  // } else if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png') {
+  //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png'
+  // }
+}
+
+
   
 placeholderFernando.addEventListener('click', (event) => {
   event.preventDefault();
