@@ -6,6 +6,10 @@ const dropDownMenu = document.getElementsByClassName('menu-mobile-dropdown')[0]
 const formButton = document.getElementById('buton-enviar')
 const logoAvioneta = document.getElementById('logo-azul')
 
+const menuBar1 = document.getElementsByClassName('bar1')[0]
+const menuBar2 = document.getElementsByClassName('bar2')[0]
+const menuBar3 = document.getElementsByClassName('bar3')[0]
+
 //Event Lisenteners
 formButton.addEventListener('click', (event) => {
   event.preventDefault()
@@ -19,6 +23,9 @@ const toggleMenu = () => {
   navbar.classList.toggle('dark-blue')
   dropDownMenu.classList.toggle('active')
   hamburgerButton.classList.toggle('closebutton')
+  menuBar1.classList.toggle('background-white')
+  menuBar2.classList.toggle('background-white')
+  menuBar3.classList.toggle('background-white')
   
   // if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png') {
   //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png'

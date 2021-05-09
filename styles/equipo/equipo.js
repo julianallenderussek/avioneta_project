@@ -1,5 +1,15 @@
+
+
+/// Navbar ---- Begin ----
+// Get Elements
+const hamburgerButton = document.getElementsByClassName('container-hamburger')[0]
+const navbar = document.getElementsByClassName('nav-mobile')[0]
+const dropDownMenu = document.getElementsByClassName('menu-mobile-dropdown')[0]
+const formButton = document.getElementById('buton-enviar')
+const logoAvioneta = document.getElementById('logo-azul')
 const carruselEquipo = document.getElementsByClassName('carrussel-equipo-desktop')[0]
 
+//Get Elements Equipo Palce Holders
 const placeholderFernando = document.getElementById('fernando-div')
 const placeholderDrLuis = document.getElementById('luisdiaz-div')
 const placeholderJoseArredondo = document.getElementById('josearredondo-div')
@@ -7,12 +17,9 @@ const placeholderDessGaltan = document.getElementById('danybecerra-div')
 const placeholderDanyBecerra = document.getElementById('danybecerra-div')
 const placeholderTreehouse = document.getElementById('treehouse-div')
 
-// Get Elements
-const hamburgerButton = document.getElementById('container-hamburger')
-const navbar = document.getElementsByClassName('nav-mobile')[0]
-const dropDownMenu = document.getElementsByClassName('menu-mobile-dropdown')[0]
-const formButton = document.getElementById('buton-enviar')
-const logoAvioneta = document.getElementById('logo-azul')
+const menuBar1 = document.getElementsByClassName('bar1')[0]
+const menuBar2 = document.getElementsByClassName('bar2')[0]
+const menuBar3 = document.getElementsByClassName('bar3')[0]
 
 //Functions
 const toggleMenu = () => {
@@ -20,6 +27,9 @@ const toggleMenu = () => {
   navbar.classList.toggle('dark-blue')
   dropDownMenu.classList.toggle('active')
   hamburgerButton.classList.toggle('closebutton')
+  menuBar1.classList.toggle('background-white')
+  menuBar2.classList.toggle('background-white')
+  menuBar3.classList.toggle('background-white')
   
   // if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png') {
   //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png'
@@ -28,6 +38,9 @@ const toggleMenu = () => {
   // }
 }
 
+
+/// Navbar --- END----
+hamburgerButton.addEventListener('click', toggleMenu)
 
   
 placeholderFernando.addEventListener('click', (event) => {
