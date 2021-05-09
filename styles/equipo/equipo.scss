@@ -154,7 +154,7 @@ html {
 .asesores-banner-heading span {
   font-size: 45px;
   font-family: $Raleway;
-  font-weight: 900;
+  font-weight: 700;
   color: $darkBlue;
 }
 
@@ -186,7 +186,7 @@ html {
 .paragraph-asesores {
   font-size: 25px;
   color: $darkBlue;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
@@ -198,14 +198,14 @@ html {
 .nombre-heading {
   font-size: 20px;
   font-family: $Raleway;
-  font-weight: 900;
+  font-weight: 600;
   color: $darkBlue;
 }
 
 .posicion-heading {
   font-size: 20px;
   font-family: $Raleway;
-  font-weight: 900;
+  font-weight: 600;
   color: $lightBlue;
 }
 
@@ -316,7 +316,7 @@ html {
   font-size: 45px;
   font-family: "Raleway", sans-serif;
   color: white;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .aliados-banner-heading {
@@ -332,13 +332,14 @@ html {
   font-family: $Raleway;
   font-size: 20px;
   padding-left: 15px;
+  font-weight: 300;
 }
 
 .quote-paragraph-pilotos {
   padding-top: 32px;
   padding-left: 15px;
   font-family: $Raleway;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .quote-paragraph-pilotos span {
@@ -350,7 +351,7 @@ html {
   font-size: 45px;
   font-family: "Raleway", sans-serif;
   color: $darkBlue;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 // Hamburger Menu Icon
@@ -614,17 +615,21 @@ html {
   margin-top: 3rem;
   margin-bottom: 10px;
   font-family: $Raleway;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .section4_subheading2 {
   font-size: 25px;
   font-family: $Raleway;
-  font-weight: 600;
+  font-weight: 300;
   color: $lightBlue;
   margin-right: 50px;
   margin-left: 50px;
   margin-bottom: 20px;
+}
+
+.section4_subheading2 span {
+  font-weight: 500;
 }
 
 .section4_subheading2 {
@@ -719,7 +724,7 @@ select::placeholder {
 .section4_subheading2 {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   color: #5e8ed6;
   margin-left: 50px;
   margin-right: 50px;
@@ -787,6 +792,7 @@ footer nav {
   margin: auto;
   text-decoration: none;
   opacity: 1;
+  font-weight: 100;
 }
 
 .avioneta_2020 {
@@ -798,7 +804,7 @@ footer nav {
   margin-bottom: 10px;
   font-size: 15px;
   font-family: $Raleway;
-  font-weight: bold;
+  font-weight: 500;
 
 }
 
@@ -1294,7 +1300,7 @@ align-items: center;
     font-size: 45px;
     font-family: "Raleway", sans-serif;
     color: white;
-    font-weight: 600;
+    font-weight: 300;
     padding-top: 60px;
   }
   
@@ -1302,7 +1308,7 @@ align-items: center;
     font-size: 45px;
     font-family: "Raleway", sans-serif;
     color: $darkBlue;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   .paragraph-pilotos {
@@ -1310,6 +1316,7 @@ align-items: center;
     font-family: "Raleway", sans-serif;
     color: $darkBlue;
     padding-top: 25px;
+    font-weight: 300;
   }
 
   .separating-line {
@@ -1326,7 +1333,7 @@ align-items: center;
     font-size: 22px;
     font-family: "Raleway", sans-serif;
     color: $darkBlue;
-    font-weight: 900;
+    font-weight: 700;
     padding-top: 20px;
   }
 
@@ -1334,7 +1341,7 @@ align-items: center;
     font-size: 45px;
     font-family: "Raleway", sans-serif;
     color: white;
-    font-weight: 600;
+    font-weight: 300;
     padding-top: 60px;
   }
   
@@ -1342,7 +1349,7 @@ align-items: center;
     font-size: 45px;
     font-family: "Raleway", sans-serif;
     color: $darkBlue;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   .paragraph-asesores {
@@ -1461,7 +1468,7 @@ align-items: center;
   .nombre-heading {
     font-size: 20px;
     font-family: $Raleway;
-    font-weight: 900;
+    font-weight: 600;
     color: $darkBlue;
   }
 
@@ -1478,7 +1485,7 @@ align-items: center;
   .posicion-heading {
     font-size: 20px;
     font-family: $Raleway;
-    font-weight: 900;
+    font-weight: 600;
     color: $lightBlue;
   }
 

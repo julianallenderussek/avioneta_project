@@ -48,10 +48,12 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
     Subject: `Estimado ${name} gracias por tu interés en AVIONETA`,
     Body: `Estimado: ${name}:<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
+    <br/>
     Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.
-
+    <br/>
     De cualquier forma, te dejamos nuestro Whatsapp: +1 (415) 326-4326 <br/>
     Con cariño, <br/>
+    <br/>
     El equipo AVIONETA`,
   }).then(
     message => alert('Gracias por contactarnos, un correo fue enviado a tu mail')
@@ -70,8 +72,9 @@ function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ningu
     Subject: `${name} gracias por tu interés en AVIONETA`,
     Body: `Estimado: ${name}:<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
-    Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.
-
+    <br/>
+    Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.<br/>
+    <br/>
     De cualquier forma, te dejamos nuestro Whatsapp: +1 (415) 326-4326 <br/>
     Con cariño, <br/>
     El equipo AVIONETA
