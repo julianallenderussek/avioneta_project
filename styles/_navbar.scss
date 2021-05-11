@@ -24,7 +24,11 @@ flex-direction: row;
 }
 
 .navbar-image {
-width: 50%;
+width: 240px;
+}
+
+.brand-title {
+  width: 50%;
 }
 
 .navbar-links {
@@ -106,6 +110,10 @@ width: 50%;
       display: none;
       width: 100%;
   }
+
+  .navbar-image {
+    width: 120px;
+    }
 
   .navbar-links ul {
       width: 100%;

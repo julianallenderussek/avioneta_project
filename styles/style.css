@@ -43,6 +43,10 @@ h3 {
 }
 
 .navbar-image {
+  width: 240px;
+}
+
+.brand-title {
   width: 50%;
 }
 
@@ -152,6 +156,9 @@ h3 {
   .navbar-links {
     display: none;
     width: 100%;
+  }
+  .navbar-image {
+    width: 120px;
   }
   .navbar-links ul {
     width: 100%;
