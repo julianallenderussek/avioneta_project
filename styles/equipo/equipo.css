@@ -184,8 +184,9 @@ html {
 .asesor-placeholder {
   padding-top: 30px;
   width: 230px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .svg-linkedin {
@@ -1494,6 +1495,8 @@ footer nav {
   }
   .asesor-placeholder {
     padding: 0px 25px 0px 25px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
   }
   .pilotos-banner-heading {
     font-size: 45px;
