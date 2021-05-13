@@ -28,6 +28,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  display: flex;
+  flex-direction: column;
 }
 ol, ul {
 	list-style: none;
@@ -43,6 +45,130 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+#carrusel-continer {
+  background: $darkBlue;
+  width: 1300px;
+  height: 805px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.carrusel-content-placeholder{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.carrusel-text-placeholder {
+  display: flex;
+  flex-direction: column;
+}
+
+.carrusel-columns-palceholder {
+  display: flex;
+  flex-direction: row;
+}
+
+.carrusel-paragraph-descripcion {
+  color: $lightBlue;
+  font-family: $Raleway;
+  font-size: 24px;
+  height: 470px;
+}
+
+.svg-linkedin-carrusel {
+  fill: $white;
+}
+
+.carrusel-description-placeholder {
+  max-width: 550px;
+  padding-left: 20px;
+}
+
+.name-position-placeholder {
+  padding: 50px 0px 20px 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carrusel-footer {
+  padding: 28px 0px 10px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carrusel-icons-holder {
+  width: 25%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.span-siguiente-piloto {
+  font-family: $Raleway;
+  font-size: 24px;
+  color: $white;
+  display: inline;
+}
+
+.carrusel-close-button-div {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.heading-siguiente-piloto {
+  font-family: $Raleway;
+  font-size: 24px;
+  color: $lightBlue;
+  display: inline;
+  align-self: center;
+}
+
+.arrow-placeholder {
+  display: inline;
+  align-self: center;
+  padding-right: 45px;
+}
+
+.carrusel-columns-palceholder{
+  padding: 20px 10px 20px 30px;
+}
+
+.carrusel-title {
+  font-size: 44px;
+  font-family: $Raleway;
+  color: white;
+  font-weight: 400;
+}
+
+.carrusel-position-subtitle {
+  font-size: 24px;
+  font-family: $Raleway;
+  color: $lightBlue;
+  font-weight: 400;
+}
+
+.white-line {
+  color: white;
+  width: 92%;
+  background-color: white;
+  height: 2px;
+  align-self: center;
+}
+
+.carrusel-icons-holder {
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -1306,9 +1432,7 @@ align-items: center;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    
-    
-    
+     
   }
 
   .asesor-placeholder {

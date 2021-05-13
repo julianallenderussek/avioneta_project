@@ -33,6 +33,13 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 ol, ul {
@@ -52,6 +59,188 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+#carrusel-continer {
+  background: #071d49;
+  width: 1300px;
+  height: 805px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.carrusel-content-placeholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.carrusel-text-placeholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.carrusel-columns-palceholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.carrusel-paragraph-descripcion {
+  color: #5E93DB;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  height: 470px;
+}
+
+.svg-linkedin-carrusel {
+  fill: white;
+}
+
+.carrusel-description-placeholder {
+  max-width: 550px;
+  padding-left: 20px;
+}
+
+.name-position-placeholder {
+  padding: 50px 0px 20px 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.carrusel-footer {
+  padding: 28px 0px 10px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.carrusel-icons-holder {
+  width: 25%;
+  height: 100%;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.span-siguiente-piloto {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: white;
+  display: inline;
+}
+
+.carrusel-close-button-div {
+  height: 50px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.heading-siguiente-piloto {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: #5E93DB;
+  display: inline;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.arrow-placeholder {
+  display: inline;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-right: 45px;
+}
+
+.carrusel-columns-palceholder {
+  padding: 20px 10px 20px 30px;
+}
+
+.carrusel-title {
+  font-size: 44px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.carrusel-position-subtitle {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #5E93DB;
+  font-weight: 400;
+}
+
+.white-line {
+  color: white;
+  width: 92%;
+  background-color: white;
+  height: 2px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.carrusel-icons-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body {
