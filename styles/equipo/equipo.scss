@@ -85,7 +85,10 @@ html {
 }
 
 .carrusel-mobile-icon-row img {
-  
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .banner-pilotos {
@@ -1048,7 +1051,6 @@ footer nav {
 .carrusel-icons-holder {
   width: 25%;
   height: 100%;
-  background-color: green;
   display: flex;
   flex-direction: column;
 }
