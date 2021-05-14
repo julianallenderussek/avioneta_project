@@ -19,6 +19,8 @@ const linkedInProfile = document.getElementById('linked-in-carrusel')
 const leftArrow = document.getElementById('left-arrow')
 const rightArrow = document.getElementById('right-arrow')
 const paragraphDescription = document.getElementById('carrusel-paragraph-descripcion')
+const profileImage = document.getElementById('carrusel-profile-image')
+
 
 //Get Elements Equipo Palce Holders
 const placeholderFernando = document.getElementById('fernando-div')
@@ -83,6 +85,7 @@ const carruselHandler = (count) => {
   carruselLogo3.src = persons[count].logo3
   carruselLogo4.src = persons[count].logo4
   linkedInProfile.herf = persons[count].linkdin
+  profileImage.src =persons[count].profileimg
   //make carrusel div appear
   // add inline style position absoluto, top, left, etc.
   
@@ -93,6 +96,7 @@ const persons =
     {
       name: 'Fernando Fuentes',
       subtitle: 'Tema Builder, Solution Designer',
+      profileimg: '../styles/equipo/fernando/profile_image.png',
       logo1: '../styles/equipo/fernando/pennstate.png',
       logo2: '../styles/equipo/fernando/sunpower.png',
       logo3: '../styles/equipo/fernando/hypernet.png',
@@ -102,6 +106,7 @@ const persons =
   },
   {
     name: 'Dr. Luis Fernado Diaz',
+    profileimg: '../styles/equipo/drluis/profile_image.png',
     subtitle: 'Asesor Médico, Dir. de Salud.',
     logo1: '../styles/equipo/drluis/unam.png',
     logo2: '../styles/equipo/drluis/centro_juvenil.png',
@@ -112,33 +117,36 @@ const persons =
   },
   {
       name: 'Jose Luis',
+      profileimg: '../styles/equipo/josemanuel/profile_image.png',
       subtitle: 'Operaciones y Finanzas, Comercial',
       logo1: 'foto1',
       logo2: 'foto2',
       logo3: 'foto3',
       logo4: 'foto4',
       linkdin: 'www.linked-in.com',
-      descripcion: 'bla bla bla fernando'
+      descripcion: 'Mi título de Ingeniero Industrial me ha permitido experimentar en muchos lados durante mi carrera profesional. Empecé en Recursos Humanos porque estoy convencido de que el capital más valioso en las empresas son las personas. Después, brinqué a Finanzas porque quería entender la entraña de los negocios desde la perspectiva numérica. Más tarde, estuve en Operaciones donde aprendí algo de Administración, Finanzas, Ventas, Derecho y Project Management en las empresas. Finalmente, decidí aplicar todo ese aprendizaje en algunos emprendimientos en los que trabajé durante 4 años. <br><br> Mi experiencia me ha dado la oportunidad de observar a…'
   },
   {
     name: 'Dess Galtán',
+    profileimg: '../styles/equipo/dess/profile_image.png',
     subtitle: 'Tema Builder, Solution Designer',
     logo1: 'foto1',
     logo2: 'foto2',
     logo3: 'foto3',
     logo4: 'foto4',
     linkdin: 'www.linked-in.com',
-    descripcion: 'bla bla bla fernando'
+    descripcion: 'Soy Abogada y me apasionan los emprendimientos sociales. Estudié en el Instituto Tecnológico y de Estudios Superiores Monterrey, y ahí conocí los emprendimientos sociales. Desde entonces me hice fan del tema. Me inscribí a todos los grupos estudiantiles y ONG´s que pude para aprender más y aportar.<br><br> Tengo dos maestrías, una en la Universidad Anáhuac del Sur en Derecho de las Empresas. Quería aprender más de cómo siendo abogada podría apoyar a pequeños negocios y emprendedores. La otra en Acción Política por la Universidad Francisco de Vitoria en Madrid, España. Esta la hice porque siempre quise estudiar en el extranjero y quería que mis …'
   },
   {
     name: 'Daniela Barrera',
+    profileimg: '../styles/equipo/dany/profile_image.png',
     subtitle: 'Tema Builder, Solution Designer',
     logo1: 'foto1',
     logo2: 'foto2',
     logo3: 'foto3',
     logo4: 'foto4',
     linkdin: 'www.linked-in.com',
-    descripcion: 'bla bla bla fernando'
+    descripcion: 'Hola, soy Dany y me apasiona estudiar y comprender el comportamiento humano, razón por la cual disfruto de viajar y conocer gente nueva, y por la cual decidí estudiar Psicología Clínica. Siempre he considerado que podemos aprender haciendo y sobre todo de aquellos quienes nos rodean. Mi carrera como psicóloga la realicé en Buenos Aires, Argentina, donde tuve la oportunidad de expandir y enriquecer mi conocimiento sobre otras culturas, tanto en lo personal como en lo profesional.<br><br> Hoy en día soy candidata a un título de MBA en el Instituto Panamericano de Alta Dirección, donde he logrado fusionar mis dos pasiones: el factor humano y los negocios.'
   },
   {
     name: 'Threehouse',

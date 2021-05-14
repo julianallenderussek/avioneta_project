@@ -47,129 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-#carrusel-continer {
-  background: $darkBlue;
-  width: 1300px;
-  height: 805px;
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-}
-
-.carrusel-content-placeholder{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-}
-
-.carrusel-text-placeholder {
-  display: flex;
-  flex-direction: column;
-}
-
-.carrusel-columns-palceholder {
-  display: flex;
-  flex-direction: row;
-}
-
-.carrusel-paragraph-descripcion {
-  color: $lightBlue;
-  font-family: $Raleway;
-  font-size: 24px;
-  height: 470px;
-}
-
-.svg-linkedin-carrusel {
-  fill: $white;
-}
-
-.carrusel-description-placeholder {
-  max-width: 550px;
-  padding-left: 20px;
-}
-
-.name-position-placeholder {
-  padding: 50px 0px 20px 38px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.carrusel-footer {
-  padding: 28px 0px 10px 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.carrusel-icons-holder {
-  width: 25%;
-  height: 100%;
-  background-color: green;
-  display: flex;
-  flex-direction: column;
-}
-
-.span-siguiente-piloto {
-  font-family: $Raleway;
-  font-size: 24px;
-  color: $white;
-  display: inline;
-}
-
-.carrusel-close-button-div {
-  height: 50px;
-  width: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.heading-siguiente-piloto {
-  font-family: $Raleway;
-  font-size: 24px;
-  color: $lightBlue;
-  display: inline;
-  align-self: center;
-}
-
-.arrow-placeholder {
-  display: inline;
-  align-self: center;
-  padding-right: 45px;
-}
-
-.carrusel-columns-palceholder{
-  padding: 20px 10px 20px 30px;
-}
-
-.carrusel-title {
-  font-size: 44px;
-  font-family: $Raleway;
-  color: white;
-  font-weight: 400;
-}
-
-.carrusel-position-subtitle {
-  font-size: 24px;
-  font-family: $Raleway;
-  color: $lightBlue;
-  font-weight: 400;
-}
-
-.white-line {
-  color: white;
-  width: 92%;
-  background-color: white;
-  height: 2px;
-  align-self: center;
-}
-
-.carrusel-icons-holder {
-  display: flex;
-  flex-direction: column;
-}
 
 body {
   margin: 0;
@@ -855,6 +732,83 @@ select::placeholder {
   text-align: center;
   }
   
+  .carrusel-continer {
+    display: flex;  
+    flex-direction: column;
+    background: blueviolet;
+  }
+
+  .carrusel-footer{
+    order: -1;
+  }
+
+  .mobile-menu-flechas {
+    height: 80px;
+    background: $darkBlue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .arrow-placeholder-mobile {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+ .carrusel-close-button-div {
+  width: 35px;
+  align-items: center;
+  display: flex;
+}
+
+.carrusel-content-placeholder {
+  background: $darkBlue;
+}
+
+.carrusel-title {
+  font-size: 44px;
+  font-family: $Raleway;
+  color: white;
+  padding-left: 12px;
+}
+
+.carrusel-position-subtitle {
+  color: $lightBlue;
+  font-family: $Raleway;
+  font-size: 24px;
+  padding-left: 12px;
+  padding-top: 12px;;
+}
+
+.carrusel-paragraph-descripcion {
+  color: $lightBlue;
+  font-family: $Raleway;
+  font-size: 18px;
+  padding: 10px 12px 0px 10px
+}
+
+.carrusel-icons-holder {
+  height: 200px;
+  padding: 20px 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrusel-mobile-icon-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
   .span-banner-pilotos{
     font-family: $Raleway;
     color: $darkBlue;
@@ -979,6 +933,131 @@ footer nav {
   .nav-mobile {
     display: none;
   }
+
+
+#carrusel-continer {
+  background: $darkBlue;
+  width: 1300px;
+  height: 805px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.carrusel-content-placeholder{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.carrusel-text-placeholder {
+  display: flex;
+  flex-direction: column;
+}
+
+.carrusel-columns-palceholder {
+  display: flex;
+  flex-direction: row;
+}
+
+.carrusel-paragraph-descripcion {
+  color: $lightBlue;
+  font-family: $Raleway;
+  font-size: 24px;
+  height: 470px;
+}
+
+.svg-linkedin-carrusel {
+  fill: $white;
+}
+
+.carrusel-description-placeholder {
+  max-width: 550px;
+  padding-left: 20px;
+}
+
+.name-position-placeholder {
+  padding: 50px 0px 20px 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carrusel-footer {
+  padding: 28px 0px 10px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carrusel-icons-holder {
+  width: 25%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.span-siguiente-piloto {
+  font-family: $Raleway;
+  font-size: 24px;
+  color: $white;
+  display: inline;
+}
+
+.carrusel-close-button-div {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.heading-siguiente-piloto {
+  font-family: $Raleway;
+  font-size: 24px;
+  color: $lightBlue;
+  display: inline;
+  align-self: center;
+}
+
+.arrow-placeholder {
+  display: inline;
+  align-self: center;
+  padding-right: 45px;
+}
+
+.carrusel-columns-palceholder{
+  padding: 20px 10px 20px 30px;
+}
+
+.carrusel-title {
+  font-size: 44px;
+  font-family: $Raleway;
+  color: white;
+  font-weight: 400;
+}
+
+.carrusel-position-subtitle {
+  font-size: 24px;
+  font-family: $Raleway;
+  color: $lightBlue;
+  font-weight: 400;
+}
+
+.white-line {
+  color: white;
+  width: 92%;
+  background-color: white;
+  height: 2px;
+  align-self: center;
+}
+
+.carrusel-icons-holder {
+  display: flex;
+  flex-direction: column;
+}
 
   .instagram-svg {
     width: 25px;
@@ -1649,6 +1728,7 @@ align-items: center;
     display: flex;
   }
 }
+
 
 
 
