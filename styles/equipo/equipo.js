@@ -22,7 +22,7 @@ const leftArrow2 = document.getElementById('left-arrow2')
 const rightArrow2 = document.getElementById('right-arrow2')
 const displayDiv = document.getElementsByClassName('no-display')[0]
 const closeButton = document.getElementById('close-button-button')
-
+const closeButtonMobile = document.getElementById('close-button-mobile')
 const paragraphDescription = document.getElementById('carrusel-paragraph-descripcion')
 const profileImage = document.getElementById('carrusel-profile-image')
 
@@ -46,7 +46,7 @@ leftArrow.addEventListener('click', () => {
   console.log('you pressed the left arrow')
   count -= 1;
   if (count === -1) {
-    count = 5;
+    count = 4;
   } 
   carruselHandler(count)
 })
@@ -54,7 +54,7 @@ leftArrow.addEventListener('click', () => {
 rightArrow.addEventListener('click', () => {
   console.log('you pressed the right key');
   count += 1
-  if (count === 6) {
+  if (count === 5) {
     count = 0;
   }
   carruselHandler(count)
@@ -64,21 +64,26 @@ leftArrow2.addEventListener('click', () => {
   console.log('you pressed the left arrow')
   count -= 1;
   if (count === -1) {
-    count = 5;
+    count = 4;
   } 
   carruselHandler(count)
 })
 
 rightArrow2.addEventListener('click', () => {
-  console.log('you pressed the right key');
+  console.log('taco');
   count += 1
-  if (count === 6) {
+  if (count === 4) {
     count = 0;
   }
   carruselHandler(count)
 })
 
 closeButton.addEventListener('click',() => {
+  console.log('closing carrusel');
+  displayDiv.id = ''
+})
+
+closeButtonMobile.addEventListener('click',() => {
   console.log('closing carrusel');
   displayDiv.id = ''
 })
@@ -224,12 +229,12 @@ placeholderDanyBecerra.addEventListener('click', (event) => {
   carruselHandler(count)
 })
 
-placeholderTreehouse.addEventListener('click', (event) => {
+/* placeholderTreehouse.addEventListener('click', (event) => {
   event.preventDefault()
   console.log('Treehouse in the house');
   count = 5
   carruselHandler(count)
-})
+}) */
 
 
 

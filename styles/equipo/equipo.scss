@@ -72,6 +72,22 @@ html {
   background-color: #F5F5F5;
 }
 
+#no-display {
+  display: none;
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+#display-block {
+  display: block;
+}
+
+.no-display {
+  display: none
+}
+
 .instagram-svg {
   width: 25px;
   position: absolute;

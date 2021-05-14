@@ -93,6 +93,27 @@ html {
   background-color: #F5F5F5;
 }
 
+#no-display {
+  display: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
+}
+
+#display-block {
+  display: block;
+}
+
+.no-display {
+  display: none;
+}
+
 .instagram-svg {
   width: 25px;
   position: absolute;
@@ -117,23 +138,6 @@ html {
   height: 350px;
   background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
   background-size: cover;
-}
-
-.no-display {
-  display: none;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  width: 100%;
-}
-
-#display-block {
-  display: block;
 }
 
 .menu-mobile-dropdown {
@@ -1195,6 +1199,24 @@ footer nav {
     height: 1000px;
   }
   .mobile-menu-flechas {
+    display: none;
+  }
+  #no-display {
+    display: none;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 100%;
+  }
+  #display-block {
+    display: block;
+  }
+  .no-display {
     display: none;
   }
   #carrusel-continer {
