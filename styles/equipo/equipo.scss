@@ -84,6 +84,10 @@ html {
   z-index: 0;
 }
 
+.carrusel-mobile-icon-row img {
+  
+}
+
 .banner-pilotos {
   width: 100%;
   height: 350px;
@@ -738,8 +742,10 @@ select::placeholder {
     background: blueviolet;
   }
 
-  .carrusel-footer{
-    order: -1;
+  .carrusel-footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   .mobile-menu-flechas {
@@ -748,6 +754,22 @@ select::placeholder {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .heading-siguiente-piloto {
+    font-family: $Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 36px 10px 20px 15px;
+  }
+
+  #close-button-button {
+    visibility: hidden;
+  }
+
+  .arrow-placeholder {
+    width: 220px;
+    padding: 0px 0px 40px 15px;
   }
 
   .arrow-placeholder-mobile {
@@ -767,6 +789,13 @@ select::placeholder {
 
 .carrusel-content-placeholder {
   background: $darkBlue;
+  margin-top: -30px;
+
+}
+
+.carrusel-text-placeholder {
+  display: flex;
+  flex-direction: column;
 }
 
 .carrusel-title {
@@ -774,6 +803,7 @@ select::placeholder {
   font-family: $Raleway;
   color: white;
   padding-left: 12px;
+  padding-top: 15px;
 }
 
 .carrusel-position-subtitle {
@@ -789,6 +819,20 @@ select::placeholder {
   font-family: $Raleway;
   font-size: 18px;
   padding: 10px 12px 0px 10px
+}
+
+.svg-linkedin-carrusel {
+  width: 37px;
+  height: 37px;
+  padding: 36px 12px 0px 10px
+}    
+
+.white-line {
+  height: 5px;
+  background-color: white;
+  width: 96%;
+  align-self: center;
+  margin-top: 36px;
 }
 
 .carrusel-icons-holder {
@@ -934,6 +978,9 @@ footer nav {
     display: none;
   }
 
+  .mobile-menu-flechas {
+    display: none;
+  }
 
 #carrusel-continer {
   background: $darkBlue;
@@ -941,7 +988,14 @@ footer nav {
   height: 805px;
   display: flex;
   flex-direction: row;
-  align-self: center;
+  align-self: flex-end;
+}
+
+.carrusel-icons-holder {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
 }
 
 .carrusel-content-placeholder{
@@ -1046,7 +1100,7 @@ footer nav {
   font-weight: 400;
 }
 
-.white-line {
+.white-line2 {
   color: white;
   width: 92%;
   background-color: white;

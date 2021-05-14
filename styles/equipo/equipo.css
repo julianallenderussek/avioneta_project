@@ -866,9 +866,14 @@ select::placeholder {
     background: blueviolet;
   }
   .carrusel-footer {
-    -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
   }
   .mobile-menu-flechas {
     height: 80px;
@@ -882,6 +887,19 @@ select::placeholder {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .heading-siguiente-piloto {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 36px 10px 20px 15px;
+  }
+  #close-button-button {
+    visibility: hidden;
+  }
+  .arrow-placeholder {
+    width: 220px;
+    padding: 0px 0px 40px 15px;
   }
   .arrow-placeholder-mobile {
     position: relative;
@@ -906,12 +924,23 @@ select::placeholder {
   }
   .carrusel-content-placeholder {
     background: #071d49;
+    margin-top: -30px;
+  }
+  .carrusel-text-placeholder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .carrusel-title {
     font-size: 44px;
     font-family: "Raleway", sans-serif;
     color: white;
     padding-left: 12px;
+    padding-top: 15px;
   }
   .carrusel-position-subtitle {
     color: #5E93DB;
@@ -925,6 +954,20 @@ select::placeholder {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     padding: 10px 12px 0px 10px;
+  }
+  .svg-linkedin-carrusel {
+    width: 37px;
+    height: 37px;
+    padding: 36px 12px 0px 10px;
+  }
+  .white-line {
+    height: 5px;
+    background-color: white;
+    width: 96%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 36px;
   }
   .carrusel-icons-holder {
     height: 200px;
@@ -1100,6 +1143,9 @@ footer nav {
   .nav-mobile {
     display: none;
   }
+  .mobile-menu-flechas {
+    display: none;
+  }
   #carrusel-continer {
     background: #071d49;
     width: 1300px;
@@ -1111,8 +1157,20 @@ footer nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-item-align: center;
-        align-self: center;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .carrusel-icons-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .carrusel-content-placeholder {
     display: -webkit-box;
@@ -1245,7 +1303,7 @@ footer nav {
     color: #5E93DB;
     font-weight: 400;
   }
-  .white-line {
+  .white-line2 {
     color: white;
     width: 92%;
     background-color: white;
