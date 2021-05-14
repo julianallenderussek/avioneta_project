@@ -20,6 +20,8 @@ const leftArrow = document.getElementById('left-arrow')
 const rightArrow = document.getElementById('right-arrow')
 const leftArrow2 = document.getElementById('left-arrow2')
 const rightArrow2 = document.getElementById('right-arrow2')
+const displayDiv = document.getElementsByClassName('no-display')[0]
+const closeButton = document.getElementById('close-button-button')
 
 const paragraphDescription = document.getElementById('carrusel-paragraph-descripcion')
 const profileImage = document.getElementById('carrusel-profile-image')
@@ -76,6 +78,11 @@ rightArrow2.addEventListener('click', () => {
   carruselHandler(count)
 })
 
+closeButton.addEventListener('click',() => {
+  console.log('closing carrusel');
+  displayDiv.id = ''
+})
+
 
 //Functions
 const toggleMenu = () => {
@@ -109,7 +116,7 @@ const carruselHandler = (count) => {
   profileImage.src =persons[count].profileimg
   //make carrusel div appear
   // add inline style position absoluto, top, left, etc.
-  
+  displayDiv.id = 'display-block'
 }
 
 const persons = 
