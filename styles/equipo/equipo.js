@@ -128,7 +128,7 @@ const persons =
 [
     {
       name: 'Fernando Fuentes',
-      subtitle: 'Tema Builder, Solution Designer',
+      subtitle: 'Team Builder, Solutions Designer',
       profileimg: '../styles/equipo/fernando/profile_image.png',
       logo1: '../styles/equipo/fernando/',
       logo2: '../styles/equipo/fernando/',
@@ -138,9 +138,9 @@ const persons =
       descripcion: '¡Hola! Soy Fer, Fernando, Fuentes, Güero…como prefieras. Desde chico, me apasiona el emprendimiento y las energías renovables. Desde chico, sueño con cambiar el mundo y dejar una huella de buen tamaño que el pasar de los años no borre. Desde chico, mi papá me educó con honestidad y cariño que los problemas por consumo de alcohol y otras adicciones eran hereditarios en su lado de la familia, y me puso el ejemplo ayudando a sus seres queridos a navegar estos problemas. En 2009 empecé a leer del tema extracurricularmente, y se me hizo tan intelectualmente estimulante como el emprendimiento y las energías renovables. <br><br> En 2011, comienzo a ayudar a un ser muy querido con…'
   },
   {
-    name: 'Dr. Luis Fernado Diaz',
+    name: 'Dr. Luis Fernando Diaz',
     profileimg: '../styles/equipo/drluis/profile_image.png',
-    subtitle: 'Asesor Médico, Dir. de Salud.',
+    subtitle: 'Asesor Médico, Dir. de Salud',
     logo1: '../styles/equipo/drluis/unam.png',
     logo2: '../styles/equipo/drluis/centro_juvenil.png',
     logo3: '../styles/equipo/drluis/la_salle.png',
@@ -149,7 +149,7 @@ const persons =
     descripcion: 'Hola, soy Luis. Creo que a todos nos gustan las historias, contarlas y/o escucharlas. Desde siempre recuerdo historias de mi vida, y muchas historias que me han contado. Siempre me ha gustado mucho platicar, y más aun, escuchar. Ese es el principal motivo por el cual soy psiquiatra. Me apasiona aprender de la vida de las personas, aun cuando el motivo por el cual las conozco no es muy agradable. Al final, conozco lo más profundo de sus preocupaciones, miedos y pasiones. <br><br> El tema de adicciones lo exploré desde la residencia, y he visto que hay mucha área de oportunidad en profesionalizar su tratamiento y utilizar la tecnología.'
   },
   {
-      name: 'Jose Luis',
+      name: 'Jose Manuel Arredondo',
       profileimg: '../styles/equipo/josemanuel/profile_image.png',
       subtitle: 'Operaciones y Finanzas, Comercial',
       logo1: '../styles/equipo/josemanuel/finvenergy.png',
@@ -160,9 +160,9 @@ const persons =
       descripcion: 'Mi título de Ingeniero Industrial me ha permitido experimentar en muchos lados durante mi carrera profesional. Empecé en Recursos Humanos porque estoy convencido de que el capital más valioso en las empresas son las personas. Después, brinqué a Finanzas porque quería entender la entraña de los negocios desde la perspectiva numérica. Más tarde, estuve en Operaciones donde aprendí algo de Administración, Finanzas, Ventas, Derecho y Project Management en las empresas. Finalmente, decidí aplicar todo ese aprendizaje en algunos emprendimientos en los que trabajé durante 4 años. <br><br> Mi experiencia me ha dado la oportunidad de observar a…'
   },
   {
-    name: 'Dess Galtán',
+    name: 'Dess Gaitán',
     profileimg: '../styles/equipo/dess/profile_image.png',
-    subtitle: 'Tema Builder, Solution Designer',
+    subtitle: 'Legal y Regulatorio, Experta en Emprendimientos Sociales',
     logo1: '../styles/equipo/dess/itesm.png',
     logo2: '../styles/equipo/dess/cussi.svg',
     logo3: '../styles/equipo/dess/anahuac.png',
@@ -171,9 +171,9 @@ const persons =
     descripcion: 'Soy Abogada y me apasionan los emprendimientos sociales. Estudié en el Instituto Tecnológico y de Estudios Superiores Monterrey, y ahí conocí los emprendimientos sociales. Desde entonces me hice fan del tema. Me inscribí a todos los grupos estudiantiles y ONG´s que pude para aprender más y aportar.<br><br> Tengo dos maestrías, una en la Universidad Anáhuac del Sur en Derecho de las Empresas. Quería aprender más de cómo siendo abogada podría apoyar a pequeños negocios y emprendedores. La otra en Acción Política por la Universidad Francisco de Vitoria en Madrid, España. Esta la hice porque siempre quise estudiar en el extranjero y quería que mis …'
   },
   {
-    name: 'Daniela Barrera',
+    name: 'Daniela Becerra',
     profileimg: '../styles/equipo/dany/profile_image.png',
-    subtitle: 'Tema Builder, Solution Designer',
+    subtitle: 'Marketing & Comms, Psicología',
     logo1: '../styles/equipo/dany/iapde.png',
     logo2: '../styles/equipo/dany/palermo.png',
     logo3: '../styles/equipo/dany/madison.png',
@@ -183,7 +183,7 @@ const persons =
   },
   {
     name: 'Threehouse',
-    subtitle: 'Tema Builder, Solution Designer',
+    subtitle: 'Diseño Gráfico',
     logo1: 'foto1',
     logo2: 'foto2',
     logo3: 'foto3',
