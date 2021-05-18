@@ -138,7 +138,7 @@ const persons =
       descripcion: '¡Hola! Soy Fer, Fernando, Fuentes, Güero…como prefieras. Desde chico, me apasiona el emprendimiento y las energías renovables. Desde chico, sueño con cambiar el mundo y dejar una huella de buen tamaño que el pasar de los años no borre. Desde chico, mi papá me educó con honestidad y cariño que los problemas por consumo de alcohol y otras adicciones eran hereditarios en su lado de la familia, y me puso el ejemplo ayudando a sus seres queridos a navegar estos problemas. En 2009 empecé a leer del tema extracurricularmente, y se me hizo tan intelectualmente estimulante como el emprendimiento y las energías renovables. <br><br> En 2011, comienzo a ayudar a un ser muy querido con…'
   },
   {
-    name: 'Dr. Luis Fernando Diaz',
+    name: 'Dr. Luis Fernando Díaz',
     profileimg: '../styles/equipo/drluis/profile_image.png',
     subtitle: 'Asesor Médico, Dir. de Salud',
     logo1: '../styles/equipo/drluis/unam.png',
@@ -149,7 +149,7 @@ const persons =
     descripcion: 'Hola, soy Luis. Creo que a todos nos gustan las historias, contarlas y/o escucharlas. Desde siempre recuerdo historias de mi vida, y muchas historias que me han contado. Siempre me ha gustado mucho platicar, y más aun, escuchar. Ese es el principal motivo por el cual soy psiquiatra. Me apasiona aprender de la vida de las personas, aun cuando el motivo por el cual las conozco no es muy agradable. Al final, conozco lo más profundo de sus preocupaciones, miedos y pasiones. <br><br> El tema de adicciones lo exploré desde la residencia, y he visto que hay mucha área de oportunidad en profesionalizar su tratamiento y utilizar la tecnología.'
   },
   {
-      name: 'Jose Manuel Arredondo',
+      name: 'José Manuel Arredondo',
       profileimg: '../styles/equipo/josemanuel/profile_image.png',
       subtitle: 'Operaciones y Finanzas, Comercial',
       logo1: '../styles/equipo/josemanuel/finvenergy.png',
