@@ -1,10 +1,31 @@
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
+
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')
-  console.log('click')
-})
+const hamburgerButton = document.getElementsByClassName('container-hamburger')[0]
+const navbar = document.getElementsByClassName('nav-mobile')[0]
+const dropDownMenu = document.getElementsByClassName('menu-mobile-dropdown')[0]
+const menuBar1 = document.getElementsByClassName('bar1')[0]
+const menuBar2 = document.getElementsByClassName('bar2')[0]
+const menuBar3 = document.getElementsByClassName('bar3')[0]
+
+//Functions
+const toggleMenu = () => {
+  console.log('toggling')
+  navbar.classList.toggle('dark-blue')
+  dropDownMenu.classList.toggle('active')
+  hamburgerButton.classList.toggle('closebutton')
+  menuBar1.classList.toggle('background-white')
+  menuBar2.classList.toggle('background-white')
+  menuBar3.classList.toggle('background-white')
+  
+  // if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png') {
+  //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png'
+  // } else if (logoAvioneta.src === 'http://localhost:5501/styles/detox/assets_detox/logo_blanco_avioneta.png') {
+  //   logoAvioneta.src = 'http://localhost:5501/styles/detox/assets_detox/logo-avioneta_azul.png'
+  // }
+}
+
+hamburgerButton.addEventListener
 
 //Send Email function
 function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna') {

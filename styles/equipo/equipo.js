@@ -72,7 +72,7 @@ leftArrow2.addEventListener('click', () => {
 rightArrow2.addEventListener('click', () => {
   console.log('taco');
   count += 1
-  if (count === 4) {
+  if (count === 5) {
     count = 0;
   }
   carruselHandler(count)

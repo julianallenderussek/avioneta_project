@@ -55,9 +55,7 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
     Con cariño, <br/>
     <br/>
     El equipo AVIONETA`,
-  }).then(
-    message => alert('Gracias por contactarnos, un correo fue enviado a tu mail')
-  );
+  })
   console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
 }
 
@@ -90,12 +88,10 @@ function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ningu
     <br/>
     Télefono: ${phone}
     <br/>`,
-  }).then(
-    message => alert('Gracias por contactarnos, un correo fue enviado a tu mail')
-  );
+  })
   console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
 }
-
+contact_form
 // const test = (event) => {console.log('this button works')}
 
 

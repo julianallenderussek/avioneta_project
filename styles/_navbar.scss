@@ -1,157 +1,162 @@
 @import "./variables";
 
-.navbar {
-  display: flex;
-  //position: relative;
-  justify-content: space-between;
-  align-items: center;
-  background-color: $lightBlue;
-  color: #141f48;
-  padding: 5px;
-  padding-left: $columnmargin;
-  padding-right: $columnmargin;
-  height: 10vh;
-}
-
-.brand-title {
-// font-size: 1.5rem;
-// // margin: .5rem;
-// padding: 5px;
-// margin-left: 1rem;
-display: flex;
-margin: 0;
-flex-direction: row;
-}
-
-.navbar-image {
-width: 240px;
-}
-
-.brand-title {
-  width: 50%;
-}
-
-.navbar-links {
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-.navbar-links ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-}
-
-.navbar-links li {
-  list-style: none;
-}
-
-.navbar-links li a {
-  display: block;
-  text-decoration: none;
-  color: $white;
-  padding: 1rem;
-  white-space: nowrap;
-  font-family: $Raleway;
-  font-size: 16px;
-  font-weight: 200;
-  &:hover {
-    color: $darkBlue;
-  }
-}
-
-.toggle-button {
-  position: absolute;
-  top: 1.5rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: #141f48;
-  border-radius: 10px;
-}
-
-.icons {
+.nav-mobile {
   display: flex;
   flex-direction: row;
-  width: 10%;
-  align-items: center;
   justify-content: space-between;
-  margin-left: 1%;
+  align-items: center;
+  background-color: #F5F5F5;
 }
 
-.icons a img {
-  width: 25px;
-  margin: 5px;
+.menu-mobile-dropdown {
+  display: none;
+  flex-direction: column;
+  background-color: $darkBlue;
+  color: $lightBlue;
+  font-size: 45px;
+  font-family: $Raleway;
+  height: 764;
+  justify-content: space-between;
 }
 
-@media (max-width: 650px) {
-  .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
+.active {
+  display:flex
+}
+
+.links-mobile-dropdown {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.links-mobile-dropdown a {
+  text-decoration: none;
+}
+
+.links-mobile-dropdown a:hover {
+  
+  color: white;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: $darkBlue;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.dark-blue {
+  background-color: $darkBlue;
+}
+
+.menu-mobile-dropdown a {
+  color: $lightBlue;
+  padding-left: 10px;
+  padding: 8px 0px 8px 0px;
+  margin-left: 5px;
+}
+
+.nav-logo-avioneta {
+  display: inline;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+.nav-hyperlink {
+  text-decoration: none;
+  color: $lightBlue;
+}
+
+.container-hamburger {
+  display: inline;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+
+
+
+.nav-desktop {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .nav-mobile {
+    display: none;
   }
 
-  .toggle-button {
-      display: flex;
+  .nav-logo-avioneta {
+    margin: 0;
   }
 
-  .navbar-links {
-      display: none;
-      width: 100%;
+  .desktop-container {
+    width: 100%;
+    height: 110px;
+    background-color: $backgroundColorLight;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .navbar-image {
-    width: 120px;
-    }
-
-  .navbar-links ul {
-      width: 100%;
-      flex-direction: column;
-  }
-
-  .navbar-links ul li {
-      text-align: center;
-  }
-
-  .navbar-links ul li a {
-      padding: .5rem 1rem;
-  }
-
-  .navbar-links.active {
-      padding-top: 10px;
-      height: 250px;
-      display: block;
-      position: absolute;
-      top: 80px;
-      z-index: 10;
-      background: $darkBlue;
-  }
-
-  .icons {
+  .nav-desktop {
+    width: 1000px;
+    max-width: 1140px;
+    background-color: $backgroundColorLight;
     display: flex;
     flex-direction: row;
-    width: 150px;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 1%;
-    margin-top: 8px;
+    margin-top: 48px;
   }
 
-  .navbar-links li a {
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    font-size: 15px;
+    font-family: $Raleway;
+    font-weight: 400;
     &:hover {
-      color: $lightBlue;
+      font-weight: bold;
+      color: $darkBlue;
     }
   }
+
+  .icons-list {
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    justify-content: space-between;
+  }
+
+  .icons-list li {
+    width: 10px;
+  }
+
+  .icons-list li a {
+    max-width: 100%;
+  }
+
+  #facebook_position {
+    position: relative;
+  }
+
+  #facebook-image {
+    position: absolute;
+    top: -2px;
+    left: 7px;
+  }
+  
 
 }

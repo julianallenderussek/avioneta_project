@@ -219,7 +219,7 @@ body {
 
 .container-pasajeros-aliados {
   background-image: url(/styles/equipo/equipo_web/Croped_BACK2x.png);
-  height: 2000px;
+  max-height: 2000px;
   margin-top: -900px;
   z-index: -5;
   display: -webkit-box;
@@ -1756,7 +1756,7 @@ align-items: center;
 
   .container-pasajeros-aliados {
     background-image: url(/styles/equipo/equipo_web/Equipo-Sunset-Web.png);
-    height: 2000px;
+    max-height: 2000px;
     margin-top: -700px;
     z-index: -5;
     display: flex;
