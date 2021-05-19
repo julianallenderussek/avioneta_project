@@ -34,17 +34,15 @@ const toggleMenu = () => {
   // }
 }
 
-
-
 //Send Email function
 function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna') {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "ffuentesdelaparra@gmail.com",
-    Password: "mschbavemdoqhfng",
+    Username: "avionetacontacto@gmail.com",
+    Password: "ramzzpmboqvaiwpz",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `${user_email}`,
-    From: "contacto@avioneta.org",
+    From: "avionetacontacto@gmail.com",
     Subject: `Estimado ${name} gracias por tu interés en AVIONETA`,
     Body: `Estimado: ${name}:<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
@@ -62,11 +60,11 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
 function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ninguna') {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "ffuentesdelaparra@gmail.com",
-    Password: "mschbavemdoqhfng",
+    Username: "avionetacontacto@gmail.com",
+    Password: "ramzzpmboqvaiwpz",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `ffuentesdelaparra@gmail.com`,
-    From: "contacto@avioneta.org",
+    From: "avionetacontacto@gmail.com",
     Subject: `${name} gracias por tu interés en AVIONETA`,
     Body: `Estimado: ${name}:<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
