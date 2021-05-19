@@ -31,13 +31,13 @@ hamburgerButton.addEventListener
 function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna') {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "avionetacontacto@gmail.com",
-    Password: "ramzzpmboqvaiwpz",
+    Username: "ffuentesdelaparra@gmail.com",
+    Password: "kacnoflycdwhbwcr",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `${user_email}`,
-    From: "avionetacontacto@gmail.com",
+    From: "contacto@avioneta.org",
     Subject: `Estimado ${name} gracias por tu interés en AVIONETA`,
-    Body: `Estimado: ${name}:<br/>
+    Body: `Estimado ${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     <br/>
     Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente. <br/>
@@ -47,28 +47,27 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
     Con cariño, <br/>
     El equipo AVIONETA`,
   }).then(
-    message => alert('Gracias por contactarnos, un correo fue enviado a tu mail')
   );
-  console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
 }
 
 function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ninguna') {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "avionetacontacto@gmail.com",
-    Password: "ramzzpmboqvaiwpz",
+    Username: "ffuentesdelaparra@gmail.com",
+    Password: "kacnoflycdwhbwcr",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `ffuentesdelaparra@gmail.com`,
-    From: "avionetacontacto@gmail.com",
+    From: "contacto@avioneta.org",
     Subject: `${name} gracias por tu interés en AVIONETA`,
-    Body: `Estimado: ${name}:<br/>
+    Body: `Estimado ${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.
 
     De cualquier forma, te dejamos nuestro Whatsapp: +1 (415) 326-4326 <br/>
     Con cariño, <br/>
     El equipo AVIONETA
-    
+    <br/>
+    <br/>
     DATOS DEL CLIENTE
     Nombre: ${name}
     <br/>
@@ -81,9 +80,7 @@ function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ningu
     Télefono: ${phone}
     <br/>`,
   }).then(
-    message => alert('Gracias por contactarnos, un correo fue enviado a tu mail')
   );
-  console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
 }
 
 // const test = (event) => {console.log('this button works')}
@@ -96,7 +93,7 @@ function validation() {
   var last_name = document.getElementById('last_name').value
   var user_email = document.getElementById('user_email').value
   var phone = document.getElementById('phone').value
-  //var razon_visita = document.getElementById('razon_visita').value
+  var razon_visita = document.getElementById('razon_visita').value
   var error_message = document.getElementById('error_message');
   var text;
 
@@ -126,7 +123,7 @@ function validation() {
     console.log(user_email)
     
     sendEmail(name, last_name, phone, user_email)
-    sendEmailtoMe(name, last_name, phone, user_email)
+    sendEmailtoMe(name, last_name, phone, user_email, razon_visita)
     alert('Gracias por contactarnos. Un correo electronico fue enviado a tu mail')
     return true
 }

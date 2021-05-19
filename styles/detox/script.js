@@ -38,13 +38,13 @@ const toggleMenu = () => {
 function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna') {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "avionetacontacto@gmail.com",
-    Password: "ramzzpmboqvaiwpz",
+    Username: "ffuentesdelaparra@gmail.com",
+    Password: "kacnoflycdwhbwcr",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `${user_email}`,
-    From: "avionetacontacto@gmail.com",
+    From: "contacto@avioneta.org",
     Subject: `Estimado ${name} gracias por tu interés en AVIONETA`,
-    Body: `Estimado: ${name}:<br/>
+    Body: `Estimado ${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     <br/>
     Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.
@@ -60,13 +60,13 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
 function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ninguna') {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "avionetacontacto@gmail.com",
-    Password: "ramzzpmboqvaiwpz",
+    Username: "ffuentesdelaparra@gmail.com",
+    Password: "kacnoflycdwhbwcr",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `ffuentesdelaparra@gmail.com`,
-    From: "avionetacontacto@gmail.com",
+    From: "contacto@avioneta.org",
     Subject: `${name} gracias por tu interés en AVIONETA`,
-    Body: `Estimado: ${name}:<br/>
+    Body: `Estimado ${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     <br/>
     Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.<br/>
