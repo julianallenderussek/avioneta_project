@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACgBA,OAAO,CAAC,0LAAI;AAMZ,AAAA,EAAE,CAAC;EACD,KAAK,EArBK,OAAO;CAsBlB;;ADtBD,AAAA,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACpB;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,cAAc,CAAC;IACb,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,WAAW,EAAE,MAAM;GAClB",
+    "sources": [
+        "asesornio.scss",
+        "../_variables.scss"
+    ],
+    "names": [],
+    "file": "asesornio.css"
+}

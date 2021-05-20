@@ -1,0 +1,16 @@
+@import "../variables";
+
+.container-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .container-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  }
+

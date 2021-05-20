@@ -66,8 +66,25 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: #F5F5F5;
-
+  
 }
+
+.btn-call-to-action {
+  background-color: $darkBlue;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem 1.75rem 1rem 1.75rem;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  &:hover {
+    background-color: $lightBlue;
+  }
+}
+
 
 #montaña_desktop {
   width: 0%;
@@ -119,6 +136,13 @@ html {
 
 .background-white {
   background-color: white;
+}
+
+.linea-divisoria-mobil {
+  width: 60%;
+  height: 2px;
+  background-color: $darkBlue;
+  align-self: center;
 }
 
 .logo-avioneta-mobile {
@@ -418,7 +442,7 @@ html {
 .pilar-psicotrapeutico-container {
   background-image: url(../detox/assets_detox/mountain.png);
   width: 100%;
-  height: 1456px;
+  height: 1600px;
   display: flex;
   flex-direction: column;
   background-size: cover;
@@ -1234,6 +1258,10 @@ footer nav {
 //Laptop Mediana
 @media (min-width: 600px) {
   .nav-mobile {
+    display: none;
+  }
+
+  .linea-divisoria-mobil {
     display: none;
   }
 

@@ -170,6 +170,9 @@ h3 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .nav-links {
     font-size: 15px;
@@ -648,7 +651,7 @@ h3 {
 }
 
 .btn-product-page-cancel {
-  background-color: grey;
+  background-color: rgba(207, 205, 205, 0.945);
   height: 50px;
   width: 150px;
   font-size: 16px;

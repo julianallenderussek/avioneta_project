@@ -129,12 +129,12 @@ const persons =
     {
       name: 'Fernando Fuentes',
       subtitle: 'Team Builder, Solutions Designer',
-      profileimg: '../styles/equipo/fernando/profile_image.png',
+      profileimg: '../styles/equipo/fernando/profile_image.jpg',
       logo1: '../styles/equipo/fernando/',
       logo2: '../styles/equipo/fernando/',
       logo3: '../styles/equipo/fernando/',
       logo4: '../styles/equipo/fernando/',
-      linkdin: 'www.linked-in.com',
+      linkdin: 'https://www.linkedin.com/in/fernandofuen7es/',
       descripcion: '¡Hola! Soy Fer, Fernando, Fuentes, Güero…como prefieras. Desde chico, me apasiona el emprendimiento y las energías renovables. Desde chico, sueño con cambiar el mundo y dejar una huella de buen tamaño que el pasar de los años no borre. Desde chico, mi papá me educó con honestidad y cariño que los problemas por consumo de alcohol y otras adicciones eran hereditarios en su lado de la familia, y me puso el ejemplo ayudando a sus seres queridos a navegar estos problemas. En 2009 empecé a leer del tema extracurricularmente, y se me hizo tan intelectualmente estimulante como el emprendimiento y las energías renovables. <br><br> En 2011, comienzo a ayudar a un ser muy querido con…'
   },
   {
@@ -156,7 +156,7 @@ const persons =
       logo2: '../styles/equipo/josemanuel/universidad_panamericana.png',
       logo3: '../styles/equipo/josemanuel/trep_camp.png',
       logo4: '../styles/equipo/josemanuel/zagartha_ma.svg',
-      linkdin: 'www.linked-in.com',
+      linkdin: 'https://www.linkedin.com/in/jos%C3%A9-manuel-arredondo-arcos-70447b32/',
       descripcion: 'Mi título de Ingeniero Industrial me ha permitido experimentar en muchos lados durante mi carrera profesional. Empecé en Recursos Humanos porque estoy convencido de que el capital más valioso en las empresas son las personas. Después, brinqué a Finanzas porque quería entender la entraña de los negocios desde la perspectiva numérica. Más tarde, estuve en Operaciones donde aprendí algo de Administración, Finanzas, Ventas, Derecho y Project Management en las empresas. Finalmente, decidí aplicar todo ese aprendizaje en algunos emprendimientos en los que trabajé durante 4 años. <br><br> Mi experiencia me ha dado la oportunidad de observar a…'
   },
   {
@@ -178,7 +178,7 @@ const persons =
     logo2: '../styles/equipo/dany/palermo.png',
     logo3: '../styles/equipo/dany/madison.png',
     logo4: 'foto4',
-    linkdin: 'www.linked-in.com',
+    linkdin: 'https://www.linkedin.com/in/daniela-pbc/',
     descripcion: 'Hola, soy Dany y me apasiona estudiar y comprender el comportamiento humano, razón por la cual disfruto de viajar y conocer gente nueva, y por la cual decidí estudiar Psicología Clínica. Siempre he considerado que podemos aprender haciendo y sobre todo de aquellos quienes nos rodean. Mi carrera como psicóloga la realicé en Buenos Aires, Argentina, donde tuve la oportunidad de expandir y enriquecer mi conocimiento sobre otras culturas, tanto en lo personal como en lo profesional.<br><br> Hoy en día soy candidata a un título de MBA en el Instituto Panamericano de Alta Dirección, donde he logrado fusionar mis dos pasiones: el factor humano y los negocios.'
   },
   {

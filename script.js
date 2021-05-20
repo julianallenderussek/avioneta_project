@@ -109,7 +109,7 @@ function validation() {
   //   return false
   // }
   
-  if (isNaN(phone)) {
+  if (isNaN(phone) || phone.length < 1 ) {
     text = "Favor de ingresar un télefono valido"
     error_message.innerHTML = text
     return false
