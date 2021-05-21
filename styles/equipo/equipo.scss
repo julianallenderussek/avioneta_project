@@ -93,6 +93,8 @@ body {
     max-width: 100%;
   }
 
+ 
+
 .no-display {
   display: none
 }
@@ -807,8 +809,17 @@ select::placeholder {
 
   .arrow-placeholder {
     width: 220px;
-    padding: 0px 0px 40px 15px;
+    // padding: 0px 0px 40px 15px;
+    height: 60px;
+    padding-left: 15px;
+    display: flex;
   }
+
+  #left-arrow2 {
+    margin-right: 10px;
+    
+  }
+
 
   .arrow-placeholder-mobile {
     position: relative;
@@ -1125,9 +1136,31 @@ footer nav {
   fill: $white;
 }
 
-.carrusel-description-placeholder {
-  max-width: 550px;
-  padding-left: 20px;
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0px $darkBlue; 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  background: $lightBlue; 
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: white; 
+}
+
+.carrusel-paragraph-descripcion{
+  overflow: scroll;
+  padding: 10px 10px 10px 10px;
 }
 
 .name-position-placeholder {
