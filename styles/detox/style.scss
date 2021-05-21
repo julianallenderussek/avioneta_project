@@ -118,6 +118,96 @@ html {
   margin-right: 15px;
 }
 
+.graph-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graph1{
+  border: 2px solid grey;
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 80px 10px 0px 10px;
+  width: 80%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graph2{
+  border: 2px solid grey;
+  border-radius: 40px;
+  padding: 80px 10px 0px 10px;
+  margin-top: 20px;
+  width: 80%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graph3{
+  height: 200px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph4{
+  border: 2px solid grey;
+  border-radius: 40px;
+  padding: 20px 10px 0px 20px;
+  margin-top: 20px;
+  width: 80%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.recover-home {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.heading-new-graph {
+  font-size: 20px;
+  font-family: &Raleway;
+  font-weight: 600;
+  align-self: center;
+  text-align: center;
+}
+
+.heading-new-graph-left {
+  font-size: 20px;
+  font-family: &Raleway;
+  font-weight: 600;
+  text-align: left;
+}
+
+.new-graph-text {
+  font-family: &Raleway;
+  text-align: center;
+}
+
+.mas-info-graph {
+  margin: auto;
+  font-family: &Raleway;
+  justify-self: flex-end;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
 .closebutton {
   background-color: $darkBlue;
 }
@@ -1260,6 +1350,39 @@ footer nav {
   .nav-mobile {
     display: none;
   }
+
+  .main-container-graph {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .graph-container {
+    width: 1000px;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-content: space-between;
+  }
+
+  .graph1 {
+    width: 24%;
+    margin: 0px 5px 0px 5px;
+  }
+  .graph2 {
+    width: 24%;
+    margin: 0px 5px 0px 5px;
+  }
+  .graph3 {
+    width: 20%;
+    margin: 0px 5px 0px 5px;
+  }
+  .graph4 {
+    width: 28%;
+    margin: 0px 5px 0px 5px;
+  }
+
+  
+
 
   .linea-divisoria-mobil {
     display: none;

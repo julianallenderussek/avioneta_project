@@ -132,6 +132,135 @@ html {
   margin-right: 15px;
 }
 
+.graph-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.graph1 {
+  border: 2px solid grey;
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 80px 10px 0px 10px;
+  width: 80%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.graph2 {
+  border: 2px solid grey;
+  border-radius: 40px;
+  padding: 80px 10px 0px 10px;
+  margin-top: 20px;
+  width: 80%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.graph3 {
+  height: 200px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.graph4 {
+  border: 2px solid grey;
+  border-radius: 40px;
+  padding: 20px 10px 0px 20px;
+  margin-top: 20px;
+  width: 80%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.recover-home {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.heading-new-graph {
+  font-size: 20px;
+  font-family: .heading-new-graph Raleway;
+  font-weight: 600;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.heading-new-graph-left {
+  font-size: 20px;
+  font-family: .heading-new-graph-left Raleway;
+  font-weight: 600;
+  text-align: left;
+}
+
+.new-graph-text {
+  font-family: .new-graph-text Raleway;
+  text-align: center;
+}
+
+.mas-info-graph {
+  margin: auto;
+  font-family: .mas-info-graph Raleway;
+  justify-self: flex-end;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
 .closebutton {
   background-color: #071d49;
 }
@@ -1393,6 +1522,44 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
+  }
+  .main-container-graph {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .graph-container {
+    width: 1000px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 50px;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .graph1 {
+    width: 24%;
+    margin: 0px 5px 0px 5px;
+  }
+  .graph2 {
+    width: 24%;
+    margin: 0px 5px 0px 5px;
+  }
+  .graph3 {
+    width: 20%;
+    margin: 0px 5px 0px 5px;
+  }
+  .graph4 {
+    width: 28%;
+    margin: 0px 5px 0px 5px;
   }
   .linea-divisoria-mobil {
     display: none;
