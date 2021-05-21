@@ -1230,6 +1230,7 @@ footer nav {
             align-items: center;
     padding: 100px 0px 50px 9px;
     top: -200px;
+    z-index: 10;
   }
   .mobile-menu-flechas {
     display: none;

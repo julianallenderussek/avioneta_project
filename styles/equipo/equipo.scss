@@ -1043,7 +1043,8 @@ footer nav {
     position: absolute;
     align-items: center;
     padding: 100px 0px 50px 9px;
-    top: -200px
+    top: -200px;
+    z-index: 10;
   }
 
   .mobile-menu-flechas {
