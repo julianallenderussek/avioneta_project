@@ -130,10 +130,10 @@ const persons =
       name: 'Fernando Fuentes',
       subtitle: 'Team Builder, Solutions Designer',
       profileimg: '../styles/equipo/fernando/profile_image.jpg',
-      logo1: '../styles/equipo/fernando/',
-      logo2: '../styles/equipo/fernando/',
-      logo3: '../styles/equipo/fernando/',
-      logo4: '../styles/equipo/fernando/',
+      logo1: '../styles/equipo/fernando/pennstate.png',
+      logo2: '../styles/equipo/fernando/sunpower.png',
+      logo3: '../styles/equipo/fernando/hypernet.png',
+      logo4: '../styles/equipo/fernando/ucsandiego.png',
       linkdin: 'https://www.linkedin.com/in/fernandofuen7es/',
       descripcion: '¡Hola! Soy Fer, Fernando, Fuentes, Güero…como prefieras. Desde chico, me apasiona el emprendimiento y las energías renovables. Desde chico, sueño con cambiar el mundo y dejar una huella de buen tamaño que el pasar de los años no borre. Desde chico, mi papá me educó con honestidad y cariño que los problemas por consumo de alcohol y otras adicciones eran hereditarios en su lado de la familia, y me puso el ejemplo ayudando a sus seres queridos a navegar estos problemas. En 2009 empecé a leer del tema extracurricularmente, y se me hizo tan intelectualmente estimulante como el emprendimiento y las energías renovables. <br><br> En 2011, comienzo a ayudar a un ser muy querido con…'
   },
@@ -145,7 +145,7 @@ const persons =
     logo2: '../styles/equipo/drluis/centro_juvenil.png',
     logo3: '../styles/equipo/drluis/la_salle.png',
     logo4: '../styles/equipo/drluis/SEPD.png',
-    linkdin: 'www.linked-in.com',
+    linkdin: 'https://www.luisdiazpsiquiatra.com/',
     descripcion: 'Hola, soy Luis. Creo que a todos nos gustan las historias, contarlas y/o escucharlas. Desde siempre recuerdo historias de mi vida, y muchas historias que me han contado. Siempre me ha gustado mucho platicar, y más aun, escuchar. Ese es el principal motivo por el cual soy psiquiatra. Me apasiona aprender de la vida de las personas, aun cuando el motivo por el cual las conozco no es muy agradable. Al final, conozco lo más profundo de sus preocupaciones, miedos y pasiones. <br><br> El tema de adicciones lo exploré desde la residencia, y he visto que hay mucha área de oportunidad en profesionalizar su tratamiento y utilizar la tecnología.'
   },
   {
@@ -167,7 +167,7 @@ const persons =
     logo2: '../styles/equipo/dess/cussi.svg',
     logo3: '../styles/equipo/dess/anahuac.png',
     logo4: '../styles/equipo/dess/fucidim.png',
-    linkdin: 'www.linked-in.com',
+    linkdin: 'https://www.linkedin.com/in/desiree-gaitan-93ab898b/?originalSubdomain=mx',
     descripcion: 'Soy Abogada y me apasionan los emprendimientos sociales. Estudié en el Instituto Tecnológico y de Estudios Superiores Monterrey, y ahí conocí los emprendimientos sociales. Desde entonces me hice fan del tema. Me inscribí a todos los grupos estudiantiles y ONG´s que pude para aprender más y aportar.<br><br> Tengo dos maestrías, una en la Universidad Anáhuac del Sur en Derecho de las Empresas. Quería aprender más de cómo siendo abogada podría apoyar a pequeños negocios y emprendedores. La otra en Acción Política por la Universidad Francisco de Vitoria en Madrid, España. Esta la hice porque siempre quise estudiar en el extranjero y quería que mis …'
   },
   {

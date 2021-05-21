@@ -135,11 +135,13 @@ body {
   z-index: -1;
 }
 
+.carrusel-mobile-icon-row {
+  width: 100%;
+}
+
 .carrusel-mobile-icon-row img {
   display: block;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .banner-pilotos {
@@ -329,6 +331,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 0;
 }
 
 .row-asesores {
@@ -1190,6 +1193,19 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
+  }
+  .carrusel-mobile-icon-row {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
   }
   #carrusel-profile-image {
     max-width: 536px;
