@@ -135,10 +135,19 @@
 .a-btn {
   justify-self: flex-end;
   text-decoration: none;
+  
+}
+
+.servicio-title-heading {
+  font-size: 20px;
+  font-family: $Raleway;
+  font-weight: 600;
 }
 
 .para_servicio {
   height: 100px;
+  font-size: 18px;
+  font-family: $Raleway;
 }
 
 @media (max-width: 650px) {
