@@ -145,6 +145,33 @@ html {
           align-items: center;
 }
 
+.whatsapp-button {
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+  background-color: #25d366;
+  z-index: 9999 !important;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.whatsapp-button .btn-whtsp {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: #075e54;
+  font-size: 40px;
+}
+
+.whatsapp-button .btn-whtsp img {
+  width: 80%;
+}
+
 .graph1 {
   border: 2px solid grey;
   border-radius: 40px;
