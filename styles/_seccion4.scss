@@ -51,6 +51,16 @@ select {
   height: 70px;
 }
 
+.error_message {
+  font-size: 20px;
+  font-family: Raleway;
+  margin-top: 20px;
+  color: $darkBlue;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
 select::placeholder {
   color: $lightBlue;
 }

@@ -105,6 +105,16 @@ h3 {
   background-color: #5E93DB;
 }
 
+.error_message {
+  font-size: 20px;
+  font-family: Raleway;
+  margin-top: 20px;
+  color: #071d49;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
 #montaña_desktop {
   width: 0%;
 }

@@ -87,7 +87,8 @@ function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ningu
 
 
 //Form Validation
-function validation() {
+function validation(event) {
+  event.preventDefault();
   console.log('validating')
   var name = document.getElementById('name').value
   var last_name = document.getElementById('last_name').value
