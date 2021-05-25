@@ -540,6 +540,7 @@ body {
 .image-placeholder {
   background-color: $darkBlue;
   display: flex;
+  max-height: 520px;
 }
 
 .image-avioneta-container {

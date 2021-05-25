@@ -623,6 +623,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-height: 520px;
 }
 
 .image-avioneta-container {

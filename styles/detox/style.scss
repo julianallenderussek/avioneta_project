@@ -1423,8 +1423,8 @@ footer nav {
   }
 
   .linea-divisoria-mobil {
-    width: 660px;
-    margin-top: 100px;
+    max-width: 660px;
+    margin-top: 50px;
     height: 2px;
     background-color: $darkBlue;
     align-self: center;
