@@ -91,7 +91,8 @@ body {
 }
 
 #carrusel-profile-image {
-    max-width: 100%;
+    max-width: 75%;
+    margin: auto;
   }
 
  
@@ -534,6 +535,11 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   color: #081E48;
+}
+
+.image-placeholder {
+  background-color: $darkBlue;
+  display: flex;
 }
 
 .image-avioneta-container {
