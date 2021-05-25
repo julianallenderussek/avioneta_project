@@ -91,6 +91,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   background-color: #F5F5F5;
+  height: 75px;
+  justify-items: center;
 }
 
 body {
@@ -149,6 +151,50 @@ body {
   height: 350px;
   background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
   background-size: cover;
+}
+
+.container-main-aviso-privacidad h3 p {
+  font-family: "Raleway", sans-serif;
+  color: #071d49;
+}
+
+.container-main-aviso-privacidad h3 {
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+}
+
+.container-main-aviso-privacidad {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 85%;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dark_blue {
+  color: #071d49;
+  font-weight: 900;
+}
+
+.heading-aviso-privacidad {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #071d49;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .menu-mobile-dropdown {
@@ -398,7 +444,6 @@ body {
 .nav-logo-avioneta {
   display: inline;
   margin-left: 20px;
-  margin-top: 28px;
 }
 
 .aliados-row {
@@ -506,7 +551,6 @@ body {
 .container-hamburger {
   display: inline;
   cursor: pointer;
-  margin-top: 32px;
   margin-right: 15px;
 }
 
@@ -1227,6 +1271,23 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
+  }
+  .container-main-aviso-privacidad {
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 1000px;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .montana-mobile-equipo {
     display: none;

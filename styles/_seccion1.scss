@@ -30,6 +30,12 @@
   flex-direction: column;
   flex: 1;
   margin: 3px;
+  padding: 0px 15px 0px 15px;
+  font-size: 24px;
+}
+
+.circle_container p {
+  font-size: 18px;
 }
 
 .circle {
@@ -73,6 +79,8 @@ p {
   font-family: $Raleway;
   font-size: 14px;
 }
+
+
 
 .bold {
   font-weight: bold;

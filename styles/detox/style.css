@@ -84,6 +84,8 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #F5F5F5;
+  height: 75px;
+  justify-items: center;
 }
 
 .btn-call-to-action {
@@ -114,7 +116,6 @@ h3 {
 .nav-logo-avioneta {
   display: inline;
   margin-left: 20px;
-  margin-top: 28px;
 }
 
 html {
@@ -128,7 +129,6 @@ html {
 .container-hamburger {
   display: inline;
   cursor: pointer;
-  margin-top: 32px;
   margin-right: 15px;
 }
 
@@ -254,6 +254,7 @@ html {
   font-weight: 900;
   margin-bottom: 15px;
   text-align: center;
+  color: #071d49;
 }
 
 .heading-new-graph {
@@ -264,6 +265,7 @@ html {
       -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
+  color: #071d49;
 }
 
 .heading-new-graph-left {
@@ -282,10 +284,14 @@ html {
   margin: auto;
   font-family: .mas-info-graph Raleway;
   justify-self: flex-end;
-  color: black;
+  color: #071d49;
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 15px;
+}
+
+.mas-info-graph a {
+  color: #071d49;
 }
 
 .closebutton {

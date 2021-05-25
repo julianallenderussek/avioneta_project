@@ -28,6 +28,8 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #F5F5F5;
+  height: 75px;
+  justify-items: center;
 }
 
 .menu-mobile-dropdown {
@@ -100,7 +102,6 @@ h3 {
 .nav-logo-avioneta {
   display: inline;
   margin-left: 20px;
-  margin-top: 28px;
 }
 
 .nav-hyperlink {
@@ -111,7 +112,6 @@ h3 {
 .container-hamburger {
   display: inline;
   cursor: pointer;
-  margin-top: 32px;
   margin-right: 15px;
 }
 
@@ -417,6 +417,12 @@ h3 {
       -ms-flex: 1;
           flex: 1;
   margin: 3px;
+  padding: 0px 15px 0px 15px;
+  font-size: 24px;
+}
+
+.circle_container p {
+  font-size: 18px;
 }
 
 .circle {
@@ -534,7 +540,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 20px 0px 20px;
 }
 
 .servicio_container input {
@@ -673,15 +679,18 @@ h3 {
 }
 
 .servicio-title-heading {
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .para_servicio {
   height: 100px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 @media (max-width: 650px) {
@@ -712,7 +721,7 @@ h3 {
     font-size: 2rem;
   }
   .para_servicio {
-    height: 50px;
+    height: 80px;
     width: 280px;
   }
   .servicio {

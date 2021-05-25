@@ -8,14 +8,28 @@
   color: &darkBlue;
 }
 
+.parrago-bio-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.heading-bio-rodrigo {
+  font-family: $Raleway;
+  color: $darkBlue;
+}
+
 .nombre-rodrigo {
   font-size: 25px;
   color: $darkBlue;
+  font-family: &Raleway;
+  font-weight: 900;
 }
 
 .subtitle-rodrigo{
   font-size: 20px;
   color: $darkBlue;
+  font-family: &Raleway;
+  font-weight: 900;
 }
 
 @media (min-width: 600px) {
@@ -23,6 +37,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 1000px;
+    align-self: center;
     }
   }
 

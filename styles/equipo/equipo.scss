@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
@@ -70,6 +69,8 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: #F5F5F5;
+  height: 75px;
+  justify-items: center;
 }
 
 body {
@@ -127,6 +128,37 @@ body {
   background-size: cover;
 }
 
+.container-main-aviso-privacidad h3 p {
+  font-family: $Raleway;
+  color: $darkBlue;
+}
+
+.container-main-aviso-privacidad h3 {
+  align-self: left;
+}
+
+.container-main-aviso-privacidad {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dark_blue {
+  color: $darkBlue;
+  font-weight: 900;
+}
+
+.heading-aviso-privacidad {
+  font-family: $Raleway;
+  font-size: 24px;
+  font-weight: 900;
+  color: $darkBlue;
+  align-self: center;
+}
 
 .menu-mobile-dropdown {
   display: none;
@@ -340,7 +372,7 @@ body {
 .nav-logo-avioneta {
   display: inline;
   margin-left: 20px;
-  margin-top: 28px;
+  
 }
 
 .aliados-row {
@@ -442,7 +474,6 @@ body {
 .container-hamburger {
   display: inline;
   cursor: pointer;
-  margin-top: 32px;
   margin-right: 15px;
 }
 
@@ -1052,6 +1083,16 @@ footer nav {
     display: none;
   }
 
+  .container-main-aviso-privacidad {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .montana-mobile-equipo {
     display:none
   }
@@ -1277,6 +1318,7 @@ footer nav {
   .heading-3-pilar-psicotrapeutico {
     color: white;
   }
+
 
   .desktop-container {
     width: 100%;
