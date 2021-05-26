@@ -170,6 +170,14 @@ html {
   justify-content: center;
 }
 
+.content_servicio {
+  width: 70%;
+  color: $darkBlue;
+  font-family: $Raleway;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .graph2{
   border: 2px solid grey;
   border-radius: 40px;
@@ -1389,6 +1397,13 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
+  }
+
+  .content_servicio {
+    width: 70%;
+    color: $darkBlue;
+    font-family: $Raleway;
+    font-size: 18px;
   }
 
   .main-container-graph {

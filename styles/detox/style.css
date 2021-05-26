@@ -201,6 +201,14 @@ html {
           justify-content: center;
 }
 
+.content_servicio {
+  width: 70%;
+  color: #071d49;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .graph2 {
   border: 2px solid grey;
   border-radius: 40px;
@@ -270,7 +278,7 @@ html {
 .heading-new-graph {
   font-size: 20px;
   font-family: .heading-new-graph Raleway;
-  font-weight: 900;
+  font-weight: 700;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -281,7 +289,7 @@ html {
 .heading-new-graph-left {
   font-size: 20px;
   font-family: .heading-new-graph-left Raleway;
-  font-weight: 900;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -1565,6 +1573,12 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
+  }
+  .content_servicio {
+    width: 70%;
+    color: #071d49;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
   }
   .main-container-graph {
     display: -webkit-box;
