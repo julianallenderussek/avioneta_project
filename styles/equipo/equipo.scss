@@ -86,8 +86,7 @@ body {
 
 #display-block {
   display: block;
-  display: block;
-  top: 220px;
+  top: 0px;
 }
 
 #carrusel-profile-image {
@@ -1088,6 +1087,11 @@ footer nav {
 @media (min-width: 600px) {
   .nav-mobile {
     display: none;
+  }
+
+  #display-block {
+    display: block;
+    top: 220px;
   }
 
   .container-main-aviso-privacidad {
