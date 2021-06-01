@@ -36,7 +36,7 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `${user_email}`,
     From: "contacto@avioneta.org",
-    Subject: `Estimado ${name} gracias por tu interés en AVIONETA`,
+    Subject: `${name} gracias por tu interés en AVIONETA`,
     Body: `Estimado ${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     <br/>
@@ -111,7 +111,7 @@ function validation(event) {
   // }
   
   if (isNaN(phone) || phone.length < 1 ) {
-    text = "Favor de ingresar un télefono valido"
+    text = "Favor de ingresar un téléfono válido"
     error_message.innerHTML = text
     return false
   }
