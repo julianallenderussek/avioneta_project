@@ -250,7 +250,7 @@ h3 {
 }
 
 .hero-heading {
-  font-size: 1.0rem;
+  font-size: 1rem;
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
@@ -281,7 +281,7 @@ h3 {
 }
 
 .hero-subheading {
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 .btn-contact {
@@ -366,6 +366,14 @@ h3 {
   .background_text_mobile {
     width: 80%;
   }
+}
+
+.prgrf {
+  width: 80%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -673,6 +681,10 @@ h3 {
 
 #canceled {
   background-color: grey;
+}
+
+#canceled:hover, #canceled:active {
+  background-color: #676767;
 }
 
 .a-btn {
