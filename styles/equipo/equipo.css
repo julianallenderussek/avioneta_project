@@ -1003,6 +1003,7 @@ select::placeholder {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    height: auto;
   }
   .mobile-menu-flechas {
     height: 80px;
