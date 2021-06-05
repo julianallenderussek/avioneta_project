@@ -1480,6 +1480,7 @@ footer nav {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    height: auto;
   }
   .carrusel-icons-holder {
     width: 25%;
