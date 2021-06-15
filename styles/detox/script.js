@@ -36,10 +36,11 @@ const toggleMenu = () => {
 
 //Send Email function
 function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna') {
+  console.log('this is user email');
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "ffuentesdelaparra@gmail.com",
-    Password: "kacnoflycdwhbwcr",
+    Username: "avionetacontacto@gmail.com",
+    Password: "ddpdmjspcqovghui",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `${user_email}`,
     From: "contacto@avioneta.org",
@@ -47,21 +48,23 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
     Body: `Estimado ${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     <br/>
-    Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.
+    Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente. <br/>
     <br/>
     De cualquier forma, te dejamos nuestro Whatsapp: +1 (415) 326-4326 <br/>
-    Con cariño, <br/>
     <br/>
+    Con cariño, <br/>
     El equipo AVIONETA`,
-  })
-  console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
+  }).then(
+    console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
+  );
+  
 }
 
 function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ninguna') {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "ffuentesdelaparra@gmail.com",
-    Password: "kacnoflycdwhbwcr",
+    Username: "avionetacontacto@gmail.com",
+    Password: "ddpdmjspcqovghui",
     // To: (`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com'),
     To: `ffuentesdelaparra@gmail.com`,
     From: "contacto@avioneta.org",
