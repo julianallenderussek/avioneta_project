@@ -45,7 +45,7 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
     To: `${user_email}`,
     From: "contacto@avioneta.org",
     Subject: `${name} gracias por tu interés en AVIONETA`,
-    Body: `Estimado ${name}<br/>
+    Body: `${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     <br/>
     Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente. <br/>
@@ -53,7 +53,8 @@ function sendEmail(name, last_name, phone, user_email, razon_visita = 'ninguna')
     De cualquier forma, te dejamos nuestro Whatsapp: +1 (415) 326-4326 <br/>
     <br/>
     Con cariño, <br/>
-    El equipo AVIONETA`,
+    El equipo AVIONETA <br/>
+    ¡Nos vemos entre nubes!`,
   }).then(
     console.log(`${user_email}`, 'jallenderussek@gmail.com', 'ffuentesdelaparra@gmail.com')
   );
@@ -69,15 +70,17 @@ function sendEmailtoMe(name, last_name, phone, user_email, razon_visita = 'ningu
     To: `ffuentesdelaparra@gmail.com`,
     From: "contacto@avioneta.org",
     Subject: `${name} gracias por tu interés en AVIONETA`,
-    Body: `Estimado ${name}<br/>
+    Body: `${name}<br/>
     Muchas gracias por ponerte en contacto con nosotros. <br/>
     <br/>
     Un miembro del equipo te contactará estos días para una plática inicial por el medio que te sea mas conveniente.<br/>
     <br/>
     De cualquier forma, te dejamos nuestro Whatsapp: +1 (415) 326-4326 <br/>
     Con cariño, <br/>
-    El equipo AVIONETA
-    
+    El equipo AVIONETA <br/>
+    ¡Nos vemos entre nubes!
+    <br/>
+    <br/>
     DATOS DEL CLIENTE
     Nombre: ${name}
     <br/>
@@ -119,11 +122,11 @@ function validation() {
   //   return false
   // }
   
-  if (isNaN(phone) || phone.length < 1) {
-    text = "Favor de ingresar un teléfono válido"
-    error_message.innerHTML = text
-    return false
-  }
+  // if (isNaN(phone) || phone.length < 1) {
+  //   text = "Favor de ingresar un teléfono válido"
+  //   error_message.innerHTML = text
+  //   return false
+  // }
 
   if (user_email.length < 1) {
     text = "Favor de ingresar un email"
@@ -134,7 +137,7 @@ function validation() {
     
     sendEmail(name, last_name, phone, user_email)
     sendEmailtoMe(name, last_name, phone, user_email)
-    alert('Gracias por contactarnos. Un correo electronico fue enviado a tu mail')
+    alert('Gracias por contactarnos. Te enviamos un email de confirmación.')
     return true
 }
 
