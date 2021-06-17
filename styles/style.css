@@ -368,14 +368,6 @@ h3 {
   }
 }
 
-.prgrf {
-  width: 80%;
-  display: block;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
 h3 {
   color: #5E93DB;
 }
@@ -524,38 +516,127 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 3rem 0;
+}
+
+.big_container .seccion2_main_container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 15px 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.big_container .seccion2_main_container .servicio_container_1 {
+  padding: 2rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0 33%;
+          flex: 0 0 0 33%;
+  max-width: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.big_container .seccion2_main_container .servicio_container_1 .para_servicio {
+  color: white;
+}
+
+.big_container .seccion2_main_container .servicio_container_1:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0 33%;
+          flex: 0 0 0 33%;
+  max-width: 33%;
+  margin: 0;
+  background-color: #071d49;
+}
+
+.big_container .seccion2_main_container .servicio_container_1 .a-btn {
+  text-decoration: none;
+}
+
+.big_container .seccion2_main_container .servicio_container_1 .a-btn .btn-product-page {
+  margin: auto;
+}
+
+.big_container .seccion2_main_container .servicio_container_1 .servicio {
+  width: 15vh;
+  height: 15vh;
+  margin: auto;
+}
+
+.big_container .seccion2_main_container .servicio_container_1 .servicio.servicio1 {
+  background: url(../assets/Avio_WEB_Asset-14.png) no-repeat center;
+  background-size: 70%;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0 67%;
+          flex: 0 0 0 67%;
+  max-width: 67%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .prgrf {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .a-btn {
+  text-decoration: none;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .a-btn .btn-product-page {
+  margin: auto;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .sub_servicio_container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0 33%;
+          flex: 0 0 0 33%;
+  max-width: 33%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .sub_servicio_container .servicio {
+  width: 15vh;
+  height: 15vh;
+  margin: auto;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .sub_servicio_container .servicio.servicio2 {
+  background: url(../assets/Avio_WEB_Asset-15.png) no-repeat center;
+  background-size: 70%;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .sub_servicio_container .servicio.servicio3 {
+  background: url(../assets/Avio_WEB_Asset-16.png) no-repeat center;
+  background-size: 70%;
+}
+
+.big_container .seccion2_main_container .servicio_container_2 .sub_servicio_container .servicio.servicio4 {
+  background: url(../assets/Avio_WEB_Asset-17.png) no-repeat center;
+  background-size: 45%;
 }
 
 .section2_heading {
-  margin-top: 5vh;
   margin-bottom: 3vh;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 3rem;
-}
-
-.seccion2_main_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0vh 10vh 5vh 10vh;
-}
-
-.servicio_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0px 20px 0px 20px;
 }
 
 .servicio_container input {
@@ -567,66 +648,6 @@ h3 {
           justify-content: center;
   margin: 0;
   padding: 0;
-}
-
-.servicio {
-  width: 15vh;
-  height: 15vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.servicio1 {
-  background: url(../assets/Avio_WEB_Asset-14.png) no-repeat center;
-  background-size: 70%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  justify-self: flex-start;
-}
-
-.servicio2 {
-  background: url(../assets/Avio_WEB_Asset-15.png) no-repeat center;
-  background-size: 70%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  justify-self: flex-start;
-}
-
-.servicio3 {
-  background: url(../assets/Avio_WEB_Asset-16.png) no-repeat center;
-  background-size: 70%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.servicio4 {
-  background: url(../assets/Avio_WEB_Asset-17.png) no-repeat center;
-  background-size: 45%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
 }
 
 .btn-image {
@@ -690,11 +711,6 @@ h3 {
 
 #canceled:hover, #canceled:active {
   background-color: #676767;
-}
-
-.a-btn {
-  justify-self: flex-end;
-  text-decoration: none;
 }
 
 .servicio-title-heading {

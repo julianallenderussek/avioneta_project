@@ -5,27 +5,95 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 3rem 0;
+  .seccion2_main_container {
+    flex-wrap: wrap;
+    margin: 0 15px 0 15px;
+    display: flex;
+    .servicio_container_1 {
+      padding: 2rem;
+      flex: 0 0 0 33%;
+      max-width: 33%;
+      align-items: center;
+      text-align: center;
+      .para_servicio {
+        color: $white;
+      }
+      &:first-child {
+        flex: 0 0 0 33%;
+        max-width: 33%;
+        margin: 0;
+        background-color: $darkBlue;
+      }
+      .a-btn {
+        text-decoration: none;
+        .btn-product-page {
+          margin: auto;
+        }
+      }
+      .servicio {
+        width: 15vh;
+        height: 15vh;
+        margin: auto;
+        &.servicio1 {
+          background: url(../assets/Avio_WEB_Asset-14.png) no-repeat center;
+          background-size: 70%;
+        }
+      }
+    }
+    .servicio_container_2 {
+      display: flex;
+      flex: 0 0 0 67%;
+      max-width: 67%;
+      flex-wrap: wrap;
+      .prgrf {
+        flex: 0 0 80%;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 1rem 0;
+      }
+      .a-btn {
+        text-decoration: none;
+        .btn-product-page {
+          margin: auto;
+        }
+      }
+      .sub_servicio_container {
+        flex: 0 0 0 33%;
+        max-width: 33%;
+        text-align: center;
+        padding: 1rem;
+        .servicio {
+          width: 15vh;
+          height: 15vh;
+          margin: auto;
+          &.servicio2 {
+            background: url(../assets/Avio_WEB_Asset-15.png) no-repeat center;
+            background-size: 70%;
+          }
+
+          &.servicio3 {
+            background: url(../assets/Avio_WEB_Asset-16.png) no-repeat center;
+            background-size: 70%;
+          }
+
+          &.servicio4 {
+            background: url(../assets/Avio_WEB_Asset-17.png) no-repeat center;
+            background-size: 45%;
+          }
+        }
+      }
+    }
+  }
 }
 
 .section2_heading {
-  margin-top: 5vh;
+  // color: $white;
   margin-bottom: 3vh;
   font-family: $Raleway;
   font-weight: 900;
   font-size: 3rem;
-}
-
-.seccion2_main_container {
-  display: flex;
-  margin: 0vh 10vh 5vh 10vh;
-}
-
-.servicio_container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-  margin: 0px 20px 0px 20px;
 }
 
 .servicio_container input {
@@ -33,44 +101,6 @@
   justify-content: center;
   margin: 0;
   padding: 0;
-}
-
-.servicio {
-  width: 15vh;
-  height: 15vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.servicio1 {
-  background: url(../assets/Avio_WEB_Asset-14.png) no-repeat center;
-  background-size: 70%;
-  align-self: center;
-  justify-content: flex-start;
-  justify-self: flex-start;
-}
-
-.servicio2 {
-  background: url(../assets/Avio_WEB_Asset-15.png) no-repeat center;
-  background-size: 70%;
-  align-self: center;
-  justify-content: flex-start;
-  justify-self: flex-start;
-}
-
-.servicio3 {
-  background: url(../assets/Avio_WEB_Asset-16.png) no-repeat center;
-  background-size: 70%;
-  align-self: center;
-  justify-content: flex-start;
-}
-
-.servicio4 {
-  background: url(../assets/Avio_WEB_Asset-17.png) no-repeat center;
-  background-size: 45%;
-  align-self: center;
-  justify-content: flex-start;
 }
 
 .btn-image {
@@ -133,11 +163,6 @@
   &:active {
     background-color: darken($color: grey, $amount: 10%);
   }
-}
-
-.a-btn {
-  justify-self: flex-end;
-  text-decoration: none;
 }
 
 .servicio-title-heading {
