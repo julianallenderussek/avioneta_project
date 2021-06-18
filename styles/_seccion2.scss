@@ -20,8 +20,8 @@
         color: $white;
       }
       &:first-child {
-        flex: 0 0 0 33%;
-        max-width: 33%;
+        flex: 0 0 0 25%;
+        max-width: 25%;
         margin: 0;
         background-color: $darkBlue;
       }
@@ -43,8 +43,8 @@
     }
     .servicio_container_2 {
       display: flex;
-      flex: 0 0 0 67%;
-      max-width: 67%;
+      flex: 0 0 0 75%;
+      max-width: 75%;
       flex-wrap: wrap;
       .prgrf {
         flex: 0 0 80%;

@@ -546,9 +546,9 @@ h3 {
 
 .big_container .seccion2_main_container .servicio_container_1:first-child {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 0 33%;
-          flex: 0 0 0 33%;
-  max-width: 33%;
+      -ms-flex: 0 0 0 25%;
+          flex: 0 0 0 25%;
+  max-width: 25%;
   margin: 0;
   background-color: #071d49;
 }
@@ -577,9 +577,9 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 0 67%;
-          flex: 0 0 0 67%;
-  max-width: 67%;
+      -ms-flex: 0 0 0 75%;
+          flex: 0 0 0 75%;
+  max-width: 75%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
