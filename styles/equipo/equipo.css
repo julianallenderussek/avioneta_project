@@ -4,19 +4,87 @@ h3 {
   color: #5E93DB;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,8 +94,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -42,17 +119,21 @@ body {
           flex-direction: column;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -90,7 +171,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   height: 75px;
   justify-items: center;
 }
@@ -129,7 +210,7 @@ body {
   width: 25px;
   position: absolute;
   top: 300px;
-  color: #081E48;
+  color: #081e48;
 }
 
 #treehouse-div {
@@ -149,7 +230,7 @@ body {
 .banner-pilotos {
   width: 100%;
   height: 350px;
-  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.svg);
   background-size: cover;
 }
 
@@ -297,7 +378,7 @@ body {
 .banner-asesores {
   width: 100%;
   height: 443px;
-  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+  background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.svg);
   margin-top: 30px;
   background-size: cover;
 }
@@ -338,9 +419,9 @@ body {
 }
 
 .container-pasajeros-aliados {
-  background-image: url(/styles/equipo/equipo_web/Croped_BACK2x.png);
-  max-height: 2000px;
-  margin-top: -900px;
+  background: #fa7981;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fa7981), to(#f5f4f4));
+  background: linear-gradient(0deg, #fa7981 0%, #f5f4f4 100%);
   z-index: -5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,7 +635,9 @@ body {
   margin-right: 15px;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 35px;
   height: 5px;
   background-color: #071d49;
@@ -605,16 +688,16 @@ body {
   padding-top: 42px;
   margin-left: 10px;
   font-size: 40px;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-weight: Regular;
-  color: #081E48;
+  color: #081e48;
 }
 
 .detox-home-container {
-  background-color: #F5F5F5;
-  font-family: 'Raleway', sans-serif;
+  background-color: #f5f5f5;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
-  color: #081E48;
+  color: #081e48;
 }
 
 .image-placeholder {
@@ -677,10 +760,10 @@ body {
 
 .container-paragraph-family {
   padding: 15px 10px 15px 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: #081E48;
+  color: #081e48;
 }
 
 .bold-paragraph {
@@ -698,7 +781,7 @@ body {
 .blue-line {
   width: 100%;
   height: 2px;
-  background-color: #5E93DB;
+  background-color: #5e93db;
 }
 
 .imagen-abstinencia {
@@ -706,21 +789,21 @@ body {
   height: 580px;
   background-color: green;
   background-image: url(./assets_detox/Ansiedad-Mobil.png);
-  opacity: .98;
+  opacity: 0.98;
 }
 
 .paragraph-partones-consumo {
   color: white;
   font-size: 22px;
   padding: 15px 10px 15px 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
 }
 
 .pilar-medico-container {
   width: 100%;
   max-height: 1000px;
-  background-color: #5E93DB;
+  background-color: #5e93db;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -734,15 +817,15 @@ body {
   color: white;
   margin-top: 40px;
   margin-left: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: 600;
 }
 
 .heading-2-pilar-medico {
   margin-left: 10px;
-  color: #081E48;
-  font-family: 'Raleway', sans-serif;
+  color: #081e48;
+  font-family: "Raleway", sans-serif;
   font-size: 45px;
   font-weight: 900;
 }
@@ -762,7 +845,7 @@ body {
   margin-left: 10px;
   font-size: 20px;
   padding: 30px 10px 30px 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
 }
 
@@ -777,12 +860,12 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(./assets_detox/Runner_Mobile.png);
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .pilar-psicotrapeutico-container {
   background-image: url(../detox/assets_detox/mountain.png);
-  background-color: #5E93DB;
+  background-color: #5e93db;
   width: 100%;
   height: 1359px;
   display: -webkit-box;
@@ -798,7 +881,7 @@ body {
   font-size: 20px;
   padding-top: 40px;
   margin-left: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: 600;
   color: #071d49;
@@ -808,7 +891,7 @@ body {
   font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
   font-weight: 900;
 }
@@ -816,7 +899,7 @@ body {
 .pilar-educativo-paragraph-container {
   width: 100%;
   height: 200px;
-  background-color: #5E93DB;
+  background-color: #5e93db;
   color: white;
 }
 
@@ -1164,13 +1247,13 @@ select::placeholder {
             flex-direction: column;
   }
   input {
-    background-color: #5E93DB;
+    background-color: #5e93db;
     margin-top: 10px;
     width: 100%;
     border-radius: 2rem;
   }
   .select {
-    background-color: #5E93DB;
+    background-color: #5e93db;
     border-radius: 2rem;
   }
 }
@@ -1669,7 +1752,7 @@ footer nav {
     display: -ms-flexbox;
     display: flex;
     width: 500px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
   .detox-home-container-desktop {
     padding-top: 200px;
@@ -1808,8 +1891,8 @@ footer nav {
   }
   .pilares-desktop {
     margin-left: 10px;
-    color: #081E48;
-    font-family: 'Raleway', sans-serif;
+    color: #081e48;
+    font-family: "Raleway", sans-serif;
     font-size: 40px;
     font-weight: 900;
   }
@@ -1817,7 +1900,7 @@ footer nav {
     color: white;
     padding-top: 40px;
     margin-left: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 25px;
     font-weight: 600;
   }
@@ -1973,13 +2056,13 @@ footer nav {
   .banner-pilotos {
     width: 100%;
     height: 311px;
-    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.svg);
     background-size: cover;
   }
   .banner-asesores {
     width: 100%;
     height: 311px;
-    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.svg);
     background-size: cover;
   }
   .container-banner-pilotos {
@@ -2030,7 +2113,7 @@ footer nav {
   .banner-pilotos {
     width: 100%;
     height: 311px;
-    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    background-image: url(../equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.svg);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
