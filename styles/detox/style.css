@@ -959,7 +959,7 @@ select::placeholder {
   .banner-pilotos {
     width: 100%;
     background-color: green;
-    background-image: url(/styles/equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    background-image: url(/styles/equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1@2x.jpg);
     height: 311px;
   }
   .heading_hagamos_equipo {
@@ -1492,7 +1492,7 @@ footer nav {
   .banner-pilotos {
     width: 100%;
     background-color: green;
-    background-image: url(/styles/equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1.png);
+    background-image: url(/styles/equipo/equipo_web/drew-beamer-SMp7v0XAk0M-unsplash-1@2x.jpg);
     height: 311px;
   }
   #runner-image {
