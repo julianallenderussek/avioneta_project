@@ -1,45 +1,126 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 body {
@@ -53,7 +134,7 @@ a {
 }
 
 html {
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 // Footer
@@ -65,10 +146,9 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   height: 75px;
   justify-items: center;
-  
 }
 
 .btn-call-to-action {
@@ -97,7 +177,6 @@ html {
   text-decoration: underline;
 }
 
-
 #montaña_desktop {
   width: 0%;
 }
@@ -116,7 +195,6 @@ html {
   overflow-x: hidden;
 }
 
-
 .dark-blue {
   background-color: $darkBlue;
 }
@@ -128,7 +206,7 @@ html {
   margin-right: 15px;
 }
 
-.graph-container{
+.graph-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,7 +236,7 @@ html {
   }
 }
 
-.graph1{
+.graph1 {
   border: 2px solid grey;
   border-radius: 40px;
   margin-top: 20px;
@@ -178,7 +256,7 @@ html {
   font-weight: 600;
 }
 
-.graph2{
+.graph2 {
   border: 2px solid grey;
   border-radius: 40px;
   padding: 80px 10px 0px 10px;
@@ -190,7 +268,7 @@ html {
   justify-content: center;
 }
 
-.graph3{
+.graph3 {
   height: 200px;
   width: 80%;
   display: flex;
@@ -199,7 +277,7 @@ html {
   align-items: center;
 }
 
-.graph4{
+.graph4 {
   border: 2px solid grey;
   border-radius: 40px;
   padding: 20px 10px 0px 20px;
@@ -264,7 +342,9 @@ html {
   width: 100%;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 35px;
   height: 5px;
   background-color: #333;
@@ -281,6 +361,11 @@ html {
   height: 2px;
   background-color: $darkBlue;
   align-self: center;
+  margin-top: 50px;
+  @media (min-width: 768px) {
+    display: none;
+    margin-top: 0;
+  }
 }
 
 .logo-avioneta-mobile {
@@ -289,8 +374,8 @@ html {
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 /* Fade out the second bar */
@@ -312,8 +397,8 @@ html {
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .sabias-que-el {
@@ -325,17 +410,16 @@ html {
   padding-top: 42px;
   margin-left: 10px;
   font-size: 40px;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-weight: Regular;
-  color: #081E48;
-
+  color: #081e48;
 }
 
 .detox-home-container {
-  background-color: #F5F5F5;
-  font-family: 'Raleway', sans-serif;
+  background-color: #f5f5f5;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
-  color: #081E48;
+  color: #081e48;
   padding-bottom: 20px;
 }
 
@@ -407,7 +491,7 @@ html {
 }
 
 .active {
-  display:flex
+  display: flex;
 }
 
 .menu-mobile-dropdown a {
@@ -423,7 +507,7 @@ html {
   border-bottom: white solid 1px;
 }
 
-.icon-list-dropdown-mobile{
+.icon-list-dropdown-mobile {
   padding-right: 10px;
   justify-self: flex-end;
 }
@@ -432,7 +516,7 @@ html {
   align-self: flex-end;
 }
 
-.detox-home-container-desktop{
+.detox-home-container-desktop {
   display: none;
 }
 
@@ -443,19 +527,19 @@ html {
 }
 
 // imagen familia
-.image-family{
+.image-family {
   width: 100%;
   height: 540px;
-  background-image: url(./assets_detox/imagen_familia.png) ;
+  background-image: url(./assets_detox/imagen_familia.png);
 }
 
-// Paragraph Family 
-.container-paragraph-family{
+// Paragraph Family
+.container-paragraph-family {
   padding: 15px 10px 15px 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #081E48;
+  color: #081e48;
 }
 
 .bold-paragraph {
@@ -466,13 +550,13 @@ html {
   margin-top: 30px;
 }
 
-.container-deperesion-desktop{
-  display:none
+.container-deperesion-desktop {
+  display: none;
 }
 .blue-line {
   width: 100%;
   height: 2px;
-  background-color: #5E93DB;
+  background-color: #5e93db;
 }
 
 .imagen-chava {
@@ -480,50 +564,50 @@ html {
   z-index: 5;
 }
 
-.container-principal{
+.container-principal {
   position: relative;
   z-index: 5;
-  }
+}
 
-  .overlay {
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   display: block;
   z-index: 3;
-  }
+}
 
 .paragraph-partones-consumo {
   position: absolute;
   color: white;
   font-size: 22px;
   padding: 15px 10px 15px 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   display: block;
   z-index: 3;
-  }
+}
 
 //Pilar Medico
 .pilar-medico-container {
   width: 100%;
   max-height: 1000px;
-  background-color: #5E93DB;
+  background-color: #5e93db;
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 #montana_destkop {
@@ -534,20 +618,20 @@ html {
   color: white;
   margin-top: 40px;
   margin-left: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: 350;
 }
 
 .heading-2-pilar-medico {
   margin-left: 10px;
-  color: #081E48;
-  font-family: 'Raleway', sans-serif;
+  color: #081e48;
+  font-family: "Raleway", sans-serif;
   font-size: 45px;
   font-weight: 700;
 }
 
-.circle { 
+.circle {
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -564,7 +648,7 @@ html {
   margin-left: 10px;
   font-size: 20px;
   padding: 30px 10px 30px 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
 }
 
@@ -574,7 +658,7 @@ html {
   display: flex;
   flex-direction: column;
   background-image: url(./assets_detox/Runner_Mobile.png);
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .pilar-psicotrapeutico-container {
@@ -591,19 +675,18 @@ html {
   font-size: 20px;
   padding-top: 40px;
   margin-left: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: 350;
-  
 }
 
 .heading-2-pilar-psicotrapeutico {
-  color: #081E48;
+  color: #081e48;
   font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
-  color: #081E48;
-  font-family: 'Raleway', sans-serif;
+  color: #081e48;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
@@ -611,7 +694,7 @@ html {
 .pilar-educativo-paragraph-container {
   width: 100%;
   height: 200px;
-  background-color: #5E93DB;
+  background-color: #5e93db;
   color: white;
 }
 
@@ -645,7 +728,7 @@ html {
 }
 
 input {
-  background-color: #5E93DB;
+  background-color: #5e93db;
   width: 47.5%;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
@@ -679,7 +762,6 @@ select::placeholder {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 .contact_form {
@@ -704,9 +786,9 @@ select::placeholder {
   padding: 1rem 1.75rem 1rem 1.75rem;
   display: block;
   margin-top: 1rem;
-    &:hover {
-      background-color: $lightBlue;
-    }
+  &:hover {
+    background-color: $lightBlue;
+  }
 }
 
 .logo-avion {
@@ -721,8 +803,6 @@ select::placeholder {
 }
 
 @media (max-width: 650px) {
-
-
   #montaña-desktop {
     width: 100%;
   }
@@ -734,43 +814,41 @@ select::placeholder {
     height: 311px;
   }
 
-
-
   .heading_hagamos_equipo {
-  font-size: 2.2rem;
-  font-weight: 600;
+    font-size: 2.2rem;
+    font-weight: 600;
   }
 
-.section4_subheading2 {
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  color: $darkBlue;
-  margin-left: 50px;
-  margin-right: 50px;
-}
+  .section4_subheading2 {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: $darkBlue;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-#imagen-ansiedad {
-  height: 400px;
-}
+  #imagen-ansiedad {
+    height: 400px;
+  }
 
-.datos-contacto-bold {
-  font-weight: 900;
-  font-family: $Raleway;
-}
+  .datos-contacto-bold {
+    font-weight: 900;
+    font-family: $Raleway;
+  }
 
-.contact_form {
-  display: flex;
-  flex-direction: column;
-}
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+  }
 
-.form_section {
-  display: flex;
-  flex-direction: column;
-}
+  .form_section {
+    display: flex;
+    flex-direction: column;
+  }
 
   input {
-    background-color: #5E93DB;
+    background-color: #5e93db;
     width: 47.5%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
@@ -782,11 +860,9 @@ select::placeholder {
   }
 
   .select {
-    background-color: #5E93DB;
+    background-color: #5e93db;
     border-radius: 2rem;
-    
-  } 
-
+  }
 }
 
 .main-footer {
@@ -839,7 +915,6 @@ footer nav {
   font-size: 15px;
   font-family: $Raleway;
   font-weight: 500;
-
 }
 
 .franja {
@@ -863,7 +938,7 @@ footer nav {
 }
 
 .runner-desktop {
-  display:none
+  display: none;
 }
 
 .nav-desktop {
@@ -876,7 +951,7 @@ footer nav {
   }
 
   .heading-3-pilar-psicotrapeutico {
-    color: white
+    color: white;
   }
 
   .desktop-container {
@@ -888,9 +963,9 @@ footer nav {
     align-items: center;
   }
 
-  .container-principal{
+  .container-principal {
     display: none;
-    } 
+  }
 
   .nav-desktop {
     width: 60%;
@@ -915,10 +990,10 @@ footer nav {
   }
 
   .desktop-family-image-div {
-    display:inline-block;
+    display: inline-block;
   }
-  
-  .detox-home-container-desktop{
+
+  .detox-home-container-desktop {
     display: inline-block;
   }
 
@@ -941,15 +1016,15 @@ footer nav {
   .detox-paragrah-image-container {
     display: flex;
     width: 500px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
 
   .detox-home-container-desktop {
-    padding-top: 200px ;
+    padding-top: 200px;
     padding-right: 100px;
     width: 600px;
   }
-  
+
   .text-container {
     width: 600px;
   }
@@ -959,300 +1034,277 @@ footer nav {
     background: url(/styles/detox/assets_detox/family-desktop.png);
   }
 
-.detox-home-container {
-  display: none;
-}
+  .detox-home-container {
+    display: none;
+  }
 
-.image-family {
-  display: none;
-}
+  .image-family {
+    display: none;
+  }
 
-.container-paragraph-family{
-  width: 60%;
-  max-width: 1140px;
-  margin: 30px auto;
-}
+  .container-paragraph-family {
+    width: 60%;
+    max-width: 1140px;
+    margin: 30px auto;
+  }
 
-.imagen-abstinencia {
-  display: none;
-}
+  .imagen-abstinencia {
+    display: none;
+  }
 
-.pilar-educativo-paragraph-container {
-height: 150px;
-display: flex;
-align-items: center;
-}
+  .pilar-educativo-paragraph-container {
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
 
-.paragraph-pilar-medico {
-  width: 600px;
-  max-width: 1140px;
-  margin: auto;
-  font-size: 25px;
-  font-family: $Raleway;
-  color: $darkBlue;
-}
-
-.paragraph-pilar-medico {
-  margin-left: 10px;
-  font-size: 20px;
-  padding: 30px 10px 30px 10px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-}
-
-.section4_subheading2 {
-  width: 60%;
-}
-
-.desktop-info-60width {
-  width: 60%;
-  height: 2000px;
-  background-color: green;
-}
-
-.mobile-info-big-container {
-  display:none;
-}
-
-.container-60per {
-  width: 60%;
-}
-
-.container-julls{
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-}
-
-.detox-paragrah-image-container {
-  background-color: $backgroundColorLight;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-// Font Classes Desktop
-.tenor-medium-70px {
-  font-size: 70px;
-  font-family: $Tenor;
-}
-
-.raleway-medium-25px {
-  font-size: 25px;
-  font-family: $Raleway;
-}
-
-.raleway-regular-25px {
-  font-size: 15px;
-  font-family: $Raleway;
-  font-weight: 400;
-}
-
-.nav-links {
-  font-size: 15px;
-  font-family: $Raleway;
-  font-weight: 400;
-  &:hover {
-    font-weight: bold;
+  .paragraph-pilar-medico {
+    width: 600px;
+    max-width: 1140px;
+    margin: auto;
+    font-size: 25px;
+    font-family: $Raleway;
     color: $darkBlue;
   }
-}
 
-.nav-hyperlink-highlithed {
-  font-weight: bold;
-}
-
-.flex-end {
-  justify-self: flex-end;
-}
-
-.desktop-info-big-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.pilares-desktop {
+  .paragraph-pilar-medico {
     margin-left: 10px;
-    color: #081E48;
-    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 30px 10px 30px 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+  }
+
+  .section4_subheading2 {
+    width: 60%;
+  }
+
+  .desktop-info-60width {
+    width: 60%;
+    height: 2000px;
+    background-color: green;
+  }
+
+  .mobile-info-big-container {
+    display: none;
+  }
+
+  .container-60per {
+    width: 60%;
+  }
+
+  .container-julls {
+    width: 60%;
+    max-width: 1140px;
+    display: flex;
+  }
+
+  .detox-paragrah-image-container {
+    background-color: $backgroundColorLight;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  // Font Classes Desktop
+  .tenor-medium-70px {
+    font-size: 70px;
+    font-family: $Tenor;
+  }
+
+  .raleway-medium-25px {
+    font-size: 25px;
+    font-family: $Raleway;
+  }
+
+  .raleway-regular-25px {
+    font-size: 15px;
+    font-family: $Raleway;
+    font-weight: 400;
+  }
+
+  .nav-links {
+    font-size: 15px;
+    font-family: $Raleway;
+    font-weight: 400;
+    &:hover {
+      font-weight: bold;
+      color: $darkBlue;
+    }
+  }
+
+  .nav-hyperlink-highlithed {
+    font-weight: bold;
+  }
+
+  .flex-end {
+    justify-self: flex-end;
+  }
+
+  .desktop-info-big-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pilares-desktop {
+    margin-left: 10px;
+    color: #081e48;
+    font-family: "Raleway", sans-serif;
     font-size: 40px;
     font-weight: 900;
-}
+  }
 
-.aqui_entra_desktop{
+  .aqui_entra_desktop {
     color: white;
     padding-top: 40px;
     margin-left: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 25px;
     font-weight: 600;
-}
+  }
 
-.container-julls-column {
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  align-self: center;
+  .container-julls-column {
+    width: 60%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: center;
+    transform: translateY(-120px);
+  }
 
-}
+  .container-deperesion-desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 80px;
+    position: relative;
+    background-color: $lightBlue;
+  }
 
-.container-deperesion-desktop {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding-top: 80px;
-  position: relative;
-  background-color: $lightBlue;
-}
+  .depresion-texto-desktop {
+    font-size: 25px;
+    font-family: $Raleway;
+    font-weight: 250;
+    color: white;
+  }
 
-.depresion-texto-desktop {
-  font-size: 25px;
-  font-family: $Raleway;
-  font-weight: 250;
-  color: white; 
-}
+  .desktop-circle-paragraph-container {
+    width: 60%;
+    max-width: 1140px;
+    display: flex;
+  }
 
-.desktop-circle-paragraph-container {
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-  
-}
+  .pilares-mobil-todo {
+    display: none;
+  }
 
-.pilares-mobil-todo{
-  display: none;
-}
+  .runner-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 
-.runner-desktop {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  
-}
+  .image-runner-mobile {
+    display: none;
+  }
 
-.image-runner-mobile {
-  display: none;
-}
+  .desktop-row {
+    width: 1000px;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+  }
 
-.desktop-row {
-  width: 1000px;
-  max-width: 1140px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 200px;
-}
+  .container-heading-center-left {
+    max-width: 1140px;
+    width: 60%;
+  }
 
-.container-heading-center-left {
-  max-width: 1140px;
-  width: 60%;
-}
+  .container-deperesion-desktop {
+    position: relative;
+  }
 
-.container-deperesion-desktop{
-  position: relative;
-}
-
-.depresion-texto-desktop{
+  .depresion-texto-desktop {
     position: absolute;
     top: 190px;
     left: 900px;
     max-width: 800px;
+  }
+  .paragraph-runner-foto {
+    font-size: 25px;
+    font-family: $Raleway;
+    font-weight: 400;
+    color: white;
+  }
+
+  .runner-desktop {
+    position: relative;
+  }
+
+  .width-div {
+    position: absolute;
+    max-width: 470px;
+    top: 100px;
+    left: 50px;
+  }
+
+  #sabias-que-el {
+    color: white;
+    font-weight: 200;
+  }
+
+  #pilar-medico-heading-desktop {
+    position: relative;
+    // top: -120;
+  }
+
+  #margin45top {
+    margin-top: 45px;
+  }
+
+  #pilar-psicoterapeutico-heading-desktop {
+    position: relative;
+    margin-bottom: 5px;
+    top: -150;
+  }
+
+  #pilar-educativo-heading-desktop {
+    color: red;
+  }
+
+  #nuestro-pilar-educativo {
+    margin-bottom: 5px;
+  }
+
+  .background-montaña {
+    background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
+  }
+
+  .pilar-psicotrapeutico-container {
+    background-color: none;
+  }
+
+  .datos-contacto-bold {
+    font-weight: 900;
+    font-family: $Raleway;
+    color: $darkBlue;
+  }
+
+  .section4_subheading2 {
+    color: $darkBlue;
+  }
+
+  .mobile-pagina {
+    display: none;
+  }
 }
-.paragraph-runner-foto{
-  font-size: 25px;
-  font-family: $Raleway;
-  font-weight: 400;
-  color: white; 
-  
-}
-
-.runner-desktop{
-  position: relative;
-}
-
-.width-div {
-  position: absolute;
-  max-width: 470px;
-  top: 100px;
-  left: 50px;
-}
-
-#sabias-que-el {
-  color: white;
-  font-weight: 200;
-}
-
-.desktop-pilares-heading-with-center{
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  align-self: center;
-  margin-bottom: 40px;
-}
-
-#pilar-medico-heading-desktop{
-  position: relative;
-  top: -120;
-}
-
-#margin45top {
-  margin-top: 45px;
-}
-
-#pilar-psicoterapeutico-heading-desktop {
-  position: relative;
-  margin-bottom: 5px;
-  top: -150;
-  
-}
-
-#pilar-educativo-heading-desktop {
-  color: red;
-}
-
-#nuestro-pilar-educativo{
-  margin-bottom: 5px;
-}
-
-.background-montaña {
-  background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
-
-}
-
-.pilar-psicotrapeutico-container {
-  background-color: none;
-
-}
-
-.datos-contacto-bold {
-  font-weight: 900;
-  font-family: $Raleway;
-  color: $darkBlue;
-}
-
-.section4_subheading2 {
-  color: $darkBlue;
-}
-
-.mobile-pagina {
-  display: none;
-}
-
-}
-
-
-
-
-
 
 //Desktop GRANDE
 @media (max-width: 1500px) {
-
   // Codigo pagina
   .banner-pilotos {
     width: 100%;
@@ -1265,50 +1317,46 @@ align-items: center;
     max-height: 800px;
   }
 
-
-
   .heading_hagamos_equipo {
-  font-size: 2.2rem;
-  font-weight: 600;
+    font-size: 2.2rem;
+    font-weight: 600;
   }
 
-.section4_subheading2 {
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  color: $darkBlue;
-  margin-left: 50px;
-  margin-right: 50px;
-}
+  .section4_subheading2 {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: $darkBlue;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-.datos-contacto-bold {
-  font-weight: 900;
-  font-family: $Raleway;
-}
+  .datos-contacto-bold {
+    font-weight: 900;
+    font-family: $Raleway;
+  }
 
-.contact_form {
-  display: flex;
-  flex-direction: column;
-}
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+  }
 
-.form_section {
-  display: flex;
-  flex-direction: column;
-}
+  .form_section {
+    display: flex;
+    flex-direction: column;
+  }
 
   input {
-    background-color: #5E93DB;
+    background-color: #5e93db;
     margin-top: 10px;
     width: 100%;
     border-radius: 2rem;
   }
 
   .select {
-    background-color: #5E93DB;
+    background-color: #5e93db;
     border-radius: 2rem;
-    
-  } 
-
+  }
 }
 
 .main-footer {
@@ -1360,7 +1408,6 @@ footer nav {
   font-size: 15px;
   font-family: $Raleway;
   font-weight: 500;
-
 }
 
 .franja {
@@ -1384,14 +1431,12 @@ footer nav {
 }
 
 .runner-desktop {
-  display:none
+  display: none;
 }
 
 .nav-desktop {
   display: none;
-  
 }
-
 
 //Laptop Mediana
 @media (min-width: 600px) {
@@ -1407,7 +1452,7 @@ footer nav {
   }
 
   .main-container-graph {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     font-family: $Raleway;
@@ -1416,7 +1461,7 @@ footer nav {
   .graph-container {
     width: 1000px;
     flex-direction: row;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     align-content: space-between;
   }
 
@@ -1437,23 +1482,25 @@ footer nav {
     margin: 0px 5px 0px 5px;
   }
 
-  .linea-divisoria-mobil {
-    max-width: 660px;
-    margin-top: 50px;
-    height: 2px;
-    background-color: $darkBlue;
-    align-self: center;
-  }
+  // .linea-divisoria-mobil {
+  //   max-width: 660px;
+  //   height: 2px;
+  //   background-color: $darkBlue;
+  //   align-self: center;
+  //   margin-top: 50px;
+  //   @media (min-width: 992px) and (max-width: 1199.98px) {
+  //     margin-top: 0;
+  //   }
+  // }
 
   .pilar-psicotrapeutico-container {
     background-image: url(../detox/assets_detox/mountain.png);
     width: 100%;
-    height: 1200px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     background-size: cover;
   }
-  
 
   .bold-500 {
     font-weight: 600;
@@ -1462,7 +1509,7 @@ footer nav {
   #montana_destkop {
     display: block;
     width: 100%;
-  }  
+  }
 
   .desktop-container {
     width: 100%;
@@ -1473,9 +1520,9 @@ footer nav {
     align-items: center;
   }
 
-  .container-principal{
+  .container-principal {
     display: none;
-    } 
+  }
 
   .nav-desktop {
     width: 1000px;
@@ -1490,7 +1537,6 @@ footer nav {
   #runner-image {
     max-height: 400px;
   }
-
 
   #facebook_position {
     position: relative;
@@ -1518,7 +1564,7 @@ footer nav {
   .desktop-andsiedad-image-div img {
     height: 350px;
   }
-  
+
   .desktop-family-image-div img {
     height: 450px;
   }
@@ -1537,14 +1583,13 @@ footer nav {
   }
 
   .desktop-family-image-div {
-    display:inline-block;
+    display: inline-block;
   }
-  
-  .detox-home-container-desktop{
+
+  .detox-home-container-desktop {
     display: inline-block;
     padding-right: 50px;
     padding-bottom: 50px;
-    
   }
 
   .icons-list {
@@ -1553,8 +1598,6 @@ footer nav {
     width: 110px;
     justify-content: space-between;
   }
-
-  
 
   .nav-hyperlink {
     text-decoration: none;
@@ -1570,14 +1613,14 @@ footer nav {
   .detox-paragrah-image-container {
     display: flex;
     width: 500px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
 
   .detox-home-container-desktop {
-    padding-top: 50px ;
+    padding-top: 50px;
     width: 600px;
   }
-  
+
   .text-container {
     width: 600px;
   }
@@ -1587,300 +1630,307 @@ footer nav {
     background: url(/styles/detox/assets_detox/family-desktop.png);
   }
 
-.detox-home-container {
-  display: none;
-}
+  .detox-home-container {
+    display: none;
+  }
 
-.image-family {
-  display: none;
-}
+  .image-family {
+    display: none;
+  }
 
-.container-paragraph-family{
-  width: 1000px;
-  max-width: 1140px;
-  margin: 30px auto;
-}
+  .container-paragraph-family {
+    width: 1000px;
+    max-width: 1140px;
+    margin: 30px auto;
+  }
 
-.imagen-abstinencia {
-  display: none;
-}
+  .imagen-abstinencia {
+    display: none;
+  }
 
-.pilar-educativo-paragraph-container {
-height: 150px;
-display: flex;
-align-items: center;
-}
+  .pilar-educativo-paragraph-container {
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
 
-.paragraph-pilar-medico {
-  width: 700px;
-  max-width: 1140px;
-  margin: auto;
-  font-size: 25px;
-  font-family: $Raleway;
-  color: $darkBlue;
-}
-
-.section4_subheading2 {
-  width: 60%;
-}
-
-.desktop-info-60width {
-  width: 60%;
-  height: 2000px;
-  background-color: green;
-}
-
-.mobile-info-big-container {
-  display:none;
-}
-
-.container-60per {
-  width: 60%;
-}
-
-.container-julls{
-  width: 1000px;
-  max-width: 1140px;
-  display: flex;
-}
-
-.detox-paragrah-image-container {
-  background-color: $backgroundColorLight;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-// Font Classes Desktop
-.tenor-medium-70px {
-  font-size: 70px;
-  font-family: $Tenor;
-}
-
-.raleway-medium-25px {
-  font-size: 25px;
-  font-family: $Raleway;
-}
-
-.raleway-regular-25px {
-  font-size: 15px;
-  font-family: $Raleway;
-  font-weight: 400;
-}
-
-.nav-links {
-  font-size: 15px;
-  font-family: $Raleway;
-  font-weight: 400;
-  &:hover {
-    font-weight: bold;
+  .paragraph-pilar-medico {
+    width: 700px;
+    max-width: 1140px;
+    margin: auto;
+    font-size: 25px;
+    font-family: $Raleway;
     color: $darkBlue;
   }
-}
 
-.nav-hyperlink-highlithed {
-  font-weight: bold;
-}
+  .section4_subheading2 {
+    width: 60%;
+  }
 
-.flex-end {
-  justify-self: flex-end;
-}
+  .desktop-info-60width {
+    width: 60%;
+    height: 2000px;
+    background-color: green;
+  }
 
-.desktop-info-big-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+  .mobile-info-big-container {
+    display: none;
+  }
 
-.pilares-desktop {
+  .container-60per {
+    width: 60%;
+  }
+
+  .container-julls {
+    width: 1000px;
+    max-width: 1140px;
+    display: flex;
+  }
+
+  .detox-paragrah-image-container {
+    background-color: $backgroundColorLight;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  // Font Classes Desktop
+  .tenor-medium-70px {
+    font-size: 70px;
+    font-family: $Tenor;
+  }
+
+  .raleway-medium-25px {
+    font-size: 25px;
+    font-family: $Raleway;
+  }
+
+  .raleway-regular-25px {
+    font-size: 15px;
+    font-family: $Raleway;
+    font-weight: 400;
+  }
+
+  .nav-links {
+    font-size: 15px;
+    font-family: $Raleway;
+    font-weight: 400;
+    &:hover {
+      font-weight: bold;
+      color: $darkBlue;
+    }
+  }
+
+  .nav-hyperlink-highlithed {
+    font-weight: bold;
+  }
+
+  .flex-end {
+    justify-self: flex-end;
+  }
+
+  .desktop-info-big-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pilares-desktop {
     margin-left: 10px;
-    color: #081E48;
-    font-family: 'Raleway', sans-serif;
+    color: #081e48;
+    font-family: "Raleway", sans-serif;
     font-size: 40px;
     font-weight: 900;
-}
+  }
 
-.aqui_entra_desktop{
+  .aqui_entra_desktop {
     color: white;
     padding-top: 40px;
     margin-left: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 25px;
     font-weight: 600;
-}
+  }
 
-.container-julls-column {
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  align-self: center;
+  .container-julls-column {
+    width: 60%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: center;
+    transform: translateY(-120px);
+    position: absolute;
+  }
 
-}
+  .container-deperesion-desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 80px;
+    position: relative;
+    background-color: $lightBlue;
+  }
 
-.container-deperesion-desktop {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding-top: 80px;
-  position: relative;
-  background-color: $lightBlue;
-}
+  .depresion-texto-desktop {
+    font-size: 25px;
+    font-family: $Raleway;
+    font-weight: 250;
+    color: white;
+  }
 
-.depresion-texto-desktop {
-  font-size: 25px;
-  font-family: $Raleway;
-  font-weight: 250;
-  color: white; 
-}
+  .desktop-circle-paragraph-container {
+    width: 60%;
+    max-width: 1140px;
+    display: flex;
+  }
 
-.desktop-circle-paragraph-container {
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-  
-}
+  .pilares-mobil-todo {
+    display: none;
+  }
 
-.pilares-mobil-todo{
-  display: none;
-}
+  .runner-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 
-.runner-desktop {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  
-}
+  .image-runner-mobile {
+    display: none;
+  }
 
-.image-runner-mobile {
-  display: none;
-}
+  .desktop-row {
+    width: 60%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
 
-.desktop-row {
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-  flex-direction: row;
-}
+  .container-heading-center-left {
+    max-width: 1140px;
+    width: 60%;
+  }
 
-.container-heading-center-left {
-  max-width: 1140px;
-  width: 60%;
-}
+  .container-deperesion-desktop {
+    position: relative;
+  }
 
-.container-deperesion-desktop{
-  position: relative;
-}
+  .depresion-texto-desktop {
+    position: absolute;
+    top: 110px;
+    left: 700px;
+    max-width: 800px;
+  }
+  .paragraph-runner-foto {
+    font-size: 25px;
+    font-family: $Raleway;
+    font-weight: 400;
+    color: white;
+  }
 
-.depresion-texto-desktop{
-  position: absolute;
-  top: 110px;
-  left: 700px;
-  max-width: 800px;
-}
-.paragraph-runner-foto{
-  font-size: 25px;
-  font-family: $Raleway;
-  font-weight: 400;
-  color: white; 
-  
-}
+  .runner-desktop {
+    position: relative;
+  }
 
-.runner-desktop{
-  position: relative;
-}
-
-.width-div {
-  position: absolute;
+  .width-div {
+    position: absolute;
     max-width: 600px;
-    top: 20px;
+    top: 50%;
     left: 100px;
     width: 50%;
+    transform: translateY(-50%);
+  }
+
+  #sabias-que-el {
+    color: white;
+    width: 1000px;
+  }
+
+  #runner-azul {
+    color: $darkBlue;
+  }
+
+  .desktop-pilares-heading-with-center-2 {
+    width: 60%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    margin-bottom: 40px;
+  }
+
+  #pilar-medico-heading-desktop {
+    position: relative;
+    // top: -120;
+  }
+
+  #margin45top {
+    margin-top: 25px;
+  }
+
+  #pilar-psicoterapeutico-heading-desktop {
+    position: relative;
+    margin-bottom: 5px;
+    top: -150;
+    left: -110;
+  }
+
+  #pilar-educativo-heading-desktop {
+    color: red;
+  }
+
+  #nuestro-pilar-educativo {
+    margin-bottom: 5px;
+  }
+
+  #estela_desktop {
+    width: 90%;
+    position: absolute;
+    left: 10%;
+  }
+
+  .background-montaña {
+    background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
+    background-size: cover;
+    background: rgb(237, 153, 86);
+    background: linear-gradient(
+      0deg,
+      rgba(237, 153, 86, 1) 0%,
+      rgba(169, 164, 178, 1) 50%,
+      rgba(94, 147, 219, 1) 100%
+    );
+    position: relative;
+  }
+
+  .pilar-psicotrapeutico-container {
+    background-color: none;
+    background-image: none;
+    .desktop-pilares-heading-with-center {
+      width: 60%;
+      max-width: 1140px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: center;
+      transform: translateY(40px);
+      position: absolute;
+    }
+  }
+
+  .datos-contacto-bold {
+    font-weight: 900;
+    font-family: $Raleway;
+    color: $darkBlue;
+  }
+
+  .section4_subheading2 {
+    color: $darkBlue;
+  }
+
+  .mobile-pagina {
+    display: none;
+  }
 }
-
-#sabias-que-el {
-  color: white;
-  width: 1000px;
-}
-
-#runner-azul {
-  color: $darkBlue;
-}
-
-.desktop-pilares-heading-with-center{
-  width: 60%;
-  max-width: 1140px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  align-self: center;
-  margin-bottom: 40px;
-}
-
-#pilar-medico-heading-desktop{
-  position: relative;
-  top: -120;
-}
-
-#margin45top {
-  margin-top: 45px;
-}
-
-#pilar-psicoterapeutico-heading-desktop {
-  position: relative;
-  margin-bottom: 5px;
-  top: -150;
-  left: -110;
-}
-
-#pilar-educativo-heading-desktop {
-  color: red;
-}
-
-#nuestro-pilar-educativo{
-  margin-bottom: 5px;
-}
-
-#estela_desktop {
-  width: 90%;
-  position: absolute;
-  left: 10%;
-}
-
-.background-montaña {
-  background-image: url(/styles/detox/assets_detox/Montaña-Degradado-Web.png);
-  background-size: cover;
-  background: rgb(237, 153, 86);
-  background: linear-gradient(
-    0deg,
-    rgba(237, 153, 86, 1) 0%,
-    rgba(169, 164, 178, 1) 50%,
-    rgba(94, 147, 219, 1) 100%
-  );
-  position: relative;
-}
-
-.pilar-psicotrapeutico-container {
-  background-color: none;
-  background-image: none;
-
-}
-
-.datos-contacto-bold {
-  font-weight: 900;
-  font-family: $Raleway;
-  color: $darkBlue;
-}
-
-.section4_subheading2 {
-  color: $darkBlue;
-}
-
-.mobile-pagina {
-  display: none;
-}
-
-}
-

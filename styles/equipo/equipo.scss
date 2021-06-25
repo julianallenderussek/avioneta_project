@@ -714,7 +714,7 @@ body {
 //Pilar Medico
 .pilar-medico-container {
   width: 100%;
-  max-height: 1000px;
+  // max-height: 1000px;
   background-color: #5e93db;
   display: flex;
   flex-direction: column;
@@ -1734,11 +1734,11 @@ footer nav {
     align-items: flex-start;
     align-self: center;
     margin-bottom: 40px;
+    top: -120;
   }
 
   #pilar-medico-heading-desktop {
     position: relative;
-    top: -120;
   }
 
   #margin45top {
